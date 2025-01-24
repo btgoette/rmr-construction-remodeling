@@ -114,7 +114,7 @@ export default function Footer() {
               {renderBanner()}
               {renderSubBanner()}
             </div>
-            <Row className="footer-row">
+            <Row className="footer-row align-items-center">
               <Media {...footer} />
               <Menu {...footer} />
               {renderSummary()}
@@ -122,7 +122,6 @@ export default function Footer() {
           </Container>
         </section>
         
-        <Brands {...footer} />
         <Marquee {...footer} />
         <Copyright {...footer} />
       </footer>

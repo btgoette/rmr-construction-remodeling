@@ -22,9 +22,9 @@ export default function Contact() {
 
             <section clip-bottom-right>
                 <Container>
-                    <h2>Get in Touch<br /><span>with Roseville Roofing</span></h2>
+                    <h2>Get in Touch<br /><span>with RMR Construction & Remodeling</span></h2>
                     <div className="border-line-center"></div>
-                    <p className="mb-5">At Roseville Roofing, we are here to assist with all your roofing needs. Whether you&rsquo;re ready to schedule a free, no-obligation estimate, have questions about our services, or would like to discuss your next roofing project, our team is always just a call or click away. Use the form below to request your complimentary roofing estimate or find our contact details for fast and efficient assistance. We are committed to helping you build a stronger, safer roof that will protect your home or business for years to come!</p>
+                    <p className="mb-5">At RMR Construction & Remodeling, we are here to assist with all your roofing needs. Whether you&rsquo;re ready to schedule a free, no-obligation estimate, have questions about our services, or would like to discuss your next roofing project, our team is always just a call or click away. Use the form below to request your complimentary roofing estimate or find our contact details for fast and efficient assistance. We are committed to helping you build a stronger, safer roof that will protect your home or business for years to come!</p>
              
                     <Row>
                         <ContactInfo {...content} />

@@ -24,7 +24,7 @@ export default function Services() {
                 <Container>
                     <h2>Your Trusted <span>Roofing Partner</span></h2>
                     <div className="border-line-center"></div>
-                    <p className="mb-5">Since 1989, Roseville Roofing has proudly served Placer, El Dorado, and Sacramento Counties with exceptional roofing solutions. We cater to both residential and commercial clients, offering fully licensed and insured services backed by decades of expertise. Here&rsquo;s an overview of what we provide:</p>
+                    <p className="mb-5">Since 1989, RMR Construction & Remodeling has proudly served Placer, El Dorado, and Sacramento Counties with exceptional roofing solutions. We cater to both residential and commercial clients, offering fully licensed and insured services backed by decades of expertise. Here&rsquo;s an overview of what we provide:</p>
 
                     <div className="d-block d-lg-none my-5">
                         <h2>Residential <span>Roofing</span></h2>

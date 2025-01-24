@@ -13,7 +13,7 @@ export default function ThankYou({ thankYou }) {
                         {thankYou.title}
                     </p>
                     <p className="text">
-                        {thankYou.text.p}<Link href={"tel:" + thankYou.text.phone}>{thankYou.text.phone}</Link> or fill out our <Link href={thankYou.text.url}>online form</Link> to schedule your consultation.<br /> Your roof is an investment – trust Roseville Roofing to deliver real value and outstanding results.
+                        {thankYou.text.p}<Link href={"tel:" + thankYou.text.phone}>{thankYou.text.phone}</Link> or fill out our <Link href={thankYou.text.url}>online form</Link> to schedule your consultation.<br /> Your roof is an investment – trust RMR Construction & Remodeling to deliver real value and outstanding results.
                     </p>
                 </div>
             </Container>
