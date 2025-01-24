@@ -1,0 +1,391 @@
+/* Colors */
+
+// Generic Colors
+$black: #000;
+$dark-gray: #434343;
+$gray: #848484;
+$light-gray: #e0e0e0;
+$white: #FFF;
+
+//Transparent
+$transparent-black: #00000001;
+
+// Custom Colors
+$fire-engine-red: #d0281e;
+$davys-gray: #3a3a3a;
+
+// Darks
+$blood-red: #68140f;
+$raisin-black: #272524;
+
+// Lights
+$burnt-umber: #8f3933;
+$silver: #a6a5a4;
+
+// Primary Colors
+$primary: $fire-engine-red;
+$primaryColor: $primary;
+$dark: $blood-red;
+$light: $burnt-umber;
+
+// Secondary Colors
+$secondary: $davys-gray;
+$dark-secondary: $raisin-black;
+$light-secondary: $silver;
+
+// Tertiary Colors
+$tertiary: $black;
+$dark-tertiary: $black;
+$light-tertiary: $white;
+
+// Brand Colors
+$angi: #FF6153;
+$facebook: #3B569D;
+$google: #2E417E;
+$instagram: #FD0075;
+$linkedin: #007BB5;
+$nextdoor: #79a750;
+$twitter: #000000;
+$yellow-pages: #FFBE00;
+$yelp: #D22323;
+
+$google-star: #f0bd2e;
+
+// Gradients
+$primary-gradient: radial-gradient($primary 0%, $primary 25%,  $dark 100%);
+$secondary-gradient: linear-gradient(90deg, $dark-secondary 0%, $secondary 50%, $dark-secondary 100%);
+$tertiary-gradient: linear-gradient(45deg, $dark-tertiary 0%, $tertiary 100%);
+
+/* Sizes */
+
+// Breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+/* Typography */
+
+// Fonts
+$body-font-color: $black;
+$body-font-family: "Roboto";
+$body-font-size: 1.125rem;
+$body-font-weight: 400;
+
+$header-font-color: $black;
+$header-font-family: "Merriweather Sans";
+$header-font-weight: 200;
+
+// Border
+$border-round: 50%;
+$border-rounded: 10px;
+
+// Buttons
+$button-primary-background: $primary;
+$button-border: none;
+$button-border-radius: 0;
+$button-font-family: $header-font-family;
+$button-font-size: $body-font-size;
+$button-font-weight: 400;
+$button-letter-spacing: 0px;
+$button-text-transform: none;
+$button-padding: 10px 1rem;
+
+// Brands
+$brands-font-family: $body-font-family;
+$brands-font-size: 2rem;
+$brands-font-weight: 600;
+$brand-image-max-width: 200px;
+$brand-image-max-height: 100px;
+
+// Cards
+$cards-body-background: $white;
+$cards-border: none;
+$cards-border-radius: 0;
+$cards-font-color: $black;
+$cards-font-family: $body-font-family;
+$cards-font-size: $body-font-size;
+$cards-font-weight: $body-font-weight;
+$cards-header-font-color: $black;
+$cards-header-font-family: $body-font-family;
+$cards-header-font-size: 1.5rem;
+$cards-header-font-weight: 400;
+$cards-header-letter-spacing: 0px;
+$cards-text-transform: none;
+$cards-header-align: left;
+$cards-button-display: block;
+
+// Cards Overlay
+$cards-overlay-background: $black;
+$cards-overlay-border: none;
+$cards-overlay-border-radius: 0;
+$cards-overlay-font-color: $white;
+$cards-overlay-font-family: $body-font-family;
+$cards-overlay-font-size: 1rem;
+$cards-overlay-font-weight: $body-font-weight;
+$cards-overlay-header-font-color: $white;
+$cards-overlay-header-font-family: $body-font-family;
+$cards-overlay-header-font-size: 1.5rem;
+$cards-overlay-header-font-weight: 600;
+$cards-overlay-header-letter-spacing: 0px;
+$cards-overlay-text-transform: none;
+$cards-overlay-header-align: center;
+$cards-overlay-overlay-padding: 1rem;
+$cards-overlay-title-position: 50%;
+$cards-overlay-text-position: 600px;
+$cards-overlay-button-display: block;
+$cards-overlay-align: center;
+$cards-overlay-justify: center;
+
+// Cards Title Only
+$cards-title-only-background: $black;
+$cards-title-only-background-hover: $primary;
+$cards-title-only-header-font-color: $white;
+$cards-title-only-header-font-family: $header-font-family;
+$cards-title-only-header-font-size: 1.125rem;
+$cards-title-only-header-font-weight: 400;
+$cards-title-only-text-transform: none;
+$cards-title-only-header-align: center;
+
+// Cards With Icon
+$cards-with-icon-font-color: $black;
+$cards-with-icon-font-family: $body-font-family;
+$cards-with-icon-font-size: $body-font-size;
+$cards-with-icon-font-weight: $body-font-weight;
+$cards-with-icon-header-font-color: $white;
+$cards-with-icon-header-font-family: $body-font-family;
+$cards-with-icon-header-font-size: 1.25rem;
+$cards-with-icon-header-font-weight: 600;
+$cards-with-icon-header-letter-spacing: 0px;
+$cards-with-icon-text-transform: none;
+$cards-with-icon-button-display: none;
+
+// Carousel
+$carousel-background: $primary;
+$carousel-border: none;
+$carousel-font-color: $white;
+$carousel-font-family: $body-font-family;
+$carousel-header-font-color: $white;
+$carousel-header-font-family: $header-font-family;
+$carousel-text-transform: none;
+
+// Contact
+$contact-info-background: $white;
+$contact-info-border: 1px solid $black;
+$contact-info-border-radius: 20px;
+$contact-info-font-size: $body-font-size;
+$contact-info-title-font-size: 2rem;
+
+$contact-form-background: $white;
+
+//Footer 
+$footer-background: $white;
+$footer-border: none;
+$footer-font-color: $secondary;
+$footer-font-color-hover: $primary;
+$footer-font-family: $body-font-family;
+$footer-font-size: $body-font-size;
+$footer-font-weight: $body-font-weight;
+$footer-letter-spacing: 0px;
+$footer-text-transform: none;
+
+$footer-title-color: $primary;
+$footer-title-font-family: $header-font-family;
+$footer-title-font-size: 2rem;
+$footer-title-font-weight: 600;
+$footer-title-text-transform: uppercase;
+
+$footer-url-color: $secondary;
+$footer-url-hover-color: $primary;
+$footer-url-font-weight: $body-font-weight;
+
+$footer-row-align: center;
+$footer-row-justify: space-around;
+
+$footer-banner-font-family: $header-font-family;
+$footer-banner-font-size: 1.75rem;
+$footer-banner-color: $primary;
+$footer-banner-text-transform: none;
+
+$footer-sub-banner-font-family: $header-font-family;
+$footer-sub-banner-font-size: 1.5rem;
+$footer-sub-banner-color: $secondary;
+$footer-sub-banner-text-transform: none;
+
+$footer-super-banner-font-family: $header-font-family;
+$footer-super-banner-font-size: 2rem;
+$footer-super-banner-color: $secondary;
+$footer-super-banner-text-transform: none;
+
+$footer-newsletter-background: $primary;
+$footer-newsletter-modal-background: $transparent-black;
+$footer-newsletter-border: none;
+$footer-newsletter-font-color: $black;
+$footer-newsletter-font-color-hover: $tertiary;
+$footer-newsletter-font-family: $body-font-family;
+$footer-newsletter-font-size: $body-font-size;
+$footer-newsletter-font-weight: $body-font-weight;
+$footer-newsletter-letter-spacing: 0px;
+$footer-newsletter-text-align: left;
+$footer-newsletter-text-transform: none;
+$footer-newsletter-block-background: $light-gray;
+
+$footer-thank-you-background: $primary-gradient;
+$footer-thank-you-border: none;
+$footer-thank-you-font-color: $white;
+$footer-thank-you-font-color-hover: $tertiary;
+$footer-thank-you-font-family: $body-font-family;
+$footer-thank-you-font-size: $body-font-size;
+$footer-thank-you-font-weight: 500;
+$footer-thank-you-letter-spacing: 0px;
+$footer-thank-you-text-transform: none;
+$footer-thank-you-url-font-color: $white;
+$footer-thank-you-max-width: 800px;
+
+$footer-thank-you-title-font-family: $header-font-family;
+$footer-thank-you-title-font-size: 2rem;
+
+$footer-thank-you-send-off-font-family: $body-font-family;
+$footer-thank-you-send-off-font-size: 1.5rem;
+
+$footer-contact-icon-color: $secondary;
+
+$footer-menu-max-height: 230px;
+
+$footer-socials-max-width: 220px;
+
+$footer-summary-font-size: $body-font-size;
+$footer-summary-font-weight: $body-font-weight;
+$footer-summary-image-max-width: 220px;
+
+$footer-marquee-background: $secondary-gradient;
+$footer-marquee-font-color: $white;
+$footer-marquee-font-size: 1rem;
+$footer-marquee-font-weight: 1rem;
+
+$footer-copyright-background: $primary-gradient;
+$footer-copyright-font-color: $white;
+$footer-copyright-font-size: calc($body-font-size * .75);
+$footer-copyright-font-weight: $body-font-weight;
+$footer-copyright-url-font-color: $white;
+$footer-copyright-url-font-hover-color: $secondary;
+
+// Gallery
+$gallery-caption-font-size: 1.5rem;
+$gallery-caption-font-color: $primary;
+
+// Hero
+$hero-background: url("/images/backgrounds/hero/hero.webp");
+$hero-border: none;
+$hero-header-font-color: $white;
+$hero-header-font-family: $header-font-family;
+$hero-text-transform: none;
+
+// Jumbotron
+$jumbotron-background: url("/images/backgrounds/jumbotron/rr-13.webp");
+$jumbotron-border: none;
+$jumbotron-font-color: $white;
+$jumbotron-font-family: $header-font-family;
+$jumbotron-header-font-color: $white;
+$jumbotron-header-font-family: $header-font-family;
+$jumbotron-text-transform: none;
+
+// Logo
+$logo-max-width: 250px;
+
+// Nav
+$nav-background: $white;
+$nav-border: none;
+$nav-font-color: $black;
+$nav-font-color-hover: $primary;
+$nav-font-family: $header-font-family;
+$nav-font-size: $body-font-size;
+$nav-font-weight: $body-font-weight;
+$nav-letter-spacing: 0px;
+$nav-text-transform: none;
+
+$nav-logo-max-height: 96px;
+$nav-toggle-icon-color: $primary;
+
+$nav-dropdown-menu-background: $secondary-gradient;
+$nav-dropdown-menu-border: none;
+$nav-dropdown-item-background-hover: $primary;
+$nav-dropdown-item-font-size: $nav-font-size;
+$nav-dropdown-item-font-weight: $nav-font-weight;
+$nav-dropdown-item-color: $white;
+
+$nav-offcanvas-header-background: $primary;
+$nav-offcanvas-header-color: $white;
+$nav-offcanvas-font-size: $nav-font-size;
+$nav-offcanvas-font-weight: $nav-font-weight;
+
+$nav-top-bar-background: $primary;
+$nav-top-bar-color: $white;
+$nav-top-bar-font-size: 1.25rem;
+$nav-top-bar-font-weight: 600;
+$nav-top-bar-padding: 1rem 0;
+$nav-top-bar-text-align: center;
+
+$nav-bottom-bar-background: $primary;
+$nav-bottom-bar-color: $white;
+$nav-bottom-bar-font-size: $body-font-size;
+$nav-bottom-bar-font-weight: 600;
+$nav-bottom-bar-padding: .5rem 0;
+$nav-bottom-bar-text-align: center;
+
+// Reviews
+$review-background: $white;
+$review-border: 1px solid $gray;
+$review-color: $black;
+$review-font-size: $body-font-size;
+$review-name-font-size: 1.5rem;
+$review-name-font-weight: 700;
+$review-location-font-size: $body-font-size;
+$review-location-font-weight: 500;
+$review-stars-font-size: $body-font-size;
+
+$review-slider-background: $white;
+$review-slider-border: 1px solid $gray;
+$review-slider-color: $black;
+$review-slider-font-size: $body-font-size;
+$review-slider-name-color: $black;
+$review-slider-name-font-size: 1.5rem;
+$review-slider-name-font-weight: 700;
+$review-slider-location-font-size: $body-font-size;
+$review-slider-location-font-weight: 500;
+$review-slider-stars-font-size: $body-font-size;
+
+$review-multi-card-background: $light-gray;
+$review-multi-card-border: 1px dotted $gray;
+$review-multi-card-color: $black;
+$review-multi-card-font-size: $body-font-size;
+$review-multi-card-name-font-size: 1.75rem;
+$review-multi-card-name-font-weight: 700;
+$review-multi-card-location-font-size: 1.25rem;
+$review-multi-card-location-font-weight: 500;
+$review-multi-card-stars-font-size: 1rem;
+
+// Team
+$team-background: $black;
+$team-body-background: $secondary;
+$team-image-border: none;
+$team-font-color: $black;
+$team-font-family: $body-font-family;
+$team-font-size: 1rem;
+$team-font-weight: 400;
+$team-letter-spacing: 0px;
+$team-text-transform: none;
+
+$team-name-font-color: $black;
+$team-name-font-family: $header-font-family;
+$team-name-font-size: 2rem;
+$team-name-font-weight: 600;
+$team-name-letter-spacing: 0px;
+
+$team-title-font-color: $secondary;
+$team-title-font-family: $header-font-family;
+$team-title-font-size: 1.5rem;
+$team-title-font-weight: 600;
+$team-title-letter-spacing: 0px;
+$team-title-text-align: center;

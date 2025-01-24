@@ -1,0 +1,17 @@
+.summary {
+    max-width: 450px;
+    margin: 0 auto;
+    .summary-text {
+        font-weight: $footer-summary-font-weight;
+        font-size: $footer-summary-font-size;
+        line-height: calc($footer-summary-font-size * 1.5);
+        margin: 0 auto 1rem;
+    }
+
+    .summary-image {
+        display: flex;
+        img {
+            max-width: $footer-summary-image-max-width;
+        }
+    }
+}

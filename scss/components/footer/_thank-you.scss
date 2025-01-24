@@ -1,0 +1,44 @@
+.thank-you {
+    background: $footer-thank-you-background;
+    background-size: cover;
+    background-position: bottom center;
+
+    .thank-you-block {
+        color: $footer-thank-you-font-color;
+        font-weight: $footer-thank-you-font-weight;
+        text-align: center;
+        margin: 0 auto;
+        max-width: $footer-thank-you-max-width;
+
+        .title {
+            font-family: $footer-thank-you-title-font-family;
+            font-size: $footer-thank-you-title-font-size;
+            line-height: calc($footer-thank-you-title-font-size * 1.5);
+            margin-top: 0;
+        }
+
+        .text {
+            font-family: $footer-thank-you-font-family;
+            font-size: $footer-thank-you-font-size;
+            line-height: calc($footer-thank-you-font-size * 1.5);
+        }
+
+        .send-off {
+            font-family: $footer-thank-you-send-off-font-family;
+            font-size: $footer-thank-you-send-off-font-size;
+            line-height: calc($footer-thank-you-send-off-font-size * 1.5);
+        }
+
+        a {
+            color: $footer-thank-you-url-font-color;
+        }
+
+        a.btn-primary {
+            color: $white;
+
+            &:hover {
+                color: $white !important;
+            }
+        }
+    }
+}

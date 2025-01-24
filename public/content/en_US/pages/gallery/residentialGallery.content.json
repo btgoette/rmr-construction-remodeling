@@ -1,0 +1,117 @@
+{
+    "head": {
+        "title": "Residential Roofing Gallery | Roseville Roofing",
+        "description": "Explore Roseville Roofing's residential gallery showcasing elegant and functional roofing solutions. See how we enhance and protect homes with exceptional craftsmanship.",
+        "keywords": "residential roofing gallery, Roseville Roofing, home roofing projects, elegant roofs, functional roofing, modern roofing upgrades, classic roofing charm, roofing portfolio, Northern California homes, quality roofing solutions",
+        "href": "https://rsvlroofing.com/gallery/residential-gallery/",
+        "location": "Granite Bay, CA",
+        "region": "US-CA",
+        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "imageType": "image/webp",
+        "robots": "INDEX, FOLLOW"
+    },
+    "hero": {
+        "title": "Residential",
+        "title2": "Gallery"
+    },
+    "gallery": {
+        "images": [
+            {
+                "original": "/images/gallery/originals/rr-101.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-101.jpg",
+                "originalAlt": "Certainteed Landmark TL",
+                "thumbnailAlt": "Certainteed Landmark TL"
+            },
+            {
+                "original": "/images/gallery/originals/rr-107.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-107.jpg",
+                "originalAlt": "Certainteed Landmark Pro",
+                "thumbnailAlt": "Certainteed Landmark Pro"
+            },
+            {
+                "original": "/images/gallery/originals/rr-113.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-113.jpg",
+                "originalAlt": "Certainteed Landmark Pro",
+                "thumbnailAlt": "Certainteed Landmark Pro"
+            },    
+            {
+                "original": "/images/gallery/originals/rr-117.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-117.jpg",
+                "originalAlt": "Certainteed Landmark Pro",
+                "thumbnailAlt": "Certainteed Landmark Pro"
+            },
+            {
+                "original": "/images/gallery/originals/rr-121.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-121.jpg",
+                "originalAlt": "Holiday Market",
+                "thumbnailAlt": "Holiday Market"
+            },
+            {
+                "original": "/images/gallery/originals/rr-123.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-123.jpg",
+                "originalAlt": "Eagle Tile",
+                "thumbnailAlt": "Eagle Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-124.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-124.jpg",
+                "originalAlt": "Eagle Tile",
+                "thumbnailAlt": "Eagle Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-128.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-128.jpg",
+                "originalAlt": "Eagle Capistrano",
+                "thumbnailAlt": "Eagle Capistrano"
+            },
+            {
+                "original": "/images/gallery/originals/rr-129.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-129.jpg",
+                "originalAlt": "Eagle Tile Bel Air",
+                "thumbnailAlt": "Eagle Tile Bel Air"
+            },
+            {
+                "original": "/images/gallery/originals/rr-130.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-130.jpg",
+                "originalAlt": "Eagle Tile Bel Air",
+                "thumbnailAlt": "Eagle Tile Bel Air"
+            },
+            {
+                "original": "/images/gallery/originals/rr-131.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-131.jpg",
+                "originalAlt": "Eagle Tile Bel Air",
+                "thumbnailAlt": "Eagle Tile Bel Air"
+            },
+            {
+                "original": "/images/gallery/originals/rr-132.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-132.jpg",
+                "originalAlt": "Eagle Tile Bel Air",
+                "thumbnailAlt": "Eagle Tile Bel Air"
+            },
+            {
+                "original": "/images/gallery/originals/rr-134.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-134.jpg",
+                "originalAlt": "Eagle Tile Bel Air",
+                "thumbnailAlt": "Eagle Tile Bel Air"
+            },
+            {
+                "original": "/images/gallery/originals/rr-135.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-135.jpg",
+                "originalAlt": "Eagle Tile Bel Air",
+                "thumbnailAlt": "Eagle Tile Bel Air"
+            },
+            {
+                "original": "/images/gallery/originals/rr-144.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-144.jpg",
+                "originalAlt": "Single Ply Residential",
+                "thumbnailAlt": "Single Ply Residential"
+            },
+            {
+                "original": "/images/gallery/originals/rr-153.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-153.jpg",
+                "originalAlt": "Standing Seam Metal Residential",
+                "thumbnailAlt": "Standing Seam Metal Residential"
+            }
+        ]
+    }
+}

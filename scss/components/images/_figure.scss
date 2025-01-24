@@ -1,0 +1,15 @@
+.figure {
+    img {
+        max-width: 550px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+.right-shadow {
+    box-shadow: 1rem -1rem 0 $primary;
+}
+
+.left-shadow {
+    box-shadow: -1rem -1rem 0 $primary;
+}

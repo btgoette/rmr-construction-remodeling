@@ -1,0 +1,127 @@
+{
+  "variant": "light",
+  "type": "A",
+  "brand": {
+    "url": "/",
+    "logo": {
+      "img": {
+        "src": "/images/logos/logo.svg",
+        "alt": "Roseville Roofing",
+        "width": "200px",
+        "height": "96px"
+      }
+    }
+  },
+  "topBar": {
+    "display": "d-flex d-xl-none",
+    "phone": "916-791-7348"
+  },
+  "navDropdown": [
+    {
+      "title": "Services",
+      "navLinks": [
+        {
+          "name": "Our Services",
+          "url": "/services/"
+        },
+        {
+          "name": "Residential",
+          "url": "/services/residential/"
+        },
+        {
+          "name": "Commercial",
+          "url": "/services/commercial/"
+        },
+        {
+          "name": "Roof Inspections",
+          "url": "/services/roof-inspections/"
+        },
+        {
+          "name": "Roof Repairs",
+          "url": "/services/roof-repairs/"
+        },
+        {
+          "name": "Roof Replacements",
+          "url": "/services/roof-replacements/"
+        }
+      ]
+    },
+    {
+      "title": "Roof Types",
+      "navLinks": [
+        {
+          "name": "Roof Types",
+          "url": "/roof-types/"
+        },
+        {
+          "name": "Asphalt Composition",
+          "url": "/roof-types/asphalt-composition/"
+        },
+        {
+          "name": "Cedar Shakes",
+          "url": "/roof-types/cedar-shakes/"
+        },
+        {
+          "name": "Single Ply TPO",
+          "url": "/roof-types/single-ply-tpo/"
+        },
+        {
+          "name": "Standing Seam",
+          "url": "/roof-types/standing-seam/"
+        },
+        {
+          "name": "Stone Coated Steel",
+          "url": "/roof-types/stone-coated-steel/"
+        },
+        {
+          "name": "Synthetic Faux Slate",
+          "url": "/roof-types/synthetic-faux-slate/"
+        }
+      ]
+    },
+    {
+      "title": "Gallery",
+      "navLinks": [
+        {
+          "name": "Recent Projects",
+          "url": "/gallery/recent-projects/"
+        },
+        {
+          "name": "Residential Gallery",
+          "url": "/gallery/residential/"
+        },
+        {
+          "name": "Commercial Gallery",
+          "url": "/gallery/commercial/"
+        }
+      ]
+    }
+  ],
+  "navLinks": [
+    {
+      "name": "About Us",
+      "url": "/about/"
+    },
+    {
+      "name": "Testimonials",
+      "url": "/testimonials"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "cta": {
+    "name": "916-791-7348",
+    "url": "tel:916-791-7348",
+    "class":"nav-cta"
+  },
+  "bottomBar": {
+    "display": "d-none",
+    "text": "Bottom Bar Text Will Go Here."
+  },
+  "layoutOptions": {
+    "navLinksPosition": "center",
+    "ctaPosition": "inline"
+  }
+}

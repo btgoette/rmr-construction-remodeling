@@ -1,0 +1,88 @@
+.cards-overlay {
+    .card {
+        background: $cards-overlay-background;
+        border-radius: $cards-overlay-border-radius;
+        border: none;
+        overflow: hidden;
+
+        .card-img {
+            opacity: .5;
+            transition: .5s;
+            border-radius: $cards-overlay-border-radius;
+        }
+
+        &:hover {
+            .card-img {
+                transform: scale(1.1);
+            }
+
+        }
+
+        .card-img-overlay {
+            padding: 2rem;
+            display: flex;
+            align-items: $cards-overlay-align;
+            justify-content: $cards-overlay-justify;
+            flex-direction: column;
+            overflow: hidden;
+
+            .card-title {
+                color: $cards-overlay-header-font-color;
+                font-family: $cards-overlay-header-font-family;
+                font-size: $cards-overlay-header-font-size;
+                font-weight: $cards-overlay-header-font-weight;
+                line-height: calc($cards-overlay-header-font-size * 1.5);
+                text-transform: $cards-overlay-text-transform;
+                text-align: $cards-overlay-header-align;
+            }
+
+            .card-text {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                color: $cards-overlay-font-color;
+                font-size: $cards-overlay-font-size;
+                font-weight: $cards-overlay-font-weight;
+                line-height: calc($cards-overlay-font-size * 1.5);
+                transition: 0.5s;
+            }
+
+            @media screen and (max-width: $sm) {
+
+                .card-text,
+                .btn {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.cards-overlay-bottom-title {
+    .card {
+
+        .card-img-overlay {
+            padding: .5rem 1rem;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            .card-title {
+                top: 0;
+                position: relative;
+                margin-top: 0;
+                font-size: calc($cards-overlay-header-font-size *.625);
+                line-height: calc($cards-overlay-header-font-size * 1);
+                background-color: #00000077;
+                width: 100%;
+                padding: .2rem;
+            }
+        }
+    }
+}
+
+.cards-overlay-full-width {
+    .card {
+        border: none;
+        border-radius: 0;
+    }
+}

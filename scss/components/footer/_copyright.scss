@@ -1,0 +1,22 @@
+.copyright {
+    padding: 1rem 0;
+    background: $footer-copyright-background;
+    color: $footer-copyright-font-color;
+    font-size: $footer-copyright-font-size;
+    font-weight: $footer-copyright-font-weight;
+    line-height: calc($footer-copyright-font-size * 1.5);
+    text-align: center;
+
+    a {
+        color: $footer-copyright-url-font-color;
+        font-weight: $footer-copyright-font-weight;
+
+        &:hover {
+            color: $footer-copyright-url-font-hover-color !important;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}

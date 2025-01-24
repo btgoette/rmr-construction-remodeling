@@ -1,0 +1,117 @@
+{
+    "head": {
+        "title": "Recent Roofing Projects | Roseville Roofing Gallery",
+        "description": "Discover Roseville Roofing's recent projects! Explore our gallery showcasing residential and commercial roofing installations with quality craftsmanship and lasting style.",
+        "keywords": "recent roofing projects, Roseville Roofing gallery, roofing expertise, quality craftsmanship, residential roof upgrades, commercial roof installations, durable roofing solutions, stylish roofing designs, roofing project highlights, Northern California roofing company",
+        "href": "https://rsvlroofing.com/gallery/recent-projects/",
+        "location": "Granite Bay, CA",
+        "region": "US-CA",
+        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "imageType": "image/webp",
+        "robots": "INDEX, FOLLOW"
+    },
+    "hero": {
+        "title": "Recent",
+        "title2": "Projects"
+    },
+    "gallery": {
+        "images": [
+            {
+                "original": "/images/gallery/originals/rr-8.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-8.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-11.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-11.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-12.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-12.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-10.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-10.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-2.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-2.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-71.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-71.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-76.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-76.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-78.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-78.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rr-168.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-168.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-173.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-173.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-158.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-158.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-172.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-172.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-161.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-161.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-169.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-169.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-163.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-163.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            },
+            {
+                "original": "/images/gallery/originals/rr-159.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rr-159.jpg",
+                "originalAlt": "US Clay Tile",
+                "thumbnailAlt": "US Clay Tile"
+            }
+        ]
+    }
+}

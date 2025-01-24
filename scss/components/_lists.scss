@@ -1,0 +1,25 @@
+ul.list {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 400;
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+        margin-bottom: .5rem;
+
+        strong {
+            color: $primary;
+        }
+    }
+}
+
+ul.big-list {
+    @media screen and (min-width: $md) {
+        li {
+            font-size:1.5rem;
+            font-weight: 400;
+        }
+    }
+
+}

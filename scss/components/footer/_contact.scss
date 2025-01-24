@@ -1,0 +1,7 @@
+.footer-contact {
+    text-align: center;
+
+    @media (width > $md) {
+        text-align: left;
+    }
+}

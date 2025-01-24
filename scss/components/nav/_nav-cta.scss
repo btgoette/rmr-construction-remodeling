@@ -1,0 +1,28 @@
+.nav-cta {
+    text-align: center;
+    color: $white;
+    background-color: $primary;
+    height: 113px;
+    width: 330px;
+    padding: 0 2rem 0 4rem;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 10% 50%);
+
+    span {
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+
+        i {
+            color: $black;
+        }
+    }
+
+    a {
+        color: $white !important;
+
+        &:hover {
+            color: $white !important;
+        }
+    }
+}

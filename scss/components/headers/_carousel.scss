@@ -1,0 +1,26 @@
+.carousel {
+  border: $carousel-border;
+
+  .carousel-inner {
+    .carousel-caption {
+      top: 50%;
+      left: 15%;
+      right: 15%;
+      bottom: unset;
+      transform: translateY(-50%);
+
+      h1 {
+        margin: 0 auto;
+        color: $carousel-font-color;
+        text-transform: $carousel-text-transform;
+      }
+
+
+      h2 {
+        margin: 0 auto;
+        color: $carousel-font-color;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.logo {
+    figure {
+        img {
+            max-width: $logo-max-width;
+        }
+        margin: 1rem auto;
+    }
+}
+
+nav {
+    .logo {
+        figure {
+            img {
+                max-height: $nav-logo-max-height;
+            }
+            margin: 0 auto;
+        }
+    }
+}

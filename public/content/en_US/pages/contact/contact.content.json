@@ -1,0 +1,32 @@
+{
+    "head": {
+        "title": "Contact Roseville Roofing | Get Your Free Estimate",
+        "description": "Reach out to Roseville Roofing for all your roofing needs. Contact us today for a free estimate, questions about services, or to discuss your next project. We’re ready to help!",
+        "keywords": "contact Roseville Roofing, free roofing estimate, roofing questions, roofing services, roof repairs, roof replacement, Granite Bay roofing, roofing experts, Jeff Vogt, roofing contact",
+        "href": "https://rsvlroofing.com/contact/",
+        "location": "Granite Bay, CA",
+        "region": "US-CA",
+        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "imageType": "image/webp",
+        "robots": "INDEX, FOLLOW"
+    },
+    "hero": {
+        "title": "Contact",
+        "title2": "Us"
+    },
+    "contact": {
+        "col": "6",
+        "companyName": "Roseville Roofing",
+        "owner": "Jeff Vogt",
+        "phone": "916-791-7348",
+        "email": "jeff@rsvlroofing.com",
+        "address": [
+            {
+                "line": "P.O. Box 2062"
+            },
+            {
+                "line": "Granite Bay, CA 95746"
+            }
+        ]
+    }
+}

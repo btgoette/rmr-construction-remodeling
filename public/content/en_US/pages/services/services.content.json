@@ -1,0 +1,128 @@
+{
+    "head": {
+        "title": "Comprehensive Roofing Services | Roseville Roofing",
+        "description": "Roseville Roofing offers expert residential and commercial roofing services in Placer, El Dorado, and Sacramento Counties. From inspections and repairs to replacements and custom commercial solutions, our licensed team ensures quality, durability, and satisfaction since 1989.",
+        "keywords": "residential roofing, commercial roofing, roof repairs, roof replacements, roof inspections, TPO roofing, metal roofing, modified bitumen, Placer County roofing, Roseville Roofing services",
+        "href": "https://rsvlroofing.com/services/",
+        "location": "Granite Bay, CA",
+        "region": "US-CA",
+        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "imageType": "image/webp",
+        "robots": "INDEX, FOLLOW"
+    },
+    "hero": {
+        "title": "Our",
+        "title2": "Services"
+    },
+    "cardsOverlay": {
+        "col": "4",
+        "justify": "justify-content-center",
+        "card": [
+            {
+                "img": {
+                    "src": "https://placekitten.com/600/600",
+                    "alt": "Residential Roofing",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/grooming.jpg"
+                },
+                "title": "Residential Roofing",
+                "text": "Protect your home with our expert residential roofing services. From repairs to replacements, we use premium materials and proven techniques to ensure your roof is both durable and visually appealing.",
+                "url": "/services/residential/"
+            },
+            {
+                "img": {
+                    "src": "https://placekitten.com/600/600",
+                    "alt": "Roof Repairs",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/grooming.jpg"
+                },
+                "title": "Roof Repairs",
+                "text": "Fix leaks, storm damage, or wear with expert repairs that restore your roof&rsquo;s integrity. We use premium materials to ensure durable, lasting results, keeping your home or business protected from the elements.",
+                "url": "/services/roof-repairs/"
+            },
+            {
+                "img": {
+                    "src": "https://placekitten.com/600/600",
+                    "alt": "Roof Replacements",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/toys.jpg"
+                },
+                "title": "Roof Replacements",
+                "text": "Upgrade your roof with expert replacements. We assess your needs, recommend materials, and complete the project efficiently to enhance your property&rsquo;s value while minimizing disruptions.",
+                "url": "/services/roof-replacements/"
+            },
+            {
+                "img": {
+                    "src": "https://placekitten.com/600/600",
+                    "alt": "Roof Inspection:",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/tree.jpg"
+                },
+                "title": "Roof Inspection",
+                "text": "Extend your roof&rsquo;s lifespan with preventative care. Our maintenance services include regular inspections, cleaning, and minor repairs to keep your roof in optimal condition and prevent costly issues down the line.",
+                "url": "/services/maintenance/"
+            },
+            {
+                "img": {
+                    "src": "https://placekitten.com/600/600",
+                    "alt": "Commercial Roofing",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/tree.jpg"
+                },
+                "title": "Commercial Roofing",
+                "text": "Specializing in low-slope, TPO (Thermoplastic Olefin) , metal, and modified bitumen roofs, we provide durable solutions tailored to your business needs, ensuring quality, longevity, and compliance.",
+                "url": "/services/commercial/"
+            }
+        ]
+    },
+    "reviews": {
+        "newReviewUrl": "https://www.yelp.com/writeareview/biz/PtUVlXo8OwPm7LdXS1ZJoA?return_url=%2Fbiz%2FPtUVlXo8OwPm7LdXS1ZJoA&review_origin=biz-details-war-button",
+        "reviewsList": [
+            {
+                "name": "Charlie V.",
+                "location": "Roseville, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=GigkwcSiVJxDAj0lxemi9w&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "With all the recent heavy weather I became concerned when taking down my Christmas lights I noticed a visible sag in a short, specific area of my roof. I had no leaks and the sag was not visible from inside the attic. Jeff Vogt came by and did a thorough inspection of the area. After explaining to me (very clearly) how the roof is designed, he assured me there was no real cause for concern. Though it may not have been the best design or construction practices (28 year old roof), there was no reason to be worried, other than the minor aesthetics. He could have pursued a big payday but instead, satisfied my concerns and saved me $$$. I highly recommend Roseville Roofing for their expertise and professional manner."
+                    }
+                ]
+            },
+            {
+                "name": "Denise R.",
+                "location": "Granite Bay, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=bx_lltvtA5NDbsm_CYQzRQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "Wow! What an amazing company. I had a Leak appear in a bedroom ceiling on Christmas. Totally panicked and worried. I called Sunday and left a message for Roseville Roofing and was amazed that the owner, Jeff, called me back Monday morning and had his crew out before end of day. Not only did they fix the issue on the spot, Jeff went out of his way to explain everything and reassure me. I cannot applaud this company enough. They deserve 10 stars in an era where it is so rare to find companies with such integrity and customer oriented. Thank you Jeff and your crew!! I'll keep you on my speed dial for any future roofing issues!"
+                    }
+                ]
+            },
+            {
+                "name": "William H.",
+                "location": "El Dorado Hills, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=rHszYkbOh6Z_Etsh12XKmg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "We had a roof leak during a heavy storm and discovered we had a water intrusion into the house when we got up in the morning. I called Roseville Roofing and Jeff ( the owner) came out the same day. He took photos, did a temporary patch & seal initially and returned the following day with material to seal the roof enough to get us through the next series of storms. Once the weather cleared he replaced all the damage ( caused by squirrels) to the roof, installed an underlayment that was superior to the original one and made all the repairs necessary to get us a water proof roof structure again. They also installed wire mesh to prevent the squirrels from getting back to their spot under our Spanish tile roof. They were quick, clean and very respectful of our property. The repair work turned out great and we are ready for the next round of storms. Roseville Roofing is now my permanent go to roofing company."
+                    }
+                ]
+            },
+            {
+                "name": "Jeromy J.",
+                "location": "Folsom, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=YAiyXsphcawoPap1gQvzDw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "Jeff and his crew were professional, showed up every morning, worked hard in the Folsom summer, and created a beautiful roof while not cutting corners. We had some unexpected dry rot and Jeff offered solutions keeping in mind any future resale considerations at a fair price. It's hard to find a reliable and honest contractor it seems these days, but I would trust Jeff with any future work and cannot recommend him highly enough. As a bonus, he was very responsive with questions and took the time to explain the process or any decisions that needed to be made. If you need a roof done right, reach out to Jeff and Roseville Roofing--you won't be disappointed."
+                    }
+                ]
+            }
+        ]
+    }
+}

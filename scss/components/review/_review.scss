@@ -1,0 +1,286 @@
+.review {
+
+    .review-list {
+        .review-card {
+            padding: 1rem;
+            margin: 0 auto;
+
+            .review-card-content {
+                background: $review-background;
+                border: $review-border;
+                padding: 2rem;
+                margin: auto;
+                text-align: left;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                max-width: $lg;
+
+                @media screen and (max-width: $sm) {
+                    padding: 1rem;
+                }
+
+                .review-stars {
+                    display: flex;
+                    color: $primary;
+                    font-size: $review-stars-font-size;
+                    line-height: $review-stars-font-size;
+
+                    &.google {
+                        color: $google-star;
+                    }
+
+                    &.yelp {
+                        color: $yelp;
+                    }
+
+                    &.angi {
+                        color: $angi;
+                    }
+                }
+
+                .review-header {
+                    margin-top: 0;
+                    text-align: left;
+
+                    .review-name {
+                        font-size: $review-name-font-size;
+                        font-weight: $review-name-font-weight;
+                        text-align: center;
+                        line-height: calc($review-name-font-size * 1.5);
+                    }
+
+                    .review-url {
+                        color: $black !important;
+
+                        &:hover {
+                            color: $primary !important;
+                        }
+                    }
+
+                    .review-location {
+                        color: $review-color;
+                        font-size: $review-location-font-size;
+                        line-height: calc($review-location-font-size * 1.5);
+                    }
+                }
+
+                .review-quote {
+                    color: $review-color;
+                    font-size: $review-font-size;
+                    line-height: calc($review-font-size * 1.5);
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+
+    .review-slider {
+        .review-card {
+            padding: 1rem;
+            margin: 0 auto;
+
+            .review-card-content {
+                background: $review-slider-background;
+                border: $review-slider-border;
+                padding: 2rem;
+                margin: auto;
+                text-align: left;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                max-width: $lg;
+                height: 400px;
+                justify-content: space-between;
+
+                @media screen and (max-width: $sm) {
+                    padding: 1rem;
+                }
+
+                .review-stars {
+                    display: flex;
+                    color: $primary;
+                    font-size: $review-slider-stars-font-size;
+                    line-height: $review-slider-stars-font-size;
+
+                    &.google {
+                        color: $google-star;
+                    }
+
+                    &.yelp {
+                        color: $yelp;
+                    }
+
+                    &.angi {
+                        color: $angi;
+                    }
+                }
+
+                .review-header {
+                    margin-top: 0;
+                    text-align: left;
+
+                    .review-name {
+                        font-size: $review-slider-name-font-size;
+                        font-weight: $review-slider-name-font-weight;
+                        text-align: center;
+                        line-height: calc($review-slider-name-font-size * 1.5);
+                    }
+
+                    .review-url {
+                        color: $black !important;
+
+                        &:hover {
+                            color: $primary !important;
+                        }
+                    }
+
+                    .review-location {
+                        color: $review-slider-color;
+                        font-size: $review-slider-location-font-size;
+                        line-height: calc($review-slider-location-font-size * 1.5);
+                    }
+                }
+
+                .review-quote {
+                    display: -webkit-box;
+                    color: $review-slider-color;
+                    font-size: $review-slider-font-size;
+                    line-height: calc($review-slider-font-size * 1.5);
+                    margin-bottom: 1rem;
+                    line-clamp: 7;
+                    -webkit-line-clamp: 7;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+    .multi-card {
+        background-color: $white;
+        padding: 2rem 4rem;
+        margin: 3rem 0;
+        border-radius: 10px;
+        box-shadow: 0px 2px 14px #0000003f;
+
+        .multi-card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+            .review-label {
+                flex: 1;
+                padding: 0 1rem;
+
+                @media screen and (min-width: $lg) {
+                    flex: 0 0 25%;
+                    max-width: 25%;
+                }
+            }
+
+            .slick-slider {
+                flex: 1;
+                width: 100%;
+                max-width: 916px;
+
+                @media screen and (min-width: $lg) {
+                    width: 75%;
+                    flex: 0 0 75%;
+                }
+            }
+
+            .review-card {
+                width: 100%;
+                padding: 1rem .25rem;
+
+                .review-card-content {
+                    padding: 1.5rem 1rem;
+                    background: $review-background;
+                    border: none;
+                    max-width: $md;
+                    text-align: center;
+                    width: 100%;
+                    height: 250px;
+                    border-radius: 5px;
+
+                    @media screen and (min-width: $lg) {
+                        max-width: 300px;
+                    }
+
+                    .review-header {
+                        margin: 0;
+                        line-height: 1rem;
+
+                        .review-name {
+                            color: $review-color;
+                            font-size: 1rem;
+                            line-height: 1.2rem;
+                        }
+
+                        .review-stars {
+                            color: $primary;
+                            font-size: .9rem;
+                            line-height: 1.2rem;
+                            text-align: center;
+
+                            &.google {
+                                color: $google-star;
+                            }
+
+                            &.yelp {
+                                color: $yelp;
+                            }
+
+                            &.angi {
+                                color: $angi;
+                            }
+                        }
+
+                        .review-date {
+                            font-size: .8rem;
+                            line-height: 1.2rem;
+                            color: $gray;
+                        }
+                    }
+
+                    .review-quote {
+                        color: $review-color;
+                        font-size: 1rem;
+                        line-height: 1.2rem;
+                        text-align: left;
+
+                        p {
+                            margin: .5rem 0;
+                            min-height: 60px;
+                            display: -webkit-box;
+                            max-width: 100%;
+                            line-clamp: 4;
+                            -webkit-line-clamp: 4;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            line-height: 1.5rem;
+                        }
+                    }
+
+                    .review-url {
+                        margin: .5rem 0;
+
+                        & a {
+                            color: $gray;
+                            font-weight: 400;
+                            font-size: 1rem;
+
+                            &:hover {
+                                color: $light-gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

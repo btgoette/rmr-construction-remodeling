@@ -1,0 +1,27 @@
+.media {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+
+    .socials {
+        text-align: center;
+
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: $footer-socials-max-width;
+            margin: 0 auto 1rem;
+        }
+
+        .bbb {
+            max-width: 250px;
+            margin: 0 auto;
+
+            &:hover {
+                opacity: .75;
+            }
+        }
+    }
+}

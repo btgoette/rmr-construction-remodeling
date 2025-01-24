@@ -1,0 +1,59 @@
+{
+    "head": {
+        "title": "Roof Types for Residential & Commercial Properties | Roseville Roofing",
+        "description": "Discover the best roofing options for your home or business in Roseville, CA with Roseville Roofing. From durable asphalt shingles and tile to energy-efficient metal and PVC roofing, we offer expert installation and replacements. Get your free inspection today!",
+        "keywords": "roof types, residential roofing, commercial roofing, asphalt roofing, tile roofing, metal roofing, PVC roofing, TPO roofing, flat roofs, Roseville Roofing, roof replacement, roof installation, roofing options, roofing services, energy-efficient roofing, durable roofing materials, residential roof protection, commercial roof solutions",
+        "href": "https://rsvlroofing.com/roof-types/",
+        "location": "Granite Bay, CA",
+        "region": "US-CA",
+        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "imageType": "image/webp",
+        "robots": "INDEX, FOLLOW"
+    },
+    "hero": {
+        "title": "Roof",
+        "title2": "Types"
+    },
+    "cards": {
+        "col": "4",
+        "justify": "justify-content-center",
+        "card": [
+            {
+                "img": {
+                    "src": "/images/600x450/grooming.jpg",
+                    "alt": "Luxurious Grooming Sessions",
+                    "width": "600",
+                    "height": "450",
+                    "lowres": "/images/lowres/grooming.jpg"
+                },
+                "title": "Luxurious Grooming",
+                "text": "Indulge your feline companion with our bespoke grooming services at Roseville Roofing. Our expert groomers, led by the talented Whiskers, ensure a regal experience for your cat, combining stylish fur treatments with therapeutic massages. Pamper your fur baby with the care they deserve, leaving them looking and feeling like true feline royalty.",
+                "url": "#"
+            },
+            {
+                "img": {
+                    "src": "/images/600x450/toys.jpg",
+                    "alt": "Playtime Bliss",
+                    "width": "600",
+                    "height": "450",
+                    "lowres": "/images/lowres/toys.jpg"
+                },
+                "title": "Playtime Bliss",
+                "text": "Experience the epitome of feline entertainment with Luna, our Director of Feline Entertainment. Luna curates an enchanting selection of toys and activities, designed to engage cats of all ages and personalities. From interactive laser play to feathered wonders, your cat will revel in a world of joy and stimulation, promoting both physical and mental well-being.",
+                "url": "#"
+            },
+            {
+                "img": {
+                    "src": "/images/600x450/tree.jpg",
+                    "alt": "Climb, Scratch, Nap",
+                    "width": "600",
+                    "height": "450",
+                    "lowres": "/images/lowres/tree.jpg"
+                },
+                "title": "Climb, Scratch, Nap",
+                "text": "Elevate your cat's surroundings with custom-designed cat trees by Pebbles, our Master Tree Architect. These functional and stylish creations not only satisfy your cat's natural instincts to climb and scratch but also seamlessly integrate into your home decor. Each tree is a masterpiece, providing a haven for your cat to explore, relax, and enjoy their own little kingdom.",
+                "url": "#"
+            }
+        ]
+    }
+}

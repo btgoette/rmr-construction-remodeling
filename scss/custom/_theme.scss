@@ -1,0 +1,108 @@
+section,
+.container {
+    padding: 3rem 1rem;
+}
+
+.container-fluid {
+    @media screen and (min-width: $md) {
+        padding: 6rem 2rem;
+    }
+}
+
+.clip-bottom-right {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    padding-bottom: 9rem;
+}
+
+.clip-bottom-left {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
+    padding-bottom: 9rem;
+}
+
+.clip-top-right {
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    padding-top: 9rem;
+}
+
+.clip-top-left {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 9rem;
+}
+
+.clip-right {
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.clip-left {
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.border-line-start {
+    width: 100%;
+    height: 3px;
+    background-color: $primary;
+    margin: 1rem 0 2rem;
+    max-width: 12rem;
+}
+
+.border-line-center {
+    width: 100%;
+    height: 3px;
+    background-color: $primary;
+    margin: 1rem auto 2rem;
+    max-width: 12rem;
+
+}
+
+.border-line-end {
+    width: 100%;
+    height: 3px;
+    background-color: $primary;
+    margin: 1rem 0 2rem auto;
+    max-width: 12rem;
+}
+
+.border-left {
+    border-left: 3px solid $primary;
+    padding-left: 1rem;
+}
+
+.border-bottom {
+    max-width: max-content;
+    padding-bottom: .5rem;
+    border-bottom: 3px solid $primary !important;
+}
+
+.mx-w-xxl {
+    width: 100%;
+    max-width: $xxl;
+    margin: 0 auto;
+}
+
+.mx-w-xl {
+    width: 100%;
+    max-width: $xl;
+    margin: 0 auto;
+}
+
+.mx-w-lg {
+    width: 100%;
+    max-width: $lg;
+    margin: 0 auto;
+}
+
+.mx-w-md {
+    width: 100%;
+    max-width: $md;
+    margin: 0 auto;
+}
+
+.mx-w-sm {
+    width: 100%;
+    max-width: $sm;
+    margin: 0 auto;
+}

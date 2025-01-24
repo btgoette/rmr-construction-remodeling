@@ -1,0 +1,67 @@
+.btn {
+  border: $button-border;
+  border-radius: $button-border-radius;
+  font-family: $button-font-family;
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
+  letter-spacing: $button-letter-spacing;
+  line-height: calc($button-font-size * 1.5);
+  text-transform: $button-text-transform;
+  padding: $button-padding;
+
+  &.btn-primary {
+    background: $button-primary-background;
+    border-color: transparent;
+    color: $white;
+    transition: 0.5s;
+    padding: 12px 2.5rem;
+
+    &:focus,
+    &:hover {
+      background: $dark;
+      color: $white !important;
+    }
+  }
+
+  &.btn-outline {
+    background: transparent;
+    border:2px solid $white;
+    color: $white;
+    transition: 0.25s;
+
+    &:focus,
+    &:hover {
+      color:$white;
+      background: transparent;
+      transform: scale(1.1);
+    }
+  }
+
+  &.btn-secondary {
+    background: $dark-secondary;
+    border-color: transparent;
+    color: $white !important;
+    transition: 0.5s;
+    box-shadow: none;
+
+    &:focus,
+    &:hover {
+      background: $secondary;
+      color: $white !important;
+    }
+  }
+
+  &.btn-tertiary {
+    background: $dark-tertiary;
+    border: 2px solid $white;
+    color: $white !important;
+    transition: 0.5s;
+    box-shadow: none;
+
+    &:focus,
+    &:hover {
+      background: $tertiary;
+      color: $white !important;
+    }
+  }
+}

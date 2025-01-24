@@ -1,0 +1,36 @@
+.footer-banners {
+    margin-bottom: 2rem;
+
+    .super-banner {
+        font-family: $footer-super-banner-font-family;
+        font-size: $footer-super-banner-font-size;
+        font-weight: 600;
+        color: $footer-super-banner-color;
+        line-height: calc($footer-super-banner-font-size * 1.5);
+        margin: 0 auto;
+        text-align: center;
+        text-transform: $footer-super-banner-text-transform;
+    }
+
+    .banner {
+        font-family: $footer-banner-font-family;
+        font-size: $footer-banner-font-size;
+        font-weight: 600;
+        color: $footer-banner-color;
+        line-height: calc($footer-banner-font-size * 1.5);
+        margin: 0 auto;
+        text-align: center;
+        text-transform: $footer-banner-text-transform;
+    }
+
+    .sub-banner {
+        font-family: $footer-sub-banner-font-family;
+        font-size: $footer-sub-banner-font-size;
+        font-weight: 600;
+        color: $footer-sub-banner-color;
+        line-height: calc($footer-sub-banner-font-size * 1.5);
+        margin: 0 auto;
+        text-align: center;
+        text-transform: $footer-sub-banner-text-transform;
+    }
+}

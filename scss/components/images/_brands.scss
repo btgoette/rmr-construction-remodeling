@@ -1,0 +1,9 @@
+.brands {
+    margin: 0 auto;
+
+    .brand-image {
+        max-width: $brand-image-max-width;
+        max-height: $brand-image-max-height;
+        margin: 0 auto;
+    }
+}

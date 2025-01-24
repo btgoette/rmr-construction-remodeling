@@ -1,0 +1,168 @@
+.navbar {
+    background: $nav-background;
+    border-bottom: $nav-border;
+    padding: 0 0.5rem;
+
+    @media screen and (min-width: $xl) {
+        padding: 0 0 0 2rem;
+    }
+
+
+    // Nav Toggler
+    .navbar-toggler {
+        background: transparent;
+        border: none !important;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        .navbar-toggler-icon {
+            border-color: $nav-toggle-icon-color;
+        }
+    }
+
+
+    // Desktop .navbar-nav
+    .offcanvas {
+        .offcanvas-body {
+            .navbar-nav {
+                .nav-link {
+                    color: $nav-font-color;
+                    font-family: $nav-font-family;
+                    font-size: $nav-font-size;
+                    font-weight: $nav-font-weight;
+                    letter-spacing: $nav-letter-spacing;
+                    line-height: calc($nav-font-size * 1.5);
+                    text-transform: $nav-text-transform;
+                    border-bottom: 2px solid $white;
+                    padding: 0 0;
+                    margin: 0 .5rem;
+
+                    &:hover {
+                        color: $nav-font-color-hover !important;
+                        border-color: $primary;
+                        transition: .5s;
+                    }
+                }
+
+                .dropdown-menu {
+                    background: $nav-dropdown-menu-background;
+                    border: $nav-dropdown-menu-border;
+                    padding: 0 0;
+                    overflow: hidden;
+
+                    .dropdown-item {
+                        color: $nav-dropdown-item-color;
+                        font-size: $nav-dropdown-item-font-size;
+                        font-weight: $nav-dropdown-item-font-weight;
+                        line-height: calc($nav-dropdown-item-font-size * 1.5);
+
+                        &:hover,
+                        &:focus,
+                        &:active {
+                            background: $nav-dropdown-item-background-hover !important;
+                            color: $nav-dropdown-item-color !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Mobile .navbar-nav
+.offcanvas {
+    .offcanvas-header {
+        background: $nav-offcanvas-header-background;
+        color: $nav-offcanvas-header-color;
+    }
+
+    .offcanvas-body {
+        .navbar-nav {
+            .nav-link {
+                font-size: $nav-offcanvas-font-size;
+                font-weight: $nav-offcanvas-font-weight;
+                line-height: calc($nav-offcanvas-font-size * 1.5);
+            }
+
+            .dropdown-menu {
+                border: none;
+
+                .dropdown-item {
+                    font-size: $nav-offcanvas-font-size;
+                    font-weight: $nav-offcanvas-font-weight;
+                    line-height: calc($nav-offcanvas-font-size * 1.5);
+                }
+            }
+        }
+    }
+}
+
+
+// Top Bar
+.top-bar {
+    background: $nav-top-bar-background;
+    color: $nav-top-bar-color;
+    font-size: $nav-top-bar-font-size;
+    font-weight: $nav-top-bar-font-weight;
+    line-height: calc($nav-top-bar-font-size * 1.5);
+    text-align: $nav-top-bar-text-align;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+
+    p {
+        padding: $nav-top-bar-padding;
+        margin: 0 auto;
+    }
+
+    .fa {
+        color: $black;
+    }
+
+    a {
+        color: $nav-top-bar-color;
+    }
+}
+
+// Bottom Bar
+.bottom-bar {
+    background: $nav-bottom-bar-background;
+    color: $nav-bottom-bar-color;
+    font-size: $nav-bottom-bar-font-size;
+    font-weight: $nav-bottom-bar-font-weight;
+    line-height: calc($nav-bottom-bar-font-size * 1.5);
+    text-align: $nav-bottom-bar-text-align;
+    align-items: center;
+
+    p {
+        padding: $nav-bottom-bar-padding;
+        margin: 0 auto;
+    }
+
+    .fa {
+        color: $black;
+    }
+
+    a {
+        color: $nav-bottom-bar-color;
+    }
+}
+
+.desktop-cta {
+    display: none;
+
+    @media screen and (min-width: $xl) {
+        display: flex;
+    }
+}
+
+.offcanvas-cta {
+    display: flex;
+
+    @media screen and (min-width: $xl) {
+        display: none;
+    }
+}

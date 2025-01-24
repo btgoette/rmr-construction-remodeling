@@ -1,0 +1,44 @@
+.team {
+    .team-member {
+        .team-photo {
+            img {
+                width: 300px;
+                border-radius: $border-round;
+            }
+        }
+
+        .team-title {
+            margin: 0;
+            min-height: 6rem;
+            text-align: $team-title-text-align;
+        }
+
+        .team-name {
+            margin-bottom: .5rem;
+            color: $team-name-font-color;
+            font-size: $team-name-font-size;
+            font-weight: $team-name-font-weight;
+            line-height: calc($team-name-font-size * 1.5);
+            letter-spacing: $team-name-letter-spacing;
+            text-transform: $team-text-transform;
+        }
+
+        .team-job-title {
+            margin: 0;
+            color: $team-title-font-color;
+            font-size: $team-title-font-size;
+            font-weight: $team-title-font-weight;
+            line-height: calc($team-title-font-size * 1.5);
+            letter-spacing: $team-title-letter-spacing;
+            text-transform: $team-text-transform;
+        }
+
+        .team-content {
+            margin-bottom: 3rem;
+            color: $team-font-color;
+            font-size: $team-font-size;
+            font-weight: $team-font-weight;
+            line-height: calc($team-font-size * 1.5);
+        }
+    }
+}

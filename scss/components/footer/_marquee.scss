@@ -1,0 +1,14 @@
+.marquee {
+    padding: .5rem 0;
+    background: $footer-marquee-background;
+    color: $footer-marquee-font-color;
+    font-size: $footer-marquee-font-size;
+    font-weight: $footer-marquee-font-weight;
+
+    a {
+        color: $footer-marquee-font-color;
+        &:hover {
+            color: $footer-marquee-font-color !important;
+        }
+    }
+}

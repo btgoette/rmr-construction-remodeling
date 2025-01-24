@@ -1,0 +1,84 @@
+.socials {
+    .btn {
+        &.btn-floating {
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+
+            &:hover {
+                opacity: .75;
+                color: $white !important;
+            }
+        }
+
+        &.btn-angi {
+            background: $angi;
+            color: $white;
+
+            embed {
+                width: 13px;
+                max-width: unset;
+            }
+        }
+
+        &.btn-facebook {
+            background: $facebook;
+            color: $white;
+        }
+
+        &.btn-google {
+            background: $white;
+            color: $white;
+            border:1px solid $light-gray;
+
+            embed {
+                width: 20px;
+                max-width: unset;
+            }
+        }
+       
+        &.btn-instagram {
+            background: $instagram;
+            color: $white;
+        }
+
+        &.btn-linkedin {
+            background: $linkedin;
+            color: $white;
+        }
+
+        &.btn-nextdoor {
+            background: $nextdoor;
+            color: $white;
+
+            embed {
+                width: 16px;
+                max-width: unset;
+            }
+        }
+
+        &.btn-twitter {
+            background: $twitter;
+            color: $white;
+        }
+
+        &.btn-yellow-pages {
+            background: $yellow-pages;
+            color: $white;
+
+            embed {
+                width: 22px;
+                max-width: unset;
+            }
+        }
+
+        &.btn-yelp {
+            background: $yelp;
+            color: $white;
+        }
+
+    }
+}

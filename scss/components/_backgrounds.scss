@@ -1,0 +1,106 @@
+.bg-primary {
+    background: $dark !important;
+    color: $white;
+
+    h2,
+    h3{
+        color: $secondary;
+        font-weight: $header-font-weight;
+    }
+
+    a {
+        color: $secondary;
+
+        &:hover {
+            color: $light-secondary
+        }
+    }
+}
+
+.bg-secondary {
+    background: $secondary !important;
+    color: $white;
+
+    h2,
+    h3,
+    a {
+        color: $white;
+        font-weight: $header-font-weight;
+    }
+
+    a:hover {
+        color: $dark;
+    }
+}
+
+.bg-tertiary {
+    background: $secondary-gradient !important;
+    color: $white;
+
+    h2,
+    a {
+        color: $white;
+        font-weight: $header-font-weight;
+    }
+
+    h4 {
+        span {
+            color: $primary;
+            font-weight: 600;
+        }
+    }
+
+    a:hover {
+        color: $light;
+    }
+}
+
+.bg-gray {
+    background-color: $light-gray;
+}
+
+.bg-map {
+    background: url("/images/backgrounds/nf-14.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-blur {
+    background-color: #ffffff33;
+    backdrop-filter: blur(5px);
+}
+
+.bg-home {
+    background-image: url("/images/backgrounds/rr-14.webp");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    color: $white;
+
+    h2,
+    a {
+        color: $white;
+        font-weight: $header-font-weight;
+    }
+
+    a:hover {
+        color: $light;
+    }
+}
+
+.bg-otis {
+    background-color: #191919;
+    background-image: url("/images/backgrounds/textures/otis-redding.png");
+    color: $white;
+
+    h2,
+    a {
+        color: $white;
+        font-weight: $header-font-weight;
+    }
+
+    a:hover {
+        color: $dark;
+    }
+}

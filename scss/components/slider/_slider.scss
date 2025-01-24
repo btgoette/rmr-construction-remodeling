@@ -1,0 +1,105 @@
+.slick-slider {
+  padding-bottom: 1rem;
+
+  .slick-prev {
+    left: -15px;
+
+    &::before {
+      position: absolute;
+      top: -7px;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 14px 10px 14px 0;
+      border-color: transparent #cacaca transparent transparent;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0px;
+      left: 5px;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 7px 5px 7px 0;
+      border-color: transparent $white transparent transparent;
+
+    }
+  }
+
+  .slick-next {
+
+    &::before {
+      position: absolute;
+      top: -7px;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 14px 0 14px 10px;
+      border-color: transparent transparent transparent #cacaca;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 7px 0 7px 5px;
+      border-color: transparent transparent transparent #fff;
+    }
+  }
+
+  .slick-dots {
+    padding-bottom: 1rem;
+
+    li button::before {
+      color: $dark-secondary;
+    }
+  }
+}
+
+.bg-primary {
+  .slick-slider {
+    .slick-arrow {
+
+      &:before,
+      &:after {
+        color: $secondary;
+      }
+    }
+
+    .slick-dots {
+      li button::before {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.bg-secondary {
+  .slick-slider {
+    .slick-arrow {
+
+      &:before,
+      &:after {
+        color: $white;
+      }
+    }
+
+    .slick-dots {
+      li button::before {
+        color: $white;
+      }
+    }
+  }
+}

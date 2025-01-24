@@ -1,0 +1,13 @@
+.menu {
+    max-width: 450px;
+    margin: 0 auto;
+    .links {
+        max-height: $footer-menu-max-height;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-left: 0;
+        flex-wrap: wrap;
+        gap: .5rem 1rem;
+    }
+}

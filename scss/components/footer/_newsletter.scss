@@ -1,0 +1,92 @@
+.newsletter {
+    background: $footer-newsletter-background;
+    background-size: cover;
+    background-position: center center;
+    padding: 1rem;
+
+    .newsletter-block {
+        background: $footer-newsletter-block-background;
+        border-radius: $border-rounded;
+        padding: 2rem;
+        color: $footer-newsletter-font-color;
+        max-width: 632px;
+
+        h2,
+        p {
+            text-align: $footer-newsletter-text-align;
+            color: $footer-newsletter-font-color;
+            margin: 0 0 1rem;
+        }
+
+        .newsletter-form {
+
+            fieldset {
+                width: 100%;
+                margin-bottom: 1rem;
+
+                input {
+                    width: 100%;
+                    padding: 10px .5rem;
+                    border-radius: $button-border-radius;
+                    border: 1px solid $light-gray;
+                }
+            }
+
+            .names {
+                gap: 1rem;
+            }
+        }
+    }
+
+    &.modal {
+        background: $footer-newsletter-modal-background;
+
+        .modal-header {
+            border-bottom: 0;
+        }
+    }
+
+    &.newsletter-column {
+        background: none;
+
+        .newsletter-block {
+            background: none;
+            border-radius: 0;
+            padding: 0;
+            color: $footer-newsletter-font-color;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 1.5rem;
+                line-height: 1.75rem;
+            }
+
+            h2,
+            p {
+                text-align: $footer-newsletter-text-align;
+                color: $footer-newsletter-font-color;
+                margin: 0 0 1rem;
+            }
+
+            .newsletter-form {
+
+                fieldset {
+                    width: 100%;
+                    margin-bottom: 1rem;
+
+                    input {
+                        width: 100%;
+                        padding: 10px .5rem;
+                        border-radius: $button-border-radius;
+                        border: 1px solid $light-gray;
+                    }
+                }
+
+                .names {
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+
+}
