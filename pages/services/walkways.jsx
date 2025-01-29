@@ -1,4 +1,4 @@
-/* Roof Repairs Services Page */
+/* Walkways Services Page */
 
 // React Compontents
 import React, { useState } from 'react';
@@ -9,10 +9,10 @@ import Link from 'next/link';
 import { Head, CustomHero, Cards, Figure } from '@/components'
 
 // Custom Content
-import content from 'public/content/en_US/pages/services/roofRepairs.content'
+import content from 'public/content/en_US/pages/services/walkways.content'
 import image from 'public/content/en_US/components/image.content'
 
-export default function RoofRepairsServices() {
+export default function WalkwaysServices() {
 
     return (
         <>
@@ -42,7 +42,7 @@ export default function RoofRepairsServices() {
                 </Container>
             </section>
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
                     <h2>Quality Roof<br /><span>Repair Materials</span></h2>
                     <div className="border-line-center"></div>
@@ -91,7 +91,7 @@ export default function RoofRepairsServices() {
                 </Container>
             </section>
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
                     <h2>Preventative Care<br /><span>The Key to Longevity</span></h2>
                     <div className="border-line-center"></div>

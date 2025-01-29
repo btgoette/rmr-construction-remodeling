@@ -89,6 +89,22 @@
     }
 }
 
+.bg-concrete {
+    background-color: #191919;
+    background-image: url("/images/backgrounds/textures/concrete.png");
+    color: $white;
+
+    h2,
+    a {
+        color: $white;
+        font-weight: $header-font-weight;
+    }
+
+    a:hover {
+        color: $dark;
+    }
+}
+
 .bg-otis {
     background-color: #191919;
     background-image: url("/images/backgrounds/textures/otis-redding.png");

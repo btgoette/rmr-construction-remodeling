@@ -1,4 +1,4 @@
-/* Commercial Services Page */
+/* Irrigatin and Drainage Services Page */
 
 // React Compontents
 import React, { useState } from 'react';
@@ -9,10 +9,10 @@ import Link from 'next/link'
 import { Head, CustomHero, Cards, Figure } from '@/components'
 
 // Custom Content
-import content from 'public/content/en_US/pages/services/commercial.content'
+import content from 'public/content/en_US/pages/services/irrigationAndDrainage.content'
 import image from 'public/content/en_US/components/image.content'
 
-export default function Commercials() {
+export default function IrrigationAndDrainage() {
 
     return (
         <>
@@ -43,7 +43,7 @@ export default function Commercials() {
                 </Container>
             </section>
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
                     <h2>Comprehensive Commercial<br /><span>Roofing Services</span></h2>
                     <div className="border-line-center"></div>
@@ -75,7 +75,7 @@ export default function Commercials() {
                 </Container>
             </section>
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
                     <div className="d-block d-lg-none mb-5">
                         <h2>Commercial<br /><span>Markets Served</span></h2>

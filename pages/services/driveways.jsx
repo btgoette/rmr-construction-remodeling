@@ -1,4 +1,4 @@
-/* Roof Inspection Page */
+/* Driveways Services Page */
 
 // React Compontents
 import React, { useState } from 'react';
@@ -9,10 +9,10 @@ import Link from 'next/link'
 import { Head, CustomHero, Cards, Figure } from '@/components'
 
 // Custom Content
-import content from 'public/content/en_US/pages/services/roofInspection.content'
+import content from 'public/content/en_US/pages/services/driveways.content'
 import image from 'public/content/en_US/components/image.content'
 
-export default function RoofInspections() {
+export default function DrivewaysServices() {
 
     return (
         <>
@@ -41,7 +41,7 @@ export default function RoofInspections() {
                 </Container>
             </section>
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
                     <h2>Complete Roof<br /><span>Inspection Process</span></h2>
                     <div className="border-line-center"></div>

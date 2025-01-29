@@ -40,7 +40,6 @@ export default function Menu({ nav }) {
                     </span>
                 ))}
             </div>
-            {renderCTA()}
         </Col>
     )
 }

@@ -20,7 +20,7 @@ export default function Contact() {
             <Head {...content} />
             <CustomHero {...content} />
 
-            <section clip-bottom-right>
+            <section>
                 <Container>
                     <h2>Get in Touch<br /><span>with RMR Construction & Remodeling</span></h2>
                     <div className="border-line-center"></div>

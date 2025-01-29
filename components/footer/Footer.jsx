@@ -110,11 +110,7 @@ export default function Footer() {
 
         <section className="footer">
           <Container className="pb-0">
-            <div className="footer-banners">
-              {renderBanner()}
-              {renderSubBanner()}
-            </div>
-            <Row className="footer-row align-items-center">
+            <Row className="footer-row">
               <Media {...footer} />
               <Menu {...footer} />
               {renderSummary()}

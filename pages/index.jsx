@@ -44,7 +44,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-otis clip-right">
+      <section className="bg-concrete">
         <Container>
           <h2>Why choose <br /><span>RMR Construction & Remodeling?</span></h2>
           <div className="border-line-center"></div>
@@ -92,7 +92,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-otis">
+      <section className="bg-concrete">
         <Container>
           <h2>Our Recent <span>Projects</span></h2>
           <div className="border-line-center"></div>

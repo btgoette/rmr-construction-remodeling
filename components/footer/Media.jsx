@@ -8,6 +8,7 @@ import Link from 'next/link'
 import Logo from '../images/Logo'
 import Socials from './Socials'
 import Contact from './Contact'
+import CTA from '../CTA'
 
 export default function Media(footer) {
 
@@ -26,6 +27,14 @@ export default function Media(footer) {
         }
     }
 
+      function renderCTA() {
+            if (footer.nav.cta !== undefined) {
+                return (
+                    <CTA {...footer.nav} />
+                )
+            }
+        }
+
     return (
         <Col xl={3} className="media">
             <Link href="/">
@@ -33,6 +42,8 @@ export default function Media(footer) {
             </Link>
             {renderLicense()}
             <Socials {...footer} />
+            
+            {renderCTA()}
         </Col>
     )
 }

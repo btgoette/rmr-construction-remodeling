@@ -1,4 +1,4 @@
-/* Residential Services Page */
+/* Concrete Services Page */
 
 // React Compontents
 import React, { useState } from 'react';
@@ -9,10 +9,10 @@ import Link from 'next/link'
 import { Head, CustomHero, Cards, Figure } from '@/components'
 
 // Custom Content
-import content from 'public/content/en_US/pages/services/residential.content'
+import content from 'public/content/en_US/pages/services/concrete.content'
 import image from 'public/content/en_US/components/image.content'
 
-export default function ResidentialServices() {
+export default function ConcreteServices() {
 
     return (
         <>
@@ -23,7 +23,7 @@ export default function ResidentialServices() {
             <section>
                 <Container>
                     <div className="d-block d-lg-none mb-5">
-                        <h2>Residential <span>Roofing</span></h2>
+                        <h2>Concrete <span>Roofing</span></h2>
                         <h4>Protect Your Home <span>with Reliable Roofing Solutions</span></h4>
                         <div className="border-line-center"></div>
                     </div>
@@ -33,7 +33,7 @@ export default function ResidentialServices() {
                         </Col>
                         <Col lg={{ order: 0, span: 6 }}>
                             <div className="d-none d-lg-block">
-                                <h2 className="text-start">Residential <span>Roofing</span></h2>
+                                <h2 className="text-start">Concrete <span>Roofing</span></h2>
                                 <h4 className="text-start">Protect Your Home <span>with Reliable Roofing Solutions</span></h4>
                                 <div className="border-line-start"></div>
                             </div>
@@ -45,9 +45,9 @@ export default function ResidentialServices() {
             </section>
 
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
-                    <h2>Superior Residential<br /><span>Roofing Services</span></h2>
+                    <h2>Superior Concrete<br /><span>Roofing Services</span></h2>
                     <div className="border-line-center"></div>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-lg-end">Roof Repairs</h3></Col>
@@ -80,7 +80,7 @@ export default function ResidentialServices() {
                 <Container>
                     <h2>Why Homeowners <br /><span>Trust RMR Construction & Remodeling</span></h2>
                     <div className="border-line-center"></div>
-                    <p>Since 1989, RMR Construction & Remodeling has been the trusted choice for residential roofing services in the Sacramento Valley and the surrounding areas. We are fully licensed and insured, and our skilled team brings extensive expertise to every roofing project. Whether it&rsquo;s a small roof repair or a complete roof replacement, we are committed to delivering exceptional quality, lasting value, and unparalleled customer care.</p>
+                    <p>Since 1989, RMR Construction & Remodeling has been the trusted choice for Concrete roofing services in the Sacramento Valley and the surrounding areas. We are fully licensed and insured, and our skilled team brings extensive expertise to every roofing project. Whether it&rsquo;s a small roof repair or a complete roof replacement, we are committed to delivering exceptional quality, lasting value, and unparalleled customer care.</p>
                 </Container>
             </section>
 

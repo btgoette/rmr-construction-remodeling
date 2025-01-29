@@ -241,7 +241,7 @@ $footer-thank-you-font-weight: 500;
 $footer-thank-you-letter-spacing: 0px;
 $footer-thank-you-text-transform: none;
 $footer-thank-you-url-font-color: $white;
-$footer-thank-you-max-width: 800px;
+$footer-thank-you-max-width: unset;
 
 $footer-thank-you-title-font-family: $header-font-family;
 $footer-thank-you-title-font-size: 2rem;
@@ -283,7 +283,7 @@ $hero-header-font-family: $header-font-family;
 $hero-text-transform: none;
 
 // Jumbotron
-$jumbotron-background: url("/images/backgrounds/jumbotron/rr-13.webp");
+$jumbotron-background: url("/images/backgrounds/jumbotron/jumbotron.webp");
 $jumbotron-border: none;
 $jumbotron-font-color: $white;
 $jumbotron-font-family: $header-font-family;
@@ -298,7 +298,7 @@ $logo-max-width: 250px;
 $nav-background: $black;
 $nav-border: none;
 $nav-font-color: $white;
-$nav-font-color-hover: $primary;
+$nav-font-color-hover: $white;
 $nav-font-family: $header-font-family;
 $nav-font-size: $body-font-size;
 $nav-font-weight: $body-font-weight;

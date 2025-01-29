@@ -1,4 +1,4 @@
-/* Roof Replacements Services Page */
+/* Patios Services Page */
 
 // React Compontents
 import React, { useState } from 'react';
@@ -9,10 +9,10 @@ import Link from 'next/link'
 import { Head, CustomHero, Cards, Figure } from '@/components'
 
 // Custom Content
-import content from 'public/content/en_US/pages/services/roofReplacements.content'
+import content from 'public/content/en_US/pages/services/patios.content'
 import image from 'public/content/en_US/components/image.content'
 
-export default function RoofReplacementsServices() {
+export default function PatiosServices() {
 
     return (
         <>
@@ -42,7 +42,7 @@ export default function RoofReplacementsServices() {
                 </Container>
             </section>
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
                     <h2>The Roof<br /><span>Replacement Process</span></h2>
                     <div className="border-line-center"></div>
@@ -74,7 +74,7 @@ export default function RoofReplacementsServices() {
                 </Container>
             </section>
 
-            <section className="bg-otis clip-right">
+            <section className="bg-concrete">
                 <Container>
                     <h2>Why Choose<br /><span>RMR Construction & Remodeling?</span></h2>
                     <div className="border-line-center"></div>

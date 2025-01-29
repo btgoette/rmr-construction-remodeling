@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function CustomJumbotron({ jumbotron }) {
     return (
-        <section id="headers" className="jumbotron clip-bottom-right">
+        <section id="headers" className="jumbotron">
             <div className="jumbotron-content">
                 <h3>{jumbotron.title3.map(({service}, index) => <span key={index}>{service}</span>)}</h3>
                 <h1>{jumbotron.title}&nbsp;<span>{jumbotron.title2}</span></h1>

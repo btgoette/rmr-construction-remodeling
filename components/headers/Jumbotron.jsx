@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function Jumbotron({ jumbotron }) {
     return (
-        <section id="headers" className="jumbotron clip-bottom-right">
+        <section id="headers" className="jumbotron">
             <div className="jumbotron-content">
                 <h1>{jumbotron.title}</h1>
                 <p>{jumbotron.text}</p>
