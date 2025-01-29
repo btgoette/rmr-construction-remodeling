@@ -4,15 +4,14 @@
         "description": "RMR Construction & Remodeling offers expert residential and commercial roofing services in Placer, El Dorado, and Sacramento Counties. From inspections and repairs to replacements and custom commercial solutions, our licensed team ensures quality, durability, and satisfaction since 1989.",
         "keywords": "residential roofing, commercial roofing, roof repairs, roof replacements, roof inspections, TPO roofing, metal roofing, modified bitumen, Placer County roofing, RMR Construction & Remodeling services",
         "href": "http://rmrconstructing.com/services/",
-        "location": "Granite Bay, CA",
+        "location": "Rio Linda, CA",
         "region": "US-CA",
         "image": "http://rmrconstructing.com/images/logos/logo.webp",
         "imageType": "image/webp",
         "robots": "INDEX, FOLLOW"
     },
     "hero": {
-        "title": "Our",
-        "title2": "Services"
+        "title": "Our Services"
     },
     "cardsOverlay": {
         "col": "4",
@@ -95,7 +94,7 @@
             },
             {
                 "name": "Denise R.",
-                "location": "Granite Bay, CA",
+                "location": "Rio Linda, CA",
                 "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=bx_lltvtA5NDbsm_CYQzRQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
                 "message": [
                     {

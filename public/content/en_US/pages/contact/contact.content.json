@@ -2,22 +2,25 @@
     "head": {
         "title": "Contact RMR Construction & Remodeling | Get Your Free Estimate",
         "description": "Reach out to RMR Construction & Remodeling for all your roofing needs. Contact us today for a free estimate, questions about services, or to discuss your next project. We’re ready to help!",
-        "keywords": "contact RMR Construction & Remodeling, free roofing estimate, roofing questions, roofing services, roof repairs, roof replacement, Granite Bay roofing, roofing experts, Jeff Vogt, roofing contact",
+        "keywords": "contact RMR Construction & Remodeling, free roofing estimate, roofing questions, roofing services, roof repairs, roof replacement, Rio Linda roofing, roofing experts, Jeff Vogt, roofing contact",
         "href": "http://rmrconstructing.com/contact/",
-        "location": "Granite Bay, CA",
+        "location": "Rio Linda, CA",
         "region": "US-CA",
         "image": "http://rmrconstructing.com/images/logos/logo.webp",
         "imageType": "image/webp",
         "robots": "INDEX, FOLLOW"
     },
     "hero": {
-        "title": "Contact",
-        "title2": "Us"
+        "title": "Contact"
     },
     "contact": {
         "col": "6",
         "companyName": "RMR Construction & Remodeling",
         "phone": "916-533-4758",
-        "email": "rmrconstructing@yahoo.com"
+        "email": "rmrconstructing@yahoo.com",
+        "openClose": {
+            "days": "Monday - Saturday",
+            "hours": "7:00 AM - 5:00 PM"
+        }
     }
 }
