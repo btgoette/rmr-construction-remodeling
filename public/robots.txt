@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:  
-Sitemap: https://rsvlroofing.com/sitemap.xml
+Sitemap: https://rmrconstructing.com/sitemap.xml

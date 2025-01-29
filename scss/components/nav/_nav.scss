@@ -27,6 +27,8 @@
     .offcanvas {
         .offcanvas-body {
             .navbar-nav {
+                gap: 1.5rem;
+
                 .nav-link {
                     color: $nav-font-color;
                     font-family: $nav-font-family;
@@ -35,14 +37,14 @@
                     letter-spacing: $nav-letter-spacing;
                     line-height: calc($nav-font-size * 1.5);
                     text-transform: $nav-text-transform;
-                    border-bottom: 2px solid $white;
+                    border-bottom: 2px solid $black;
                     padding: 0 0;
                     margin: 0 .5rem;
 
                     &:hover {
                         color: $nav-font-color-hover !important;
-                        border-color: $primary;
-                        transition: .5s;
+                        border-bottom: 2px solid $primary;
+                        transition: .35s;
                     }
                 }
 

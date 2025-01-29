@@ -10,10 +10,10 @@ export default function ThankYou({ thankYou }) {
             <Container className="p-1">
                 <div className="thank-you-block">
                     <p className="title">
-                        {thankYou.title}
+                    Our goal is to build your trust and earn your business for years to come.
                     </p>
                     <p className="text">
-                        {thankYou.text.p}<Link href={"tel:" + thankYou.text.phone}>{thankYou.text.phone}</Link> or fill out our <Link href={thankYou.text.url}>online form</Link> to schedule your consultation.<br /> Your roof is an investment – trust Roseville Roofing to deliver real value and outstanding results.
+                    Contact RMR Construction & Remodeling to request an estimate, today.  For your convenience, you can <Link href="contact">request services</Link> from this site. 
                     </p>
                 </div>
             </Container>

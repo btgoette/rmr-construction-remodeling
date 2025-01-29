@@ -35,7 +35,7 @@ export default function Home() {
                 <h2 className="text-start">About <span>Us</span></h2>
                 <div className="border-line-start"></div>
               </div>
-              <p>For over three decades, Roseville Roofing has been the trusted roofing provider in Sacramento, CA, and surrounding areas. Established in 1989, we bring unparalleled expertise to every project, serving both residential and commercial clients across El Dorado, Placer, and Sacramento Counties. Our deep understanding of California&rsquo;s climate challenges, from intense summer heat to heavy storms, enables us to deliver roofing solutions designed for long-term performance. When you choose Roseville Roofing, you are partnering with a team dedicated to craftsmanship, reliability, and customer satisfaction.</p>
+              <p>For over three decades, RMR Construction & Remodeling has been the trusted roofing provider in Sacramento, CA, and surrounding areas. Established in 1989, we bring unparalleled expertise to every project, serving both residential and commercial clients across El Dorado, Placer, and Sacramento Counties. Our deep understanding of California&rsquo;s climate challenges, from intense summer heat to heavy storms, enables us to deliver roofing solutions designed for long-term performance. When you choose RMR Construction & Remodeling, you are partnering with a team dedicated to craftsmanship, reliability, and customer satisfaction.</p>
               <p className="mt-5">
                 <Button as={Link} href="/about/" variant="primary">Learn More</Button>
               </p>
@@ -44,13 +44,13 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-otis clip-right">
+      <section className="bg-concrete">
         <Container>
-          <h2>Why choose <br /><span>Roseville Roofing?</span></h2>
+          <h2>Why choose <br /><span>RMR Construction & Remodeling?</span></h2>
           <div className="border-line-center"></div>
           <Row className="align-items-center py-2">
             <Col lg={5}><h3 className="text-start text-lg-end">Commitment to Excellence</h3></Col>
-            <Col lg={7}><p className="border-left" data-aos="fade-up">At Roseville Roofing, we are dedicated to exceeding customer expectations on every project. Our focus on delivering exceptional service ensures that your roofing needs are met with precision and care.</p></Col>
+            <Col lg={7}><p className="border-left" data-aos="fade-up">At RMR Construction & Remodeling, we are dedicated to exceeding customer expectations on every project. Our focus on delivering exceptional service ensures that your roofing needs are met with precision and care.</p></Col>
           </Row>
           <Row className="align-items-center py-2">
             <Col lg={5}><h3 className="text-start text-lg-end">Unmatched Quality</h3></Col>
@@ -71,7 +71,7 @@ export default function Home() {
         <Container>
           <h2>Our <span>Services</span></h2>
           <div className="border-line-center"></div>
-          <p className="text-center mx-w-lg">Roseville Roofing offers a full range of roofing services designed to meet the specific needs of both residential and commercial properties. Whether it&rsquo;s minor repairs or a complete roof replacement, our team provides solutions that combine durability, style, and value to ensure your property is well-protected and visually appealing.</p>
+          <p className="text-center mx-w-lg">RMR Construction & Remodeling offers a full range of roofing services designed to meet the specific needs of both residential and commercial properties. Whether it&rsquo;s minor repairs or a complete roof replacement, our team provides solutions that combine durability, style, and value to ensure your property is well-protected and visually appealing.</p>
           <CardsSlider {...content} />
         </Container>
       </section>
@@ -92,11 +92,11 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="bg-otis">
+      <section className="bg-concrete">
         <Container>
           <h2>Our Recent <span>Projects</span></h2>
           <div className="border-line-center"></div>
-          <p className="text-center mx-w-lg mb-4">Roseville Roofing delivers exceptional roofing solutions with outstanding craftsmanship and attention to detail, ensuring durability, style, and the highest standards for both residential and commercial properties.</p>
+          <p className="text-center mx-w-lg mb-4">RMR Construction & Remodeling delivers exceptional roofing solutions with outstanding craftsmanship and attention to detail, ensuring durability, style, and the highest standards for both residential and commercial properties.</p>
           <CustomGalleryGrid {...content} />
           <p className="text-center">
             <Button as={Link} href="/gallery/recent-projects/" variant="primary">Explore More</Button></p>

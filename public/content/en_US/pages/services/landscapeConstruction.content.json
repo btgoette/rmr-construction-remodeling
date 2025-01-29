@@ -1,0 +1,17 @@
+{
+    "head": {
+        "title": "Expert Commercial Roofing Services | RMR Construction & Remodeling",
+        "description": "RMR Construction & Remodeling has provided reliable commercial roofing solutions since 1989. Serving offices, schools, warehouses, and more, we specialize in repairs, replacements, installations, and maintenance. Protect your business with durable, high-quality roofing tailored to your needs.",
+        "keywords": "commercial roofing, roof repairs, roof replacements, new roof installations, roof maintenance, TPO roofing, PVC roofing, EPDM roofing, metal roofing, RMR Construction & Remodeling, industrial roofing, retail roofing, Sacramento commercial roofing",
+        "href": "http://rmrconstructing.com/services/commercial/",
+        "location": "Granite Bay, CA",
+        "region": "US-CA",
+        "image": "http://rmrconstructing.com/images/logos/logo.webp",
+        "imageType": "image/webp",
+        "robots": "INDEX, FOLLOW"
+    },
+    "hero": {
+        "title": "Commercial",
+        "title2": "Services"
+    }
+}
