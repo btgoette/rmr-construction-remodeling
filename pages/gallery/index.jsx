@@ -9,7 +9,7 @@ import Script from 'next/script'
 import { Head, CustomHero, GalleryGrid, Figure } from '@/components'
 
 // Custom Content
-import content from 'public/content/en_US/pages/gallery/recentProjects.content'
+import content from 'public/content/en_US/pages/gallery/gallery.content'
 
 export default function RecentProjectsPage() {
 
