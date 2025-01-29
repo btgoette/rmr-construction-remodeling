@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import JotformEmbed from 'react-jotform-embed';
 
 // Custom Components
-import { Head, CustomHero, ContactInfo, Figure } from '@/components'
+import { Head, Hero, ContactInfo, Figure } from '@/components'
 
 // Custom Content
 import content from 'public/content/en_US/pages/contact/contact.content'
@@ -18,7 +18,7 @@ export default function Contact() {
         <>
 
             <Head {...content} />
-            <CustomHero {...content} />
+            <Hero {...content} />
 
             <section>
                 <Container>

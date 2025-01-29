@@ -6,7 +6,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Link from 'next/link';
 
 // Custom Components
-import { Head, CustomHero, CardsOverlay, Figure } from '@/components'
+import { Head, Hero, CardsOverlay, Figure } from '@/components'
 
 // Custom Content
 import content from 'public/content/en_US/pages/services/services.content'
@@ -18,7 +18,7 @@ export default function Services() {
         <>
 
             <Head {...content} />
-            <CustomHero {...content} />
+            <Hero {...content} />
 
             <section>
                 <Container>

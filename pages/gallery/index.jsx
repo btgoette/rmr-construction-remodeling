@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Script from 'next/script'
 
 // Custom Components
-import { Head, CustomHero, GalleryGrid, Figure } from '@/components'
+import { Head, Hero, GalleryGrid, Figure } from '@/components'
 
 // Custom Content
 import content from 'public/content/en_US/pages/gallery/gallery.content'
@@ -17,7 +17,7 @@ export default function RecentProjectsPage() {
         <>
 
             <Head {...content} />
-            <CustomHero {...content} />
+            <Hero {...content} />
 
             <section>
                 <Container>

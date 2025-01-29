@@ -6,7 +6,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Link from 'next/link'
 
 // Custom Components
-import { Head, CustomHero, Cards, Figure } from '@/components'
+import { Head, Hero, Cards, Figure } from '@/components'
 
 // Custom Content
 import content from 'public/content/en_US/pages/services/concrete.content'
@@ -18,7 +18,7 @@ export default function ConcreteServices() {
         <>
 
             <Head {...content} />
-            <CustomHero {...content} />
+            <Hero {...content} />
 
             <section>
                 <Container>
@@ -91,7 +91,7 @@ export default function ConcreteServices() {
                             <h2 className="mt-0 text-start border-bottom">Your Local<br /><span>Roofing Experts</span></h2>
                         </Col>
                         <Col lg={6}>
-                            <p>Our service areas include Auburn, Carmichael, Citrus Heights, Davis, Fair Oaks, Folsom, Granite Bay, Loomis, Rocklin, Roseville, and Sacramento. From roof repairs to new installations, RMR Construction & Remodeling is dedicated to protecting your home with craftsmanship you can count on. Contact us for a free estimate and reliable roofing solutions to protect your home.</p>
+                            <p>Our service areas include Auburn, Carmichael, Citrus Heights, Davis, Fair Oaks, Folsom, Rio Linda, Loomis, Rocklin, Roseville, and Sacramento. From roof repairs to new installations, RMR Construction & Remodeling is dedicated to protecting your home with craftsmanship you can count on. Contact us for a free estimate and reliable roofing solutions to protect your home.</p>
                             <p className="my-4">
                                 <Button as={Link} href="/contact/" variant="primary">Free Estimates</Button>
                             </p>

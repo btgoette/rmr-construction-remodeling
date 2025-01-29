@@ -6,7 +6,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Link from 'next/link'
 
 // Custom Components
-import { Head, CustomHero, Cards, Figure } from '@/components'
+import { Head, Hero, Cards, Figure } from '@/components'
 
 // Custom Content
 import content from 'public/content/en_US/pages/services/landscapeConstruction.content'
@@ -18,7 +18,7 @@ export default function LandscapeConstructionServices() {
         <>
 
             <Head {...content} />
-            <CustomHero {...content} />
+            <Hero {...content} />
 
             <section>
                 <Container>
