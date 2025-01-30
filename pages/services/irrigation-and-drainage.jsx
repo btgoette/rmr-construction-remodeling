@@ -20,104 +20,70 @@ export default function IrrigationAndDrainage() {
             <Head {...content} />
             <Hero {...content} />
 
-            <section>
-                <Container>
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Roseville <span>Roofing</span></h2>
-                        <h4>Your Trusted <span>Commercial Roofing Partner</span></h4>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 0, span: 6 }}>
-                            <Figure className="left-shadow" {...image.figure[70]} />
-                        </Col>
-                        <Col lg={{ order: 1, span: 6 }}>
-                            <div className="d-none d-lg-block">
-                                <h2 className="text-start">Roseville <span>Roofing</span></h2>
-                                <h4 className="text-start">Your Trusted <span>Commercial Roofing Partner</span></h4>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>For over 30 years, RMR Construction & Remodeling has been the trusted choice for exceptional commercial roofing solutions. Whether you&rsquo;re managing a small retail shop or a large industrial facility, we deliver reliable, high-quality roofing services tailored to your business&rsquo;s unique needs.</p>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className="bg-concrete">
-                <Container>
-                    <h2>Comprehensive Commercial<br /><span>Roofing Services</span></h2>
-                    <div className="border-line-center"></div>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Roof Replacement</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Replacing your commercial roof is a major investment. We offer industry-specific roofing options designed to fit your building&rsquo;s architecture and operational requirements.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Roof Repairs</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Our skilled team delivers prompt, professional roof repair services to address leaks, storm damage, and roof wear. Emergency repairs are available to keep your operations running smoothly.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">New Roof Installation</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Selecting the right roof for new construction is crucial. Our experts guide you through the process, ensuring your building is equipped with a durable, efficient roofing system.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Roof Maintenance</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Regular maintenance extends the life of your roof and prevents costly issues. We provide thorough maintenance programs to ensure your roof stays in peak condition.</p></Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section>
-                <Container>
-                    <h2>Dependable<br /><span>Commercial Roofing Solutions</span></h2>
-                    <div className="border-line-center"></div>
-                    <p>Our team specializes in a variety of commercial roofing systems designed to protect your investment and enhance your property&rsquo;s durability. From single-ply membranes like TPO, PVC, and EPDM to metal standing seam, slate, concrete tile, and composition shingles, we have the expertise to handle it all.</p>
-                    <p>We also ensure your roof complies with manufacturer warranty requirements by offering expert roof maintenance and roof repair services, protecting your investment for years to come.</p>
-                </Container>
-            </section>
-
-            <section className="bg-concrete">
-                <Container>
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Commercial<br /><span>Markets Served</span></h2>
-                        <div className="border-line-center"></div>
-                    </div>
-
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 1, span: 6 }}>
-                            <Figure className="right-shadow" {...image.figure[65]} />
-                        </Col>
-                        <Col lg={{ order: 0, span: 6 }}>
-                            <div className="d-none d-lg-block">
-                                <h2 className="text-start">Commercial<br /><span>Markets Served</span></h2>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>RMR Construction & Remodeling is proud to partner with a variety of industries, providing roofing solutions tailored to their specific needs:</p>
-                            <div className="d-flex flex-wrap">
-                                <ul>
-                                    <li>Offices</li>
-                                    <li>Schools & Educational Facilities</li>
-                                    <li>Apartment Complexes</li>
-                                    <li>Industrial & Retail Spaces</li>
-                                </ul>
-                                <ul>
-                                    <li>Medical Facilities</li>
-                                    <li>Municipal Buildings</li>
-                                    <li>Religious Organizations</li>
-                                    <li>Airports & Warehouses</li>
-                                </ul>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section>
-                <Container>
-                    <h2>Experience the<br /><span>RMR Construction & Remodeling Advantage</span></h2>
-                    <div className="border-line-center"></div>
-                    <p>Since 1989, RMR Construction & Remodeling has earned a reputation for quality, reliability, and outstanding customer service. Whether you need a roof repair, roof replacement, new roof installation, or ongoing roof maintenance, our team is committed to protecting your business with roofing solutions that deliver long-lasting value.</p>
-                </Container>
-            </section>
-        </>
-    )
-}
+           <section>
+                           <Container>
+                               <h2>Landscape Construction in Placer & Sacramento County</h2>
+                               <p>Transform your outdoor space with expert craftsmanship and high-quality materials. At RMR Construction & Remodeling, we specialize in landscape construction that enhances both the beauty and functionality of your property. From durable hardscapes to custom-built outdoor features, we bring your vision to life with precision and care.</p>
+                           </Container>
+                       </section>
+           
+                       <section>
+                           <Container>
+                               <h2>Our Landscape Construction Services</h2>
+           
+                               <h3>Driveways</h3>
+                               <p>Make a lasting first impression with a custom-designed driveway. We use premium materials such as concrete pavers, natural stone, and poured concrete to create driveways that are both stylish and durable.</p>
+           
+                               <h3>Patios</h3>
+                               <p>Create an inviting outdoor space with a custom patio. Choose from stone pavers, stamped concrete, or brushed concrete to match your style and enhance your backyard’s functionality.</p>
+           
+                               <h3>Walkways</h3>
+                               <p>Enhance safety and accessibility with professionally installed walkways. We offer paver and concrete walkways designed to complement your landscaping while providing a durable, slip-resistant surface.</p>
+           
+                               <h3>Outdoor Steps</h3>
+                               <p>Connect different levels of your yard with beautifully crafted outdoor steps made from flagstone, Silvermist stone, or concrete pavers. Functional and visually appealing, they ensure smooth transitions between spaces.</p>
+           
+                               <h3>Fire Pits</h3>
+                               <p>Add warmth and ambiance to your backyard with a custom-built fire pit. Available in round or square designs, our fire pits are crafted from natural or paving stones and can be wood-burning or gas-powered.</p>
+           
+                               <h3>Outdoor Fireplaces</h3>
+                               <p>For a dramatic and cozy outdoor feature, choose a custom outdoor fireplace. Built with high-quality materials, these fireplaces provide warmth, elegance, and a focal point for your outdoor space.</p>
+           
+                               <h3>Outdoor Kitchens</h3>
+                               <p>Take your cooking outdoors with a fully equipped custom outdoor kitchen. Our designs include grills, pizza ovens, smokers, and stone countertops, giving you a perfect space for entertaining.</p>
+           
+                               <h3>Retaining Walls</h3>
+                               <p>Control erosion while adding structure and beauty with a custom retaining wall. Our walls, made from stackable blocks, paver blocks, or natural stone, can also incorporate raised planter beds for added appeal.</p>
+           
+                               <h3>Seating Walls</h3>
+                               <p>Maximize seating options with a built-in seating wall. Made from durable stone or concrete blocks, these walls provide a stylish and long-lasting solution for outdoor gatherings.</p>
+           
+                               <h3>Artificial Turf</h3>
+                               <p>Enjoy lush, green grass year-round without the maintenance. Our artificial turf installations are ideal for landscaping accents, play areas, and putting greens.</p>
+           
+                               <h3>Landscape Lighting</h3>
+                               <p>Illuminate your outdoor space with low-voltage LED lighting. Our energy-efficient lighting solutions highlight your landscape’s best features and enhance nighttime safety.</p>
+           
+                               <h3>Pergolas</h3>
+                               <p>Add shade and sophistication to your yard with a custom pergola. A perfect balance of style and function, pergolas create a beautiful setting for relaxation and entertainment.</p>
+           
+                               <h3>Pavilions</h3>
+                               <p>For complete shade and weather protection, opt for a custom pavilion. Whether for hosting guests or enjoying quiet outdoor time, our pavilions provide elegant and durable coverage.</p>
+           
+                               <h3>Arbors</h3>
+                               <p>Frame your garden or entrance with a charming arbor. Designed for beauty and shade, our custom arbors create an inviting focal point in any landscape.</p>
+                           </Container>
+                       </section>
+           
+                       <section>
+                           <Container>
+                               <h2>Start Your Outdoor Transformation Today!</h2>
+                               <p>At RMR Construction & Remodeling, we are passionate about turning outdoor dreams into reality. Our experienced team delivers exceptional craftsmanship and superior materials to ensure long-lasting beauty and functionality.</p>
+                               <p>Call us at (916) 533-4758 or email us to schedule a consultation today!</p>
+                           </Container>
+                       </section>
+           
+                   </>
+               )
+           }
+           

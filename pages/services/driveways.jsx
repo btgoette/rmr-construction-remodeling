@@ -22,80 +22,47 @@ export default function DrivewaysServices() {
 
             <section>
                 <Container>
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Professional<br /><span>Roof Inspections</span></h2>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 1, span: 6 }}>
-                            <Figure className="right-shadow" {...image.figure[50]} />
-                        </Col>
-                        <Col lg={{ order: 0, span: 6 }}>
-                            <div className="d-none d-lg-block">
-                                <h2 className="text-start">Professional<br /><span>Roof Inspections</span></h2>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>If your roof showing signs of damage after a storm or simply reaching the end of its lifespan, don&rsquo;t wait for problems to worsen to schedule a professional roof inspection with RMR Construction & Remodeling. Since 1989, we&rsquo;ve been providing expert evaluations to ensure roofs remain in optimal condition. If issues are discovered, we deliver a detailed report and guide you through the best solutions to protect your property.</p>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className="bg-concrete">
-                <Container>
-                    <h2>Complete Roof<br /><span>Inspection Process</span></h2>
-                    <div className="border-line-center"></div>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Visual Examination</h3></Col>
-                        <Col lg={7}><p className="border-left">Our inspectors thoroughly examine shingles, tiles, flashing, and other materials for signs of wear, damage, or aging.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Structural Assessment</h3></Col>
-                        <Col lg={7}><p className="border-left">We inspect your roof&rsquo;s decking, attic, and ventilation systems to identify hidden issues affecting its stability and performance.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Leak Detection</h3></Col>
-                        <Col lg={7}><p className="border-left">Using advanced methods, we locate leaks and water damage, addressing vulnerabilities before they cause significant harm.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Gutter & Downspout Check</h3></Col>
-                        <Col lg={7}><p className="border-left">We inspect drainage systems for blockages or damage that could compromise your roof&rsquo;s health.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Storm Damage Evaluation</h3></Col>
-                        <Col lg={7}><p className="border-left">After severe weather, we assess your roof for wind, hail, or storm-related damage and provide a comprehensive report.</p></Col>
-                    </Row>
+                    <h2>High-Quality Concrete Driveways in Roseville, CA</h2>
+                    <p>Your driveway is more than just a place to park—it’s a key feature of your home’s curb appeal and functionality. At RMR Construction & Remodeling, we specialize in designing and installing durable, visually stunning concrete driveways that enhance the beauty and value of your property. Whether you're building a new driveway, need repairs, or want to upgrade your existing surface with a decorative overlay, our expert team is here to deliver superior craftsmanship.</p>
                 </Container>
             </section>
 
             <section>
                 <Container>
-                    <h2>Insurance <span>Claim Assistance</span></h2>
-                    <div className="border-line-center"></div>
-                    <p>Navigating insurance claims can be overwhelming, but RMR Construction & Remodeling is here to help. From accurate documentation to expert guidance, we streamline the process to ensure you receive the compensation you deserve.</p>
+                    <h2>Custom Driveway Designs to Suit Your Home</h2>
+                    <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. From classic poured concrete to decorative stamped finishes, we create stylish, slip-resistant driveways that provide long-lasting durability and enhanced tire grip for safety in wet conditions.</p>
+
                     <ul>
-                        <li>Expert documentation to support claims</li>
-                        <li>Assistance with filing and communicating with insurers</li>
-                        <li>Advocacy to secure maximum benefits</li>
+                        <li><strong>Stamped Concrete –</strong> Mimic the look of brick, stone, or pavers for an elegant finish.</li>
+                        <li><strong>Poured Concrete –</strong> A seamless, modern surface for a clean, polished look.</li>
+                        <li><strong>Custom Patterns & Colors –</strong> Personalize your driveway with unique designs and finishes.</li>
                     </ul>
                 </Container>
             </section>
 
-            <section className="bg-home">
+            <section>
                 <Container>
-                    <Row className="align-items-center">
-                        <Col lg={6}>
-                            <h2 className="mt-0 text-start border-bottom">Schedule Your<br /> <span>Inspection Today!</span></h2>
-                        </Col>
-                        <Col lg={6}>
-                            <p>Don&rsquo;t leave your property unprotected. Whether you&rsquo;re addressing storm damage or planning preventative maintenance, RMR Construction & Remodeling is your trusted partner. Contact us today for a thorough roof inspection and take the first step in safeguarding your home or business.</p>
-                            <p className="my-4">
-                                <Button as={Link} href="/contact/" variant="primary">Schedule Your Free Consultation</Button>
-                            </p>
-                        </Col>
-                    </Row>
+                    <h2>Why Choose a Concrete Driveway?</h2>
+                    <p>When comparing concrete, asphalt, brick, or stone, concrete offers the best combination of durability, affordability, and aesthetics:</p>
+                    <ul>
+                        <li><strong>Cost-Effective –</strong> More budget-friendly than brick or natural stone.</li>
+                        <li><strong>Low Maintenance –</strong> Minimal upkeep compared to other materials.</li>
+                        <li><strong>Long-Lasting –</strong> Can last up to 50 years with proper care.</li>
+                        <li><strong>Heavy Load Support –</strong> Withstands high traffic and heavy vehicles.</li>
+                        <li><strong>Cooler Surface –</strong> Reflects sunlight, reducing heat absorption.</li>
+                        <li><strong>Better Traction –</strong> Provides superior grip, even in wet weather.</li>
+                    </ul>
                 </Container>
             </section>
+
+            <section>
+                <Container>
+                    <h2>Your Trusted Concrete Driveway Contractor in Placer County</h2>
+                    <p>At RMR Construction & Remodeling, we take pride in our exceptional craftsmanship, honesty, and customer satisfaction. Whether you need a new driveway installation, concrete repairs, or a decorative overlay, we are here to help.</p>
+                    <p>Contact us today for a free consultation and let’s transform your driveway into a stunning, functional entryway to your home.</p>
+                </Container>
+            </section>
+
         </>
     )
 }

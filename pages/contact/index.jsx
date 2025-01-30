@@ -22,9 +22,11 @@ export default function Contact() {
 
             <section>
                 <Container>
-                    <h2>Get in Touch<br /><span>with RMR Construction & Remodeling</span></h2>
-                    <div className="border-line-center"></div>
-                    <p className="mb-5">At RMR Construction & Remodeling, we are here to assist with all your roofing needs. Whether you&rsquo;re ready to schedule a free, no-obligation estimate, have questions about our services, or would like to discuss your next roofing project, our team is always just a call or click away. Use the form below to request your complimentary roofing estimate or find our contact details for fast and efficient assistance. We are committed to helping you build a stronger, safer roof that will protect your home or business for years to come!</p>
+                    <h2>Contact RMR Construction & Remodeling</h2>
+                   
+                    <p>At RMR Construction & Remodeling, we are dedicated to providing exceptional service and making it easy for you to connect with us. Whether you have questions, need expert advice, or would like to request an estimate, we're here to help.</p>
+                    <p>For immediate assistance, call us at 916-533-4758.</p>
+                    <p>You can also use the contact form below to request a quote directly from our website. We look forward to bringing your vision to life!</p>
              
                     <Row>
                         <ContactInfo {...content} />

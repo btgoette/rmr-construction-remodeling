@@ -22,119 +22,59 @@ export default function Services() {
 
             <section>
                 <Container>
-                    <h2>Your Trusted <span>Roofing Partner</span></h2>
-                    <div className="border-line-center"></div>
-                    <p className="mb-5">Since 1989, RMR Construction & Remodeling has proudly served Placer, El Dorado, and Sacramento Counties with exceptional roofing solutions. We cater to both residential and commercial clients, offering fully licensed and insured services backed by decades of expertise. Here&rsquo;s an overview of what we provide:</p>
+                    <h2>Expert Outdoor Construction & Landscaping Services</h2>
+                    <p>Transform your backyard into a stunning, functional space where you can relax, entertain, and create lasting memories. At RMR Construction & Remodeling, we specialize in designing and building outdoor environments that enhance your home’s beauty, comfort, and value. Whether you’re looking for elegant hardscaping, custom outdoor structures, or durable concrete solutions, we bring expertise and craftsmanship to every project.</p>
+                </Container>
+            </section>
 
-                    <div className="d-block d-lg-none my-5">
-                        <h2>Residential <span>Roofing</span></h2>
-                        <h4>Protect Your Home <span>With Confidence</span></h4>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 0, span: 4 }}>
-                            <Figure className="left-shadow" {...image.figure[135]} />
-                        </Col>
-                        <Col lg={{ order: 1, span: 8 }}>
-                            <div className="d-none d-lg-block">
-                                <h3 className="text-start">Residential <span className="text-primary">Roofing</span></h3>
-                                <h4 className="text-start">Protect Your Home <span>With Confidence</span></h4>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>From minor roof repairs to full roof replacements, we deliver expert residential roofing services that combine durability, functionality, and aesthetic appeal. Using premium materials and skilled craftsmanship, we ensure your roof stands strong against the elements while enhancing your home&rsquo;s value.</p>
-                            <p className="my-4">
-                                <Button as={Link} href="/services/residential/" variant="primary">Learn More</Button>
-                            </p>
-                        </Col>
-                    </Row>
+            <section>
+                <Container>
+                    <h2>Our Comprehensive Services</h2>
 
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Roof <span>Repairs</span></h2>
-                        <h4>Quick, Reliable <span>Fixes for Any Issue</span></h4>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 1, span: 4 }}>
-                            <Figure className="right-shadow" {...image.figure[148]} />
-                        </Col>
-                        <Col lg={{ order: 0, span: 8 }}>
-                            <div className="d-none d-lg-block">
-                                <h3 className="text-start">Roof <span className="text-primary">Repairs</span></h3>
-                                <h4 className="text-start">Quick, Reliable <span>Fixes for Any Issue</span></h4>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>Whether dealing with roof leaks, storm damage, or general wear and tear, our roof repair services restore your roof&rsquo;s integrity with precision. We focus on lasting results, so your home or business stays safe and secure.</p>
-                            <p className="my-4">
-                                <Button as={Link} href="/services/roof-repairs/" variant="primary">Learn More</Button>
-                            </p>
-                        </Col>
-                    </Row>
+                    <h3>Landscape Construction</h3>
+                    <p>From concept to completion, we offer full-scale landscape design and construction services tailored to homeowners in Placer and Sacramento County. Whether you envision a serene garden, a modern patio, or a fully equipped outdoor kitchen, we’ll make it a reality.</p>
 
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Roof <span>Replacements</span></h2>
-                        <h4>Upgrade for <span>Long-Term Performance</span></h4>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 0, span: 4 }}>
-                            <Figure className="left-shadow" {...image.figure[141]} />
-                        </Col>
-                        <Col lg={{ order: 1, span: 8 }}>
-                            <div className="d-none d-lg-block">
-                                <h3 className="text-start">Roof <span className="text-primary">Replacements</span></h3>
-                                <h4 className="text-start">Upgrade for <span>Long-Term Performance</span></h4>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>When it&rsquo;s time for a new roof, we make the process seamless. Our team evaluates your needs, recommends the best materials, and completes the replacement efficiently—improving your property&rsquo;s appearance, value, and protection.</p>
-                            <p className="my-4">
-                                <Button as={Link} href="/services/roof-replacements/" variant="primary">Learn More</Button>
-                            </p>
-                        </Col>
-                    </Row>
+                    <h3>Concrete Services</h3>
+                    <p>RMR Construction & Remodeling delivers top-notch concrete solutions and expert craftsmanship. From driveways and walkways to patios and pool decks, we provide a wide range of concrete services.</p>
 
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Roof <span>Inspections</span></h2>
-                        <h4>Prevent Problems <span>Before They Start</span></h4>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 1, span: 4 }}>
-                            <Figure className="right-shadow" {...image.figure[39]} />
-                        </Col>
-                        <Col lg={{ order: 0, span: 8 }}>
-                            <div className="d-none d-lg-block">
-                                <h3 className="text-start">Roof <span className="text-primary">Inspections</span></h3>
-                                <h4 className="text-start">Prevent Problems <span>Before They Start</span></h4>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>Extend your roof&rsquo;s lifespan with our roofing maintenance services. Regular roof inspections, cleanings, and minor roof repairs ensure your roof stays in top condition while avoiding costly roof repairs down the road.</p>
-                            <p className="my-4">
-                                <Button as={Link} href="/services/roof-inspections/" variant="primary">Learn More</Button>
-                            </p>
-                        </Col>
-                    </Row>
+                    <h3>Stamped & Stained Concrete</h3>
+                    <p>Upgrade your outdoor surfaces with decorative concrete solutions that combine style, strength, and affordability. Stamped or stained concrete mimics high-end materials like stone and brick while providing long-lasting durability.</p>
 
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Commercial <span>Roofing</span></h2>
-                        <h4>Solutions <span>Built for Business</span></h4>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 0, span: 4 }}>
-                            <Figure className="left-shadow" {...image.figure[62]} />
-                        </Col>
-                        <Col lg={{ order: 1, span: 8 }}>
-                            <div className="d-none d-lg-block">
-                                <h3 className="text-start">Commercial <span className="text-primary">Roofing</span></h3>
-                                <h4 className="text-start">Solutions <span>Built For Business</span></h4>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>We specialize in low-slope, TPO (Thermoplastic Olefin), metal, and modified bitumen roofing systems tailored to meet your business&rsquo;s needs. Our commercial roofing services prioritize quality, durability, and compliance, protecting your investment and minimizing disruption.</p>
-                            <p className="my-4">
-                                <Button as={Link} href="/services/commercial/" variant="primary">Learn More</Button>
-                            </p>
-                        </Col>
-                    </Row>
+                    <h3>Artificial Turf Installation</h3>
+                    <p>Say goodbye to mowing and watering with our low-maintenance, eco-friendly artificial turf solutions. Our high-quality turf looks and feels like real grass, providing a lush, green lawn year-round.</p>
+
+                    <h3>Custom Wood Structures</h3>
+                    <p>Enhance the privacy and aesthetics of your outdoor space with custom-designed wood structures. Whether it is a fence, pergola, arbor, or deck, we'll create the perfect addition to your yard.</p>
+
+                    <h3>Outdoor Fireplaces & Kitchens</h3>
+                    <p>Create the perfect setting for entertaining with a custom outdoor kitchen, fire pit, or fireplace. Whether you're hosting a barbecue or enjoying a cozy evening outdoors, we’ll design a space that fits your lifestyle.</p>
+
+                    <h3>Driveways</h3>
+                    <p>Your driveway is more than just a parking spot, it's the first impression of your home. Let us create a stunning, durable driveway that makes a WOW statement to visitors and neighbors alike.</p>
+
+                    <h3>Drainage & Irrigation Solutions</h3>
+                    <p>Proper water management is essential for a healthy and beautiful yard. Our drainage and irrigation services protect your landscape from erosion and overwatering while ensuring your plants thrive.</p>
+
+                    <h3>Walkways</h3>
+                    <p>Professional walkway installation adds both charm and accessibility to your outdoor space. Whether you need a new walkway or an upgrade, we’re here to help.</p>
+
+                    <h3>Patio Installation</h3>
+                    <p>Looking for the ideal space for relaxation and entertainment? Our expert patio installation services create a perfect outdoor area for all your social gatherings.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Why Choose RMR Construction & Remodeling?</h2>
+                    <p>With years of experience and a commitment to quality, we take pride in creating outdoor spaces that are functional, visually stunning, and built to last. No matter the size or scope of your project, we are dedicated to exceeding expectations with expert craftsmanship and personalized service.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Let’s Bring Your Vision to Life</h2>
+                    <p>Ready to transform your outdoor space? Contact RMR Construction & Remodeling today to discuss your project or schedule an estimate.</p>
+                    <p>Call us at 916-533-4758 to get started!</p>
                 </Container>
             </section>
 
