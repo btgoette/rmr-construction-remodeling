@@ -9,7 +9,7 @@ import content from "public/content/en_US/pages/error403.content"
 export default function Error403() {
   return (
     <div>
-      <CustomHero {...content} />
+      <Hero {...content} />
     </div>
   );
 }

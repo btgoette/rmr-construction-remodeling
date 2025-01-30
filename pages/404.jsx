@@ -9,7 +9,7 @@ import content from "public/content/en_US/pages/error404.content"
 export default function Error404() {
   return (
     <div>
-      <CustomHero {...content} />
+      <Hero {...content} />
     </div>
   );
 }

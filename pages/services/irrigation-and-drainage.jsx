@@ -6,7 +6,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Link from 'next/link'
 
 // Custom Components
-import { Head, CustomHero, Cards, Figure } from '@/components'
+import { Head, Hero, Cards, Figure } from '@/components'
 
 // Custom Content
 import content from 'public/content/en_US/pages/services/irrigationAndDrainage.content'
@@ -18,106 +18,90 @@ export default function IrrigationAndDrainage() {
         <>
 
             <Head {...content} />
-            <CustomHero {...content} />
+            <Hero {...content} />
 
             <section>
                 <Container>
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Roseville <span>Roofing</span></h2>
-                        <h4>Your Trusted <span>Commercial Roofing Partner</span></h4>
-                        <div className="border-line-center"></div>
-                    </div>
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 0, span: 6 }}>
-                            <Figure className="left-shadow" {...image.figure[70]} />
-                        </Col>
-                        <Col lg={{ order: 1, span: 6 }}>
-                            <div className="d-none d-lg-block">
-                                <h2 className="text-start">Roseville <span>Roofing</span></h2>
-                                <h4 className="text-start">Your Trusted <span>Commercial Roofing Partner</span></h4>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>For over 30 years, RMR Construction & Remodeling has been the trusted choice for exceptional commercial roofing solutions. Whether you&rsquo;re managing a small retail shop or a large industrial facility, we deliver reliable, high-quality roofing services tailored to your business&rsquo;s unique needs.</p>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-            <section className="bg-concrete">
-                <Container>
-                    <h2>Comprehensive Commercial<br /><span>Roofing Services</span></h2>
-                    <div className="border-line-center"></div>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Roof Replacement</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Replacing your commercial roof is a major investment. We offer industry-specific roofing options designed to fit your building&rsquo;s architecture and operational requirements.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Roof Repairs</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Our skilled team delivers prompt, professional roof repair services to address leaks, storm damage, and roof wear. Emergency repairs are available to keep your operations running smoothly.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">New Roof Installation</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Selecting the right roof for new construction is crucial. Our experts guide you through the process, ensuring your building is equipped with a durable, efficient roofing system.</p></Col>
-                    </Row>
-                    <Row className="align-items-center py-2">
-                        <Col lg={5}><h3 className="text-start text-lg-end">Roof Maintenance</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="flip-up">Regular maintenance extends the life of your roof and prevents costly issues. We provide thorough maintenance programs to ensure your roof stays in peak condition.</p></Col>
-                    </Row>
+                    <h2>Drainage & Irrigation Services in Roseville, CA</h2>
+                    <p>A well-designed irrigation and drainage system is essential for maintaining a beautiful, functional outdoor space in Northern California. At RMR Construction & Remodeling, we specialize in custom water management solutions that prevent pooling, runoff, and inefficient water distribution—ensuring your landscape remains healthy, sustainable, and visually appealing.</p>
+                    <p>With decades of experience, our team designs and installs precision irrigation systems to optimize water usage and drainage solutions that protect your property from water damage. Our goal is to enhance functionality and aesthetics, providing long-term benefits that make outdoor living effortless.</p>
                 </Container>
             </section>
 
             <section>
                 <Container>
-                    <h2>Dependable<br /><span>Commercial Roofing Solutions</span></h2>
-                    <div className="border-line-center"></div>
-                    <p>Our team specializes in a variety of commercial roofing systems designed to protect your investment and enhance your property&rsquo;s durability. From single-ply membranes like TPO, PVC, and EPDM to metal standing seam, slate, concrete tile, and composition shingles, we have the expertise to handle it all.</p>
-                    <p>We also ensure your roof complies with manufacturer warranty requirements by offering expert roof maintenance and roof repair services, protecting your investment for years to come.</p>
-                </Container>
-            </section>
-
-            <section className="bg-concrete">
-                <Container>
-                    <div className="d-block d-lg-none mb-5">
-                        <h2>Commercial<br /><span>Markets Served</span></h2>
-                        <div className="border-line-center"></div>
-                    </div>
-
-                    <Row className="align-items-center">
-                        <Col lg={{ order: 1, span: 6 }}>
-                            <Figure className="right-shadow" {...image.figure[65]} />
-                        </Col>
-                        <Col lg={{ order: 0, span: 6 }}>
-                            <div className="d-none d-lg-block">
-                                <h2 className="text-start">Commercial<br /><span>Markets Served</span></h2>
-                                <div className="border-line-start"></div>
-                            </div>
-                            <p>RMR Construction & Remodeling is proud to partner with a variety of industries, providing roofing solutions tailored to their specific needs:</p>
-                            <div className="d-flex flex-wrap">
-                                <ul>
-                                    <li>Offices</li>
-                                    <li>Schools & Educational Facilities</li>
-                                    <li>Apartment Complexes</li>
-                                    <li>Industrial & Retail Spaces</li>
-                                </ul>
-                                <ul>
-                                    <li>Medical Facilities</li>
-                                    <li>Municipal Buildings</li>
-                                    <li>Religious Organizations</li>
-                                    <li>Airports & Warehouses</li>
-                                </ul>
-                            </div>
-                        </Col>
-                    </Row>
+                    <h2>Expert Drainage Solutions in Roseville, CA</h2>
+                    <p>Poor drainage can lead to standing water, soil erosion, foundation damage, and even health hazards. Our expertly designed drainage systems eliminate these issues while seamlessly blending with your landscape.</p>
+                    <h3>Our Drainage Services Include:</h3>
+                    <ul>
+                        <li><strong>French Drains –</strong> Redirect excess water away from your property</li>
+                        <li><strong>Dry Creek Beds –</strong> Natural drainage solutions with visual appeal</li>
+                        <li><strong>Area Drains –</strong> Prevent water accumulation in low-lying areas</li>
+                        <li><strong>Retaining Walls –</strong> Manage soil erosion and stabilize slopes</li>
+                    </ul>
+                    <p>Beyond solving water issues, we transform problem areas into beautiful, functional outdoor spaces that enhance your property.</p>
                 </Container>
             </section>
 
             <section>
                 <Container>
-                    <h2>Experience the<br /><span>RMR Construction & Remodeling Advantage</span></h2>
-                    <div className="border-line-center"></div>
-                    <p>Since 1989, RMR Construction & Remodeling has earned a reputation for quality, reliability, and outstanding customer service. Whether you need a roof repair, roof replacement, new roof installation, or ongoing roof maintenance, our team is committed to protecting your business with roofing solutions that deliver long-lasting value.</p>
+                    <h2>Irrigation Services for Roseville & Surrounding Areas</h2>
+                    <p>A properly installed irrigation system ensures your lawn and garden receive the precise amount of water needed to thrive—without waste. Our irrigation experts provide custom solutions tailored to your property’s unique layout and plant needs.</p>
+                    <h3>Irrigation Services We Offer:</h3>
+                    <ul>
+                        <li><strong>Drip Irrigation Systems –</strong> Direct water to plant roots for maximum efficiency</li>
+                        <li><strong>Spray Head Irrigation –</strong> Ensure even coverage across lawns and gardens</li>
+                        <li><strong>Smart Irrigation Systems –</strong> Optimize water usage with advanced controls</li>
+                        <li><strong>Irrigation Repairs & Upgrades –</strong> Improve efficiency and performance</li>
+                    </ul>
+                    <p>By integrating modern irrigation technology, we help homeowners reduce water waste, lower utility costs, and maintain a lush, green landscape year-round.</p>
                 </Container>
             </section>
+
+            <section>
+                <Container>
+                    <h2>Why Invest in Professional Drainage & Irrigation Systems?</h2>
+                    <ul>
+                        <li><strong>Protect Your Property –</strong> Prevent foundation damage, erosion, and water pooling</li>
+                        <li><strong>Conserve Water –</strong> Precision irrigation minimizes waste and promotes sustainability</li>
+                        <li><strong>Enhance Landscape Health –</strong> Ensure plants and lawns receive the right amount of water</li>
+                        <li><strong>Reduce Maintenance –</strong> A well-planned system saves time and effort in lawn care</li>
+                    </ul>
+                    <p>With RMR Construction & Remodeling, you get expertly designed solutions tailored to your property’s topography, soil type, and climate—ensuring long-term efficiency and beauty.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Drip Irrigation Installation in Placer County, CA</h2>
+                    <p>Drip irrigation is one of the most water-efficient ways to keep your plants healthy. By delivering water directly to the root zone, it prevents overwatering, reduces water loss, and supports plant health.</p>
+                    <p>Our team designs custom drip irrigation systems for flower beds, gardens, and large landscapes, ensuring maximum efficiency and coverage. Say goodbye to wasted water and hello to a thriving, eco-friendly landscape.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Seamless Integration of Drainage & Irrigation</h2>
+                    <p>A truly successful landscape design combines efficient drainage with optimized irrigation. Our experts analyze your property’s topography, soil, and climate to create systems that:</p>
+                    <ul>
+                        <li>Direct excess water away from structures</li>
+                        <li>Ensure proper hydration for plants</li>
+                        <li>Prevent erosion and runoff</li>
+                        <li>Improve outdoor usability and aesthetics</li>
+                    </ul>
+                    <p>By integrating these systems from the start, we help homeowners achieve a sustainable, low-maintenance landscape.</p>
+                </Container>
+            </section>
+
+
+            <section>
+                <Container>
+                    <h2>Schedule Your Drainage & Irrigation Installation Today</h2>
+                    <p>At RMR Construction & Remodeling, we bring over three decades of expertise to every project. Whether you need a new installation, system upgrade, or repairs, we provide tailored solutions that fit your property and budget.</p>
+                    <p>Call us today at 916-533-4758 to schedule a consultation and take the first step toward a healthier, more beautiful outdoor space.</p>
+                </Container>
+            </section>
+
         </>
     )
 }
