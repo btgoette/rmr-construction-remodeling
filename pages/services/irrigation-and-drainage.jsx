@@ -20,70 +20,88 @@ export default function IrrigationAndDrainage() {
             <Head {...content} />
             <Hero {...content} />
 
-           <section>
-                           <Container>
-                               <h2>Landscape Construction in Placer & Sacramento County</h2>
-                               <p>Transform your outdoor space with expert craftsmanship and high-quality materials. At RMR Construction & Remodeling, we specialize in landscape construction that enhances both the beauty and functionality of your property. From durable hardscapes to custom-built outdoor features, we bring your vision to life with precision and care.</p>
-                           </Container>
-                       </section>
-           
-                       <section>
-                           <Container>
-                               <h2>Our Landscape Construction Services</h2>
-           
-                               <h3>Driveways</h3>
-                               <p>Make a lasting first impression with a custom-designed driveway. We use premium materials such as concrete pavers, natural stone, and poured concrete to create driveways that are both stylish and durable.</p>
-           
-                               <h3>Patios</h3>
-                               <p>Create an inviting outdoor space with a custom patio. Choose from stone pavers, stamped concrete, or brushed concrete to match your style and enhance your backyard’s functionality.</p>
-           
-                               <h3>Walkways</h3>
-                               <p>Enhance safety and accessibility with professionally installed walkways. We offer paver and concrete walkways designed to complement your landscaping while providing a durable, slip-resistant surface.</p>
-           
-                               <h3>Outdoor Steps</h3>
-                               <p>Connect different levels of your yard with beautifully crafted outdoor steps made from flagstone, Silvermist stone, or concrete pavers. Functional and visually appealing, they ensure smooth transitions between spaces.</p>
-           
-                               <h3>Fire Pits</h3>
-                               <p>Add warmth and ambiance to your backyard with a custom-built fire pit. Available in round or square designs, our fire pits are crafted from natural or paving stones and can be wood-burning or gas-powered.</p>
-           
-                               <h3>Outdoor Fireplaces</h3>
-                               <p>For a dramatic and cozy outdoor feature, choose a custom outdoor fireplace. Built with high-quality materials, these fireplaces provide warmth, elegance, and a focal point for your outdoor space.</p>
-           
-                               <h3>Outdoor Kitchens</h3>
-                               <p>Take your cooking outdoors with a fully equipped custom outdoor kitchen. Our designs include grills, pizza ovens, smokers, and stone countertops, giving you a perfect space for entertaining.</p>
-           
-                               <h3>Retaining Walls</h3>
-                               <p>Control erosion while adding structure and beauty with a custom retaining wall. Our walls, made from stackable blocks, paver blocks, or natural stone, can also incorporate raised planter beds for added appeal.</p>
-           
-                               <h3>Seating Walls</h3>
-                               <p>Maximize seating options with a built-in seating wall. Made from durable stone or concrete blocks, these walls provide a stylish and long-lasting solution for outdoor gatherings.</p>
-           
-                               <h3>Artificial Turf</h3>
-                               <p>Enjoy lush, green grass year-round without the maintenance. Our artificial turf installations are ideal for landscaping accents, play areas, and putting greens.</p>
-           
-                               <h3>Landscape Lighting</h3>
-                               <p>Illuminate your outdoor space with low-voltage LED lighting. Our energy-efficient lighting solutions highlight your landscape’s best features and enhance nighttime safety.</p>
-           
-                               <h3>Pergolas</h3>
-                               <p>Add shade and sophistication to your yard with a custom pergola. A perfect balance of style and function, pergolas create a beautiful setting for relaxation and entertainment.</p>
-           
-                               <h3>Pavilions</h3>
-                               <p>For complete shade and weather protection, opt for a custom pavilion. Whether for hosting guests or enjoying quiet outdoor time, our pavilions provide elegant and durable coverage.</p>
-           
-                               <h3>Arbors</h3>
-                               <p>Frame your garden or entrance with a charming arbor. Designed for beauty and shade, our custom arbors create an inviting focal point in any landscape.</p>
-                           </Container>
-                       </section>
-           
-                       <section>
-                           <Container>
-                               <h2>Start Your Outdoor Transformation Today!</h2>
-                               <p>At RMR Construction & Remodeling, we are passionate about turning outdoor dreams into reality. Our experienced team delivers exceptional craftsmanship and superior materials to ensure long-lasting beauty and functionality.</p>
-                               <p>Call us at (916) 533-4758 or email us to schedule a consultation today!</p>
-                           </Container>
-                       </section>
-           
-                   </>
-               )
-           }
-           
+            <section>
+                <Container>
+                    <h2>Drainage & Irrigation Services in Roseville, CA</h2>
+                    <p>A well-designed irrigation and drainage system is essential for maintaining a beautiful, functional outdoor space in Northern California. At RMR Construction & Remodeling, we specialize in custom water management solutions that prevent pooling, runoff, and inefficient water distribution—ensuring your landscape remains healthy, sustainable, and visually appealing.</p>
+                    <p>With decades of experience, our team designs and installs precision irrigation systems to optimize water usage and drainage solutions that protect your property from water damage. Our goal is to enhance functionality and aesthetics, providing long-term benefits that make outdoor living effortless.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Expert Drainage Solutions in Roseville, CA</h2>
+                    <p>Poor drainage can lead to standing water, soil erosion, foundation damage, and even health hazards. Our expertly designed drainage systems eliminate these issues while seamlessly blending with your landscape.</p>
+                    <h3>Our Drainage Services Include:</h3>
+                    <ul>
+                        <li><strong>French Drains –</strong> Redirect excess water away from your property</li>
+                        <li><strong>Dry Creek Beds –</strong> Natural drainage solutions with visual appeal</li>
+                        <li><strong>Area Drains –</strong> Prevent water accumulation in low-lying areas</li>
+                        <li><strong>Retaining Walls –</strong> Manage soil erosion and stabilize slopes</li>
+                    </ul>
+                    <p>Beyond solving water issues, we transform problem areas into beautiful, functional outdoor spaces that enhance your property.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Irrigation Services for Roseville & Surrounding Areas</h2>
+                    <p>A properly installed irrigation system ensures your lawn and garden receive the precise amount of water needed to thrive—without waste. Our irrigation experts provide custom solutions tailored to your property’s unique layout and plant needs.</p>
+                    <h3>Irrigation Services We Offer:</h3>
+                    <ul>
+                        <li><strong>Drip Irrigation Systems –</strong> Direct water to plant roots for maximum efficiency</li>
+                        <li><strong>Spray Head Irrigation –</strong> Ensure even coverage across lawns and gardens</li>
+                        <li><strong>Smart Irrigation Systems –</strong> Optimize water usage with advanced controls</li>
+                        <li><strong>Irrigation Repairs & Upgrades –</strong> Improve efficiency and performance</li>
+                    </ul>
+                    <p>By integrating modern irrigation technology, we help homeowners reduce water waste, lower utility costs, and maintain a lush, green landscape year-round.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Why Invest in Professional Drainage & Irrigation Systems?</h2>
+                    <ul>
+                        <li><strong>Protect Your Property –</strong> Prevent foundation damage, erosion, and water pooling</li>
+                        <li><strong>Conserve Water –</strong> Precision irrigation minimizes waste and promotes sustainability</li>
+                        <li><strong>Enhance Landscape Health –</strong> Ensure plants and lawns receive the right amount of water</li>
+                        <li><strong>Reduce Maintenance –</strong> A well-planned system saves time and effort in lawn care</li>
+                    </ul>
+                    <p>With RMR Construction & Remodeling, you get expertly designed solutions tailored to your property’s topography, soil type, and climate—ensuring long-term efficiency and beauty.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Drip Irrigation Installation in Placer County, CA</h2>
+                    <p>Drip irrigation is one of the most water-efficient ways to keep your plants healthy. By delivering water directly to the root zone, it prevents overwatering, reduces water loss, and supports plant health.</p>
+                    <p>Our team designs custom drip irrigation systems for flower beds, gardens, and large landscapes, ensuring maximum efficiency and coverage. Say goodbye to wasted water and hello to a thriving, eco-friendly landscape.</p>
+                </Container>
+            </section>
+
+            <section>
+                <Container>
+                    <h2>Seamless Integration of Drainage & Irrigation</h2>
+                    <p>A truly successful landscape design combines efficient drainage with optimized irrigation. Our experts analyze your property’s topography, soil, and climate to create systems that:</p>
+                    <ul>
+                        <li>Direct excess water away from structures</li>
+                        <li>Ensure proper hydration for plants</li>
+                        <li>Prevent erosion and runoff</li>
+                        <li>Improve outdoor usability and aesthetics</li>
+                    </ul>
+                    <p>By integrating these systems from the start, we help homeowners achieve a sustainable, low-maintenance landscape.</p>
+                </Container>
+            </section>
+
+
+            <section>
+                <Container>
+                    <h2>Schedule Your Drainage & Irrigation Installation Today</h2>
+                    <p>At RMR Construction & Remodeling, we bring over three decades of expertise to every project. Whether you need a new installation, system upgrade, or repairs, we provide tailored solutions that fit your property and budget.</p>
+                    <p>Call us today at 916-533-4758 to schedule a consultation and take the first step toward a healthier, more beautiful outdoor space.</p>
+                </Container>
+            </section>
+
+        </>
+    )
+}
