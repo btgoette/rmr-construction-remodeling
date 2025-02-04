@@ -26,13 +26,6 @@ export default function ReviewsSlider({ reviews }) {
                         <div key={i} className="review-card">
                             <div className="review-card-content">
                                 <div>
-                                    <p className="review-stars google">
-                                        <i className="fa fa-star"></i>&nbsp;
-                                        <i className="fa fa-star"></i>&nbsp;
-                                        <i className="fa fa-star"></i>&nbsp;
-                                        <i className="fa fa-star"></i>&nbsp;
-                                        <i className="fa fa-star"></i>
-                                    </p>
                                     <p className="review-quote">
                                         {message.map(({ p }, j) => (
                                             <quote key={j}>&ldquo;{p}&rdquo;</quote>
@@ -40,8 +33,7 @@ export default function ReviewsSlider({ reviews }) {
                                     </p>
                                 </div>
                                 <p className="review-header">
-                                    <Link className="review-url" href={url}><span className="review-name">{name}</span></Link><br />
-                                    <span className="review-location">{location}</span>
+                                    <Link className="review-url" href={url}><span className="review-name">{name}</span></Link>
                                 </p>
                             </div>
                         </div>

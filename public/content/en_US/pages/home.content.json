@@ -29,77 +29,6 @@
         ],
         "text": "Specializing in durable roofing solutions, RMR Construction & Remodeling serves homeowners and businesses with expert repairs, installations, and maintenance. With decades of experience, we deliver quality craftsmanship tailored to your needs."
     },
-    "cards": {
-        "col": "3",
-        "justify": "justify-content-center",
-        "card": [
-            {
-                "img": {
-                    "src": "/images/800x800/rr-101.webp",
-                    "alt": "Residential Roofing - RMR Construction & Remodeling - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Rio Linda Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-101.webp"
-                },
-                "title": "Residential",
-                "title2": "Roofing",
-                "text": "Protect your home with our expert residential roofing services. From repairs to replacements, we use premium materials and proven techniques to ensure your roof is both durable and visually appealing.",
-                "url": "/services/residential/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-32.webp",
-                    "alt": "Roof Repairs - RMR Construction & Remodeling - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Rio Linda Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-32.webp"
-                },
-                "title": "Roof",
-                "title2": "Repairs",
-                "text": "Fix leaks, storm damage, or wear with expert repairs that restore your roof's integrity. We use premium materials to ensure durable, lasting results, keeping your home or business protected from the elements.",
-                "url": "/services/roof-repairs/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-31.webp",
-                    "alt": "Roof Replacements - RMR Construction & Remodeling - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Rio Linda Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-31.webp"
-                },
-                "title": "Roof",
-                "title2": "Replacement",
-                "text": "Upgrade your roof with expert replacements. We assess your needs, recommend materials, and complete the project efficiently to enhance your property's value while minimizing disruptions.",
-                "url": "/services/roof-replacements/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-55.webp",
-                    "alt": "Roof Inspection - RMR Construction & Remodeling - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Rio Linda Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-55.webp"
-                },
-                "title": "Roof",
-                "title2": "Inspection",
-                "text": "Extend your roof's lifespan with preventative care. Our maintenance services include regular inspections, cleaning, and minor repairs to keep your roof in optimal condition and prevent costly issues down the line.",
-                "url": "/services/roof-inspections/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-72.webp",
-                    "alt": "Commercial Roofing - RMR Construction & Remodeling - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Rio Linda Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-72.webp"
-                },
-                "title": "Commercial",
-                "title2": "Roofing",
-                "text": "Specializing in low-slope, TPO (Thermoplastic Olefin) , metal, and modified bitumen roofs, we provide durable solutions tailored to your business needs, ensuring quality, longevity, and compliance.",
-                "url": "/services/commercial/"
-            }
-        ]
-    },
     "reviews": {
         "newReviewUrl": "https://www.yelp.com/writeareview/biz/PtUVlXo8OwPm7LdXS1ZJoA?return_url=%2Fbiz%2FPtUVlXo8OwPm7LdXS1ZJoA&review_origin=biz-details-war-button",
         "reviewsList": [
@@ -148,26 +77,50 @@
     "gallery": {
         "images": [
             {
-                "original": "/images/gallery/originals/rr-8.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-8.jpg",
+                "original": "/images/gallery/originals/rmr-8.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-8.jpg",
                 "originalAlt": "Qurray Ridge Standing Seam",
                 "thumbnailAlt": "Qurray Ridge Standing Seam"
             },
             {
-                "original": "/images/gallery/originals/rr-12.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-12.jpg",
+                "original": "/images/gallery/originals/rmr-12.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-12.jpg",
                 "originalAlt": "Qurray Ridge Standing Seam",
                 "thumbnailAlt": "Qurray Ridge Standing Seam"
             },
             {
-                "original": "/images/gallery/originals/rr-10.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-10.jpg",
+                "original": "/images/gallery/originals/rmr-10.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-10.jpg",
                 "originalAlt": "Qurray Ridge Standing Seam",
                 "thumbnailAlt": "Qurray Ridge Standing Seam"
             },
             {
-                "original": "/images/gallery/originals/rr-78.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-78.jpg",
+                "original": "/images/gallery/originals/rmr-70.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-70.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-18.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-18.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-21.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-21.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-30.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-30.jpg",
+                "originalAlt": "Qurray Ridge Standing Seam",
+                "thumbnailAlt": "Qurray Ridge Standing Seam"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-71.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-71.jpg",
                 "originalAlt": "Qurray Ridge Standing Seam",
                 "thumbnailAlt": "Qurray Ridge Standing Seam"
             }

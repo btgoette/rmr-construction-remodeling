@@ -70,12 +70,13 @@ $xxl: 1400px;
 // Fonts
 $body-font-color: $black;
 $body-font-family: "Roboto";
-$body-font-size: 1.125rem;
+$body-font-size: 1rem;
 $body-font-weight: 400;
+$body-font-line-height: 1.5;
 
 $header-font-color: $black;
-$header-font-family: "Merriweather Sans";
-$header-font-weight: 200;
+$header-font-family: "Montserrat";
+$header-font-weight: 600;
 
 // Border
 $border-round: 50%;
@@ -231,7 +232,7 @@ $footer-newsletter-text-align: left;
 $footer-newsletter-text-transform: none;
 $footer-newsletter-block-background: $light-gray;
 
-$footer-thank-you-background: $primary-gradient;
+$footer-thank-you-background: $primary;
 $footer-thank-you-border: none;
 $footer-thank-you-font-color: $white;
 $footer-thank-you-font-color-hover: $tertiary;
@@ -259,12 +260,12 @@ $footer-summary-font-size: $body-font-size;
 $footer-summary-font-weight: $body-font-weight;
 $footer-summary-image-max-width: 220px;
 
-$footer-marquee-background: $secondary-gradient;
+$footer-marquee-background: $secondary;
 $footer-marquee-font-color: $white;
 $footer-marquee-font-size: 1rem;
 $footer-marquee-font-weight: 1rem;
 
-$footer-copyright-background: $primary-gradient;
+$footer-copyright-background: $primary;
 $footer-copyright-font-color: $white;
 $footer-copyright-font-size: calc($body-font-size * .75);
 $footer-copyright-font-weight: $body-font-weight;
@@ -308,7 +309,7 @@ $nav-text-transform: none;
 $nav-logo-max-height: 96px;
 $nav-toggle-icon-color: $primary;
 
-$nav-dropdown-menu-background: $secondary-gradient;
+$nav-dropdown-menu-background: $secondary;
 $nav-dropdown-menu-border: none;
 $nav-dropdown-item-background-hover: $primary;
 $nav-dropdown-item-font-size: $nav-font-size;
@@ -337,7 +338,7 @@ $nav-bottom-bar-text-align: center;
 // Reviews
 $review-background: $white;
 $review-border: 1px solid $gray;
-$review-color: $black;
+$review-color: $white;
 $review-font-size: $body-font-size;
 $review-name-font-size: 1.5rem;
 $review-name-font-weight: 700;
@@ -347,11 +348,11 @@ $review-stars-font-size: $body-font-size;
 
 $review-slider-background: $white;
 $review-slider-border: 1px solid $gray;
-$review-slider-color: $black;
-$review-slider-font-size: $body-font-size;
-$review-slider-name-color: $black;
-$review-slider-name-font-size: 1.5rem;
-$review-slider-name-font-weight: 700;
+$review-slider-color: $white;
+$review-slider-font-size: 1.5rem;
+$review-slider-name-color: $white;
+$review-slider-name-font-size: 1rem;
+$review-slider-name-font-weight: 800;
 $review-slider-location-font-size: $body-font-size;
 $review-slider-location-font-weight: 500;
 $review-slider-stars-font-size: $body-font-size;
