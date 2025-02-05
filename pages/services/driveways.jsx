@@ -20,46 +20,85 @@ export default function DrivewaysServices() {
             <Head {...content} />
             <Hero {...content} />
 
-            <section>
-                <Container>
-                    <h2>High-Quality Concrete Driveways in Roseville, CA</h2>
-                    <p>Your driveway is more than just a place to park—it’s a key feature of your home’s curb appeal and functionality. At RMR Construction & Remodeling, we specialize in designing and installing durable, visually stunning concrete driveways that enhance the beauty and value of your property. Whether you're building a new driveway, need repairs, or want to upgrade your existing surface with a decorative overlay, our expert team is here to deliver superior craftsmanship.</p>
+            <section className="pb-0">
+                <Container className="pb-0">
+                    <Row className="align-items-center">
+                        <Col lg={{ span: 6, order: 1 }}>
+                            <Figure {...image.figure[21]} />
+                        </Col>
+                        <Col lg={{ span: 6, order: 0 }}>
+                            <h2 data-aos="fade-up" className="text-start">High-Quality Concrete Driveways in Roseville, CA</h2>
+                            <div className="border-line-start"></div>
+                            <p>Your driveway is more than just a place to park—it’s a key feature of your home’s curb appeal and functionality. At RMR Construction & Remodeling, we specialize in designing and installing durable, visually stunning concrete driveways that enhance the beauty and value of your property. Whether you're building a new driveway, need repairs, or want to upgrade your existing surface with a decorative overlay, our expert team is here to deliver superior craftsmanship.</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+
+            <section className="pb-0">
+                <Container className="pb-0">
+                    <Row className="align-items-center">
+                        <Col lg={{ span: 6, order: 0 }}>
+                            <Figure {...image.figure[43]} />
+                        </Col>
+                        <Col lg={{ span: 6, order: 1 }}>
+                            <h2 data-aos="fade-up" className="text-start">Custom Driveway Designs to Suit Your Home</h2>
+                            <div className="border-line-start"></div>
+                            <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. Whether you prefer the seamless, modern appeal of poured concrete, the elegance of stamped concrete that mimics the look of brick, stone, or pavers, or the ability to customize with unique patterns and colors, we create driveways that are both stylish and durable. Our slip-resistant surfaces enhance tire grip for added safety in wet conditions while providing long-lasting beauty and functionality.</p>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+
+            <section className="pb-0">
+                <Container className="pb-0">
+                    <Row className="align-items-center">
+                        <Col lg={{ span: 6, order: 1 }}>
+                            <Figure {...image.figure[41]} />
+                        </Col>
+                        <Col lg={{ span: 6, order: 0 }}>
+                            <h2 data-aos="fade-up" className="text-start">Custom Driveway Designs to Suit Your Home</h2>
+                            <div className="border-line-start"></div>
+                            <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. Whether you prefer the seamless, modern appeal of poured concrete, the elegance of stamped concrete that mimics the look of brick, stone, or pavers, or the ability to customize with unique patterns and colors, we create driveways that are both stylish and durable. Our slip-resistant surfaces enhance tire grip for added safety in wet conditions while providing long-lasting beauty and functionality.</p>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
 
             <section>
                 <Container>
-                    <h2>Custom Driveway Designs to Suit Your Home</h2>
-                    <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. From classic poured concrete to decorative stamped finishes, we create stylish, slip-resistant driveways that provide long-lasting durability and enhanced tire grip for safety in wet conditions.</p>
-
-                    <ul>
-                        <li><strong>Stamped Concrete –</strong> Mimic the look of brick, stone, or pavers for an elegant finish.</li>
-                        <li><strong>Poured Concrete –</strong> A seamless, modern surface for a clean, polished look.</li>
-                        <li><strong>Custom Patterns & Colors –</strong> Personalize your driveway with unique designs and finishes.</li>
-                    </ul>
-                </Container>
-            </section>
-
-            <section>
-                <Container>
-                    <h2>Why Choose a Concrete Driveway?</h2>
-                    <p>When comparing concrete, asphalt, brick, or stone, concrete offers the best combination of durability, affordability, and aesthetics:</p>
-                    <ul>
-                        <li><strong>Cost-Effective –</strong> More budget-friendly than brick or natural stone.</li>
-                        <li><strong>Low Maintenance –</strong> Minimal upkeep compared to other materials.</li>
-                        <li><strong>Long-Lasting –</strong> Can last up to 50 years with proper care.</li>
-                        <li><strong>Heavy Load Support –</strong> Withstands high traffic and heavy vehicles.</li>
-                        <li><strong>Cooler Surface –</strong> Reflects sunlight, reducing heat absorption.</li>
-                        <li><strong>Better Traction –</strong> Provides superior grip, even in wet weather.</li>
-                    </ul>
-                </Container>
-            </section>
-
-            <section>
-                <Container>
-                    <h2>Your Trusted Concrete Driveway Contractor in Placer County</h2>
-                    <p>At RMR Construction & Remodeling, we take pride in our exceptional craftsmanship, honesty, and customer satisfaction. Whether you need a new driveway installation, concrete repairs, or a decorative overlay, we are here to help.</p>
-                    <p>Contact us today for a free consultation and let’s transform your driveway into a stunning, functional entryway to your home.</p>
+                    <h2 data-aos="fade-up">Why Choose a Concrete Driveway?</h2>
+                    <div className="border-line-center"></div>
+                    <Row className="align-items-center py-2">
+                        <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Cost Effective</h3></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">More budget-friendly than brick or natural stone while still providing a high-end look and long-term value.</p></Col>
+                    </Row>
+                    <Row className="align-items-center py-2">
+                        <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Low Maintenance</h3></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Requires minimal upkeep compared to other materials, with no need for frequent sealing or repairs.</p></Col>
+                    </Row>
+                    <Row className="align-items-center py-2">
+                        <Col lg={5}>
+                            <h3 className="text-start text-white text-lg-end" data-aos="fade-right">Long-Lasting</h3>
+                        </Col>
+                        <Col lg={7}
+                        ><p className="border-left" data-aos="fade-left">With proper care and maintenance, a concrete surface can last up to 50 years, far outlasting asphalt.</p>
+                        </Col>
+                    </Row>
+                    <Row className="align-items-center py-2">
+                        <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Heavy Load Support</h3></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Designed to withstand high traffic, parked vehicles, and heavy loads without cracking or shifting.</p>
+                        </Col>
+                    </Row>
+                    <Row className="align-items-center py-2">
+                        <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Cooler Surface</h3></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Reflects sunlight more effectively than asphalt, reducing heat absorption and keeping the surface cooler in hot weather.</p>
+                        </Col>
+                    </Row>
+                    <Row className="align-items-center py-2">
+                        <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Better Traction</h3></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Provides superior grip and slip resistance, even in wet or icy conditions, for improved safety.</p></Col>
+                    </Row>
                 </Container>
             </section>
 

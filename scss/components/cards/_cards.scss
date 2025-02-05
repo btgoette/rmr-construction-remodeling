@@ -2,6 +2,7 @@
     .card {
         border: $cards-border;
         border-radius: $cards-border-radius;
+        background-color: transparent;
 
         .card-img-top {
             border-radius: $cards-border-radius $cards-border-radius 0 0;
@@ -10,7 +11,6 @@
         .card-body {
             background: $cards-body-background;
             border-radius: 0 0 $cards-border-radius $cards-border-radius;
-            padding: 1rem;
 
             .card-title {
                 margin-top: 0;
@@ -35,8 +35,6 @@
                 font-size: $cards-font-size;
                 font-weight: $cards-font-weight;
                 line-height: calc($cards-font-size * 1.5);
-                padding: 0 1rem;
-                border-left: 3px solid $primary;
                 margin-bottom: 2rem;
 
                 .card-button {
@@ -86,18 +84,18 @@
         border-radius: 0;
 
         .card-img-top {
-            width: 90px;
-            height: 90px;
-            margin: 0 auto;
+            width: 50px;
+            height: 50px;
             border: none;
             border-radius: 0;
         }
 
         .card-body {
             background: none;
+            padding: 1rem 0;
 
             .card-title {
-                color: $black;
+                color: $cards-with-icon-header-font-color;
                 font-family: $cards-with-icon-header-font-family;
                 font-size: $cards-with-icon-header-font-size;
                 font-weight: $cards-with-icon-header-font-weight;
@@ -105,6 +103,7 @@
                 letter-spacing: $cards-with-icon-header-letter-spacing;
                 text-transform: $cards-with-icon-text-transform;
                 text-align: $cards-header-align;
+                text-shadow:1px 1px 1px #761D21;
             }
 
             .card-text {

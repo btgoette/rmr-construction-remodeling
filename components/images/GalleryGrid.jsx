@@ -22,13 +22,10 @@ export default function GalleryGrid({ gallery }) {
   }
 
   return (
-    <div id="images">
-      <p>
-        <strong>*click on an image below to see full size.</strong>
-      </p>
+    <div>
       <Row className="gallery-grid my-5">
         {gallery.images.map((image, i) => (
-          <Col key={i} md={6} lg={3} className="thumbnail-container">
+          <Col key={i} md={6} lg={gallery.col} className="thumbnail-container" data-aos="fade-in" data-aos-duration="1000" data-aos-delay={i * 50}>
             <Image
               className="thumbnail"
               src={image.thumbnail}

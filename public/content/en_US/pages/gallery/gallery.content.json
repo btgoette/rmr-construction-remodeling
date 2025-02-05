@@ -11,82 +11,154 @@
         "robots": "INDEX, FOLLOW"
     },
     "hero": {
-        "title": "Our",
-        "title2": "Gallery"
+        "title": "Our Gallery"
     },
     "gallery": {
+        "col":"3",
         "images": [
             {
-                "original": "/images/gallery/originals/rr-62.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-62.jpg",
-                "originalAlt": "Commercial Roofing",
-                "thumbnailAlt": "Commercial Roofing"
+                "original": "/images/gallery/originals/rmr-1.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-1.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-63.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-63.jpg",
-                "originalAlt": "Commercial Roofing",
-                "thumbnailAlt": "Commercial Roofing"
+                "original": "/images/gallery/originals/rmr-2.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-2.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-64.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-64.jpg",
-                "originalAlt": "Commercial Roofing",
-                "thumbnailAlt": "Commercial Roofing"
+                "original": "/images/gallery/originals/rmr-10.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-10.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-65.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-65.jpg",
-                "originalAlt": "Commercial Roofing",
-                "thumbnailAlt": "Commercial Roofing"
-            },    
-            {
-                "original": "/images/gallery/originals/rr-67.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-67.jpg",
-                "originalAlt": "Holiday Market",
-                "thumbnailAlt": "Holiday Market"
+                "original": "/images/gallery/originals/rmr-11.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-11.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-70.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-70.jpg",
-                "originalAlt": "Holiday Market",
-                "thumbnailAlt": "Holiday Market"
+                "original": "/images/gallery/originals/rmr-18.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-18.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-83.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-83.jpg",
-                "originalAlt": "Pence",
-                "thumbnailAlt": "Pence"
+                "original": "/images/gallery/originals/rmr-19.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-19.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-84.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-84.jpg",
-                "originalAlt": "Pence",
-                "thumbnailAlt": "Pence"
+                "original": "/images/gallery/originals/rmr-23.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-23.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-85.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-85.jpg",
-                "originalAlt": "Sierra Central",
-                "thumbnailAlt": "Sierra Central"
+                "original": "/images/gallery/originals/rmr-24.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-24.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-87.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-87.jpg",
-                "originalAlt": "Sierra Central",
-                "thumbnailAlt": "Sierra Central"
+                "original": "/images/gallery/originals/rmr-28.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-28.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-98.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-98.jpg",
-                "originalAlt": "Walgreens",
-                "thumbnailAlt": "Walgreens"
+                "original": "/images/gallery/originals/rmr-30.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-30.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-99.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-99.jpg",
-                "originalAlt": "Walgreens",
-                "thumbnailAlt": "Walgreens"
+                "original": "/images/gallery/originals/rmr-31.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-31.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-32.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-32.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-34.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-34.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-36.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-36.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-37.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-37.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-38.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-38.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-39.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-39.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-51.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-51.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-62.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-62.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-63.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-63.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-64.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-64.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-65.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-65.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-72.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-72.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-73.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-73.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             }
         ]
     }

@@ -1,7 +1,7 @@
 /* 403 Error Page */
 
 // Custom Components
-import CustomHero from "components/headers/CustomHero";
+import Hero from "components/headers/Hero";
 
 // Custom Content
 import content from "public/content/en_US/pages/error403.content"
