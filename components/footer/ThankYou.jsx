@@ -7,15 +7,16 @@ import Link from 'next/link'
 export default function ThankYou({ thankYou }) {
     return (
         <section className="thank-you">
-            <Container className="p-1">
-                <div className="thank-you-block">
-                    <p className="title">
-                        {thankYou.title}
-                    </p>
-                    <p className="text">
-                        {thankYou.text.p}<Link href={"tel:" + thankYou.text.phone}>{thankYou.text.phone}</Link> or fill out our <Link href={thankYou.text.url}>online form</Link> to schedule your consultation.<br /> Your roof is an investment – trust Roseville Roofing to deliver real value and outstanding results.
-                    </p>
-                </div>
+            <Container className="thank-you-block">
+                <Row className="align-items-center justify-content-center">
+                    <Col lg={4}>
+                        <h2 className="mt-0 text-start border-bottom">Let's Bring Your<br/> Vision to Life</h2>
+                    </Col>
+                    <Col lg={8}>
+                        <p className="text-start">Our goal is to build your trust and earn your business for years to come. Ready to transform your outdoor space? <Link href="/contact">Contact RMR Construction & Remodeling</Link> today to discuss your project or schedule an estimate. <Link href="tel:916-533-4758">Call us at 916-533-4758</Link> to get started! Let us bring your vision to life with quality craftsmanship and exceptional service.
+                        </p>
+                    </Col>
+                </Row>
             </Container>
         </section>
     )

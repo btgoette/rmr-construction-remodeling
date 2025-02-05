@@ -25,15 +25,15 @@
 
   &.btn-outline {
     background: transparent;
-    border:2px solid $white;
+    border: 2px solid $white;
     color: $white;
     transition: 0.25s;
 
     &:focus,
     &:hover {
-      color:$white;
-      background: transparent;
-      transform: scale(1.1);
+      color: $white;
+    background: transparent;
+      border: 2px solid $primary;
     }
   }
 

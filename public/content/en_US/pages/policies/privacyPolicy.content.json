@@ -1,12 +1,12 @@
 {
     "head": {
-        "title": "Privacy Policy | Roseville Roofing",
-        "description": "Read the Privacy Policy of Roseville Roofing. Learn about the information we collect, how we protect your data, and how you can control your information.",
-        "keywords": "Roseville Roofing privacy policy, data collection, privacy practices, security, customer information, online privacy, data protection, information sharing",
-        "href": "https://rsvlroofing.com/policies/privacy-policy/",
-        "location": "Granite Bay, CA",
+        "title": "Privacy Policy | RMR Construction & Remodeling",
+        "description": "Read the Privacy Policy of RMR Construction & Remodeling. Learn about the information we collect, how we protect your data, and how you can control your information.",
+        "keywords": "RMR Construction & Remodeling privacy policy, data collection, privacy practices, security, customer information, online privacy, data protection, information sharing",
+        "href": "http://rmrconstructing.com/policies/privacy-policy/",
+        "location": "Rio Linda, CA",
         "region": "US-CA",
-        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "image": "http://rmrconstructing.com/images/logos/logo.webp",
         "imageType": "image/webp",
         "robots": "INDEX, FOLLOW"
     },
@@ -15,9 +15,9 @@
         "title2": "Policy"
     },
     "privacyPolicy": {
-        "href": "https://rsvlroofing.com/policies/privacy-policy/",
-        "tel": "916-791-7348",
-        "site": "https://rsvlroofing.com/",
+        "href": "http://rmrconstructing.com/policies/privacy-policy/",
+        "tel": "916-533-4758",
+        "site": "http://rmrconstructing.com/",
         "date": "11/1/24"
     }
 }

@@ -1,32 +1,26 @@
 {
     "head": {
-        "title": "Contact Roseville Roofing | Get Your Free Estimate",
-        "description": "Reach out to Roseville Roofing for all your roofing needs. Contact us today for a free estimate, questions about services, or to discuss your next project. We’re ready to help!",
-        "keywords": "contact Roseville Roofing, free roofing estimate, roofing questions, roofing services, roof repairs, roof replacement, Granite Bay roofing, roofing experts, Jeff Vogt, roofing contact",
-        "href": "https://rsvlroofing.com/contact/",
-        "location": "Granite Bay, CA",
+        "title": "Contact RMR Construction & Remodeling | Get Your Free Estimate",
+        "description": "Reach out to RMR Construction & Remodeling for all your roofing needs. Contact us today for a free estimate, questions about services, or to discuss your next project. We’re ready to help!",
+        "keywords": "contact RMR Construction & Remodeling, free roofing estimate, roofing questions, roofing services, roof repairs, roof replacement, Rio Linda roofing, roofing experts, Jeff Vogt, roofing contact",
+        "href": "http://rmrconstructing.com/contact/",
+        "location": "Rio Linda, CA",
         "region": "US-CA",
-        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "image": "http://rmrconstructing.com/images/logos/logo.webp",
         "imageType": "image/webp",
         "robots": "INDEX, FOLLOW"
     },
     "hero": {
-        "title": "Contact",
-        "title2": "Us"
+        "title": "Contact"
     },
     "contact": {
         "col": "6",
-        "companyName": "Roseville Roofing",
-        "owner": "Jeff Vogt",
-        "phone": "916-791-7348",
-        "email": "jeff@rsvlroofing.com",
-        "address": [
-            {
-                "line": "P.O. Box 2062"
-            },
-            {
-                "line": "Granite Bay, CA 95746"
-            }
-        ]
+        "companyName": "RMR Construction & Remodeling",
+        "phone": "916-533-4758",
+        "email": "rmrconstructing@yahoo.com",
+        "openClose": {
+            "days": "Monday - Saturday",
+            "hours": "7:00 AM - 5:00 PM"
+        }
     }
 }

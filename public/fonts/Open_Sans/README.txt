@@ -12,7 +12,7 @@ This means all the styles are contained in these files:
   OpenSans-Italic-VariableFont_wdth,wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
-that aren&rsquo;t available as static fonts. Not all apps support variable fonts, and
+that aren’t available as static fonts. Not all apps support variable fonts, and
 in those cases you can use the static font files for Open Sans:
   static/OpenSans_Condensed/OpenSans_Condensed-Light.ttf
   static/OpenSans_Condensed/OpenSans_Condensed-Regular.ttf

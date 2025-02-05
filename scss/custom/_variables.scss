@@ -1,32 +1,32 @@
 /* Colors */
 
 // Generic Colors
-$black: #000;
-$dark-gray: #434343;
-$gray: #848484;
-$light-gray: #e0e0e0;
+$black: #080303;
+$dark-gray: #787373;
+$gray: #a8a3a3;
+$light-gray: #F7FAF8;
 $white: #FFF;
 
 //Transparent
 $transparent-black: #00000001;
 
 // Custom Colors
-$fire-engine-red: #d0281e;
+$falu-red: #761D21;
 $davys-gray: #3a3a3a;
 
 // Darks
-$blood-red: #68140f;
+$black-bean: #3B0F11;
 $raisin-black: #272524;
 
 // Lights
-$burnt-umber: #8f3933;
+$garnet: #7F2C2F;
 $silver: #a6a5a4;
 
 // Primary Colors
-$primary: $fire-engine-red;
+$primary: $falu-red;
 $primaryColor: $primary;
-$dark: $blood-red;
-$light: $burnt-umber;
+$dark: $black-bean;
+$light: $garnet;
 
 // Secondary Colors
 $secondary: $davys-gray;
@@ -69,13 +69,14 @@ $xxl: 1400px;
 
 // Fonts
 $body-font-color: $black;
-$body-font-family: "Roboto";
-$body-font-size: 1.125rem;
+$body-font-family: "Open Sans";
+$body-font-size: 1rem;
 $body-font-weight: 400;
+$body-font-line-height: 1.75;
 
 $header-font-color: $black;
-$header-font-family: "Merriweather Sans";
-$header-font-weight: 200;
+$header-font-family: "Montserrat";
+$header-font-weight: 400;
 
 // Border
 $border-round: 50%;
@@ -100,15 +101,15 @@ $brand-image-max-width: 200px;
 $brand-image-max-height: 100px;
 
 // Cards
-$cards-body-background: $white;
+$cards-body-background: transparent;
 $cards-border: none;
 $cards-border-radius: 0;
-$cards-font-color: $black;
+$cards-font-color: $white;
 $cards-font-family: $body-font-family;
 $cards-font-size: $body-font-size;
 $cards-font-weight: $body-font-weight;
-$cards-header-font-color: $black;
-$cards-header-font-family: $body-font-family;
+$cards-header-font-color: $primary;
+$cards-header-font-family:  $header-font-family;
 $cards-header-font-size: 1.5rem;
 $cards-header-font-weight: 400;
 $cards-header-letter-spacing: 0px;
@@ -125,7 +126,7 @@ $cards-overlay-font-family: $body-font-family;
 $cards-overlay-font-size: 1rem;
 $cards-overlay-font-weight: $body-font-weight;
 $cards-overlay-header-font-color: $white;
-$cards-overlay-header-font-family: $body-font-family;
+$cards-overlay-header-font-family: $header-font-family;
 $cards-overlay-header-font-size: 1.5rem;
 $cards-overlay-header-font-weight: 600;
 $cards-overlay-header-letter-spacing: 0px;
@@ -149,14 +150,14 @@ $cards-title-only-text-transform: none;
 $cards-title-only-header-align: center;
 
 // Cards With Icon
-$cards-with-icon-font-color: $black;
+$cards-with-icon-font-color: $white;
 $cards-with-icon-font-family: $body-font-family;
 $cards-with-icon-font-size: $body-font-size;
 $cards-with-icon-font-weight: $body-font-weight;
-$cards-with-icon-header-font-color: $white;
-$cards-with-icon-header-font-family: $body-font-family;
-$cards-with-icon-header-font-size: 1.25rem;
-$cards-with-icon-header-font-weight: 600;
+$cards-with-icon-header-font-color: saturate($primary, 30%);
+$cards-with-icon-header-font-family:  $header-font-family;
+$cards-with-icon-header-font-size: 1.5rem;
+$cards-with-icon-header-font-weight: 400;
 $cards-with-icon-header-letter-spacing: 0px;
 $cards-with-icon-text-transform: none;
 $cards-with-icon-button-display: none;
@@ -180,9 +181,9 @@ $contact-info-title-font-size: 2rem;
 $contact-form-background: $white;
 
 //Footer 
-$footer-background: $white;
+$footer-background: $black;
 $footer-border: none;
-$footer-font-color: $secondary;
+$footer-font-color: $white;
 $footer-font-color-hover: $primary;
 $footer-font-family: $body-font-family;
 $footer-font-size: $body-font-size;
@@ -196,7 +197,7 @@ $footer-title-font-size: 2rem;
 $footer-title-font-weight: 600;
 $footer-title-text-transform: uppercase;
 
-$footer-url-color: $secondary;
+$footer-url-color: $white;
 $footer-url-hover-color: $primary;
 $footer-url-font-weight: $body-font-weight;
 
@@ -231,7 +232,7 @@ $footer-newsletter-text-align: left;
 $footer-newsletter-text-transform: none;
 $footer-newsletter-block-background: $light-gray;
 
-$footer-thank-you-background: $primary-gradient;
+$footer-thank-you-background: url("/images/backgrounds/rmr-38.webp");
 $footer-thank-you-border: none;
 $footer-thank-you-font-color: $white;
 $footer-thank-you-font-color-hover: $tertiary;
@@ -241,7 +242,7 @@ $footer-thank-you-font-weight: 500;
 $footer-thank-you-letter-spacing: 0px;
 $footer-thank-you-text-transform: none;
 $footer-thank-you-url-font-color: $white;
-$footer-thank-you-max-width: 800px;
+$footer-thank-you-max-width: unset;
 
 $footer-thank-you-title-font-family: $header-font-family;
 $footer-thank-you-title-font-size: 2rem;
@@ -251,7 +252,7 @@ $footer-thank-you-send-off-font-size: 1.5rem;
 
 $footer-contact-icon-color: $secondary;
 
-$footer-menu-max-height: 230px;
+$footer-menu-max-height: 280px;
 
 $footer-socials-max-width: 220px;
 
@@ -259,12 +260,12 @@ $footer-summary-font-size: $body-font-size;
 $footer-summary-font-weight: $body-font-weight;
 $footer-summary-image-max-width: 220px;
 
-$footer-marquee-background: $secondary-gradient;
+$footer-marquee-background: $secondary;
 $footer-marquee-font-color: $white;
 $footer-marquee-font-size: 1rem;
 $footer-marquee-font-weight: 1rem;
 
-$footer-copyright-background: $primary-gradient;
+$footer-copyright-background: $primary;
 $footer-copyright-font-color: $white;
 $footer-copyright-font-size: calc($body-font-size * .75);
 $footer-copyright-font-weight: $body-font-weight;
@@ -283,7 +284,7 @@ $hero-header-font-family: $header-font-family;
 $hero-text-transform: none;
 
 // Jumbotron
-$jumbotron-background: url("/images/backgrounds/jumbotron/rr-13.webp");
+$jumbotron-background: url("/images/backgrounds/jumbotron/jumbotron.webp");
 $jumbotron-border: none;
 $jumbotron-font-color: $white;
 $jumbotron-font-family: $header-font-family;
@@ -295,10 +296,10 @@ $jumbotron-text-transform: none;
 $logo-max-width: 250px;
 
 // Nav
-$nav-background: $white;
+$nav-background: $black;
 $nav-border: none;
-$nav-font-color: $black;
-$nav-font-color-hover: $primary;
+$nav-font-color: $white;
+$nav-font-color-hover: $white;
 $nav-font-family: $header-font-family;
 $nav-font-size: $body-font-size;
 $nav-font-weight: $body-font-weight;
@@ -308,7 +309,7 @@ $nav-text-transform: none;
 $nav-logo-max-height: 96px;
 $nav-toggle-icon-color: $primary;
 
-$nav-dropdown-menu-background: $secondary-gradient;
+$nav-dropdown-menu-background: $secondary;
 $nav-dropdown-menu-border: none;
 $nav-dropdown-item-background-hover: $primary;
 $nav-dropdown-item-font-size: $nav-font-size;
@@ -337,7 +338,7 @@ $nav-bottom-bar-text-align: center;
 // Reviews
 $review-background: $white;
 $review-border: 1px solid $gray;
-$review-color: $black;
+$review-color: $white;
 $review-font-size: $body-font-size;
 $review-name-font-size: 1.5rem;
 $review-name-font-weight: 700;
@@ -347,14 +348,14 @@ $review-stars-font-size: $body-font-size;
 
 $review-slider-background: $white;
 $review-slider-border: 1px solid $gray;
-$review-slider-color: $black;
-$review-slider-font-size: $body-font-size;
-$review-slider-name-color: $black;
-$review-slider-name-font-size: 1.5rem;
-$review-slider-name-font-weight: 700;
+$review-slider-color: $white;
+$review-slider-font-size: 1.25rem;
+$review-slider-name-color: $white;
+$review-slider-name-font-size: 1rem;
+$review-slider-name-font-weight: 400;
 $review-slider-location-font-size: $body-font-size;
 $review-slider-location-font-weight: 500;
-$review-slider-stars-font-size: $body-font-size;
+$review-slider-stars-font-size: 2rem;
 
 $review-multi-card-background: $light-gray;
 $review-multi-card-border: 1px dotted $gray;

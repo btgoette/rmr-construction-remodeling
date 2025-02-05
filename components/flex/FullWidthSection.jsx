@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
-const FullWidthSection = ({ background, imageSrc, imageAlt, lowres, children, imageFirst = true }) => {
+const FullWidthSection = ({ background, imageSrc, imageAlt, lowres, children, textFlex, imageFlex, imageFirst = true }) => {
     return (
         <>
             <div className={background + " full-width-section d-none d-lg-flex"}>
                 {imageFirst ? (
                     <>
-                        <div className="image-section" style={{ backgroundImage:`url(${lowres})`}}>
+                        <div className={"image-section " + imageFlex} style={{ backgroundImage:`url(${lowres})`}}>
                             <Image src={imageSrc} alt={imageAlt} className="image" />
                         </div>
-                        <div className="text-section">
+                        <div className={"text-section " + textFlex}>
                             <div>
                                 {children}
                             </div>
@@ -20,12 +20,12 @@ const FullWidthSection = ({ background, imageSrc, imageAlt, lowres, children, im
                     </>
                 ) : (
                     <>
-                        <div className="text-section">
+                        <div className={"text-section " + textFlex}>
                             <div>
                                 {children}
                             </div>
                         </div>
-                        <div className="image-section" style={{ backgroundImage:`url(${lowres})`}}>
+                        <div className={"image-section " + imageFlex} style={{ backgroundImage:`url(${lowres})`}}>
                             <Image src={imageSrc} alt={imageAlt} className="image" />
                         </div>
                     </>

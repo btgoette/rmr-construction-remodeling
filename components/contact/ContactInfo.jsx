@@ -18,8 +18,7 @@ export default function ContactInfo({ contact }) {
   function renderPhone() {
     if (contact.phone !== undefined) {
       return (
-        <p><strong>Phone:</strong><br /><Link href={"tel:" + contact.phone}>{contact.phone}</Link><br/>
-        <strong>Call or Text</strong></p>
+        <p><strong>Phone:</strong><br /><Link href={"tel:" + contact.phone}>{contact.phone}</Link><br/></p>
       )
     }
   }
@@ -80,7 +79,6 @@ export default function ContactInfo({ contact }) {
   return (
     <Col md={contact.col}>
       <div className="contact-info">
-        <h2>Contact Info</h2>
         <h3 className="company-name">{contact.companyName}</h3>
         {renderOwner()}
         {renderAddress()}

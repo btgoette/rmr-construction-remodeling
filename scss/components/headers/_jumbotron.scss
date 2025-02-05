@@ -1,58 +1,54 @@
 .jumbotron {
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: $primary;
     background: $jumbotron-background;
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 1rem 3rem;
 
     .jumbotron-content {
         text-align: center;
-        padding: 0rem 1rem;
+        max-width: $xl;
+        padding: 1rem;
 
         h1 {
-            margin: 0 auto;
+            margin: 0 0;
             color: $jumbotron-header-font-color;
             text-transform: $jumbotron-text-transform;
             text-align: center;
         }
 
+        h2,
         h3 {
-            margin-top: 0;
+            padding-bottom:1rem;
             color: $white;
-
-            span {
-                &:not(:last-child) {
-                    &::after {
-                        content: " • ";
-                        color: $primary;
-                    }
-                }
-            }
+            text-align: center;
         }
-
 
         p {
             margin: 1rem auto;
-            font-family: $jumbotron-font-family;
             color: $jumbotron-font-color;
             text-align: center;
-            max-width: $md;
+        }
+
+        @media screen and (min-width: $sm) {
+            padding: 2rem;
         }
 
         @media screen and (min-width: $md) {
-            padding: 6rem;
+            padding: 4rem;
+        }
+        @media screen and (min-width: $lg) {
+            padding: 4rem 6rem;
         }
     }
 
 
     @media screen and (min-width: $md) {
-        min-height: 80vh;
+        min-height: 90vh;
     }
 }
 

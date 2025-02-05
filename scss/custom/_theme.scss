@@ -3,6 +3,10 @@ section,
     padding: 3rem 1rem;
 }
 
+p {
+    margin-top: 1rem;
+}
+
 .container-fluid {
     @media screen and (min-width: $md) {
         padding: 6rem 2rem;
@@ -45,8 +49,24 @@ section,
     width: 100%;
     height: 3px;
     background-color: $primary;
-    margin: 1rem 0 2rem;
-    max-width: 12rem;
+    margin: 1rem 0 2rem;    
+    max-width: 24rem;
+}
+
+.border-line-black-start {
+    width: 100%;
+    height: 3px;
+    background-color: $black;
+    margin: 1rem 0 2rem;    
+    max-width: 24rem;
+}
+
+.border-line-secondary-start {
+    width: 100%;
+    height: 3px;
+    background-color: $secondary;
+    margin: 1rem 0 2rem;    
+    max-width: 24rem;
 }
 
 .border-line-center {
@@ -54,8 +74,23 @@ section,
     height: 3px;
     background-color: $primary;
     margin: 1rem auto 2rem;
-    max-width: 12rem;
+    max-width: 24rem;
+}
 
+.border-line-black-center {
+    width: 100%;
+    height: 3px;
+    background-color: $black;
+    margin: 1rem auto 2rem;
+    max-width: 24rem;
+}
+
+.border-line-secondary-center {
+    width: 100%;
+    height: 3px;
+    background-color: $secondary;
+    margin: 1rem auto 2rem;
+    max-width: 24rem;
 }
 
 .border-line-end {
@@ -75,6 +110,11 @@ section,
     max-width: max-content;
     padding-bottom: .5rem;
     border-bottom: 3px solid $primary !important;
+}
+
+.border-black-bottom {
+    max-width: max-content;
+    border-bottom: 3px solid $black !important;
 }
 
 .mx-w-xxl {

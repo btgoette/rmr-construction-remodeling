@@ -75,57 +75,42 @@
         }
     }
 
-
     .review-slider {
+        border-radius: 25px;
+        align-items: center;
+
+        .review-stars {
+            display: flex;
+            justify-content: center;
+            color: $primary;
+            font-size: $review-slider-stars-font-size;
+            line-height: 1.75;
+        }
+
         .review-card {
             padding: 1rem;
             margin: 0 auto;
 
             .review-card-content {
-                background: $review-slider-background;
-                border: $review-slider-border;
-                padding: 2rem;
                 margin: auto;
-                text-align: left;
+                text-align: center;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                max-width: $lg;
-                height: 400px;
                 justify-content: space-between;
 
-                @media screen and (max-width: $sm) {
-                    padding: 1rem;
-                }
-
-                .review-stars {
-                    display: flex;
-                    color: $primary;
-                    font-size: $review-slider-stars-font-size;
-                    line-height: $review-slider-stars-font-size;
-
-                    &.google {
-                        color: $google-star;
-                    }
-
-                    &.yelp {
-                        color: $yelp;
-                    }
-
-                    &.angi {
-                        color: $angi;
-                    }
-                }
 
                 .review-header {
-                    margin-top: 0;
-                    text-align: left;
+                    margin: 0;
+                    text-align: center;
 
                     .review-name {
+                        color: $review-slider-name-color;
                         font-size: $review-slider-name-font-size;
                         font-weight: $review-slider-name-font-weight;
                         text-align: center;
-                        line-height: calc($review-slider-name-font-size * 1.5);
+                        line-height: 22px;
+                        text-transform: uppercase;
                     }
 
                     .review-url {
@@ -139,7 +124,7 @@
                     .review-location {
                         color: $review-slider-color;
                         font-size: $review-slider-location-font-size;
-                        line-height: calc($review-slider-location-font-size * 1.5);
+                        line-height: 1.75;
                     }
                 }
 
@@ -147,7 +132,8 @@
                     display: -webkit-box;
                     color: $review-slider-color;
                     font-size: $review-slider-font-size;
-                    line-height: calc($review-slider-font-size * 1.5);
+                    font-weight: $review-slider-name-font-weight;
+                    line-height: 1.75;
                     margin-bottom: 1rem;
                     line-clamp: 7;
                     -webkit-line-clamp: 7;

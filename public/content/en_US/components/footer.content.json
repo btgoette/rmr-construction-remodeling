@@ -1,84 +1,71 @@
 {
     "thankYou": {
-        "company": "Roseville Roofing",
+        "company": "RMR Construction & Remodeling",
         "title": "Contact Us for a Free Estimate",
         "text": {
             "p": "Call us at ",
-            "phone": "916-791-7348",
-            "url": "http://localhost:3000/contact/"
+            "phone": "916-533-4758",
+            "url": "/contact/"
         },
-        "sendOff": "Your roof is an investment – trust Roseville Roofing to deliver real value and outstanding results."
+        "sendOff": "Your roof is an investment – trust RMR Construction & Remodeling to deliver real value and outstanding results."
     },
     "logo": {
         "img": {
-            "src": "/images/logos/logo.svg",
-            "alt": "Roseville Roofing",
+            "src": "/images/logos/logo.webp",
+            "alt": "RMR Construction & Remodeling",
             "width": "250px",
-            "height": "121px"
+            "height": "125px"
         }
     },
-    "banner": "Residential & Commercial Roofer, Since 1989!",
-    "subBanner": "Ask About Our Financing Options",
-    "license": "553613",
+    "license": "1088628",
     "socials": {
-        "bbb": "https://www.bbb.org/us/ca/granite-bay/profile/roofing-contractors/roseville-roofing-1156-17001649",
-        "facebook": "https://www.facebook.com/Roseville-Roofing-262502257275698",
-        "google": "https://www.google.com/search?q=roseville+roofing+granite+bay+ca&rlz=1C1VDKB_enUS1126US1126&oq=roseville+roofing+granite+bay+ca&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIGCAEQRRg8MgYIAhBFGDzSAQg1MzIzajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8#lrd=0x809ae4d5ac16854d:0x9919b224bc7d03ce,1,,,,",
-        "yelp": "https://www.yelp.com/biz/roseville-roofing-roseville-4"
+        "facebook": "https://www.facebook.com/p/RMR-Construction-and-Remodeling-100085566578579/",
+        "google": "https://www.google.com/maps/place/RMR+Construction+and+Remodeling/@38.691142,-121.424971,10z/data=!4m6!3m5!1s0xb51cc2ede64e493:0xc214fe8e899f2889!8m2!3d38.6911416!4d-121.424971!16s%2Fg%2F11vm1761_4?hl=en&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
+        "yelp": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda",
+        "nextdoor":"https://nextdoor.com/pages/rmr-constriction-and-remodeling-rio-linda-ca/",
+        "instagram":"https://www.instagram.com/rmrconstruction_"
     },
     "contact": {
-        "phone": "916-791-7348",
-        "email": "rosevilleroofing@yahoo.com"
+        "phone": "916-533-4758",
+        "email": "rmrconstructing@yahoo.com"
     },
     "nav": {
         "navLinks": [
             {
-                "name": "About Us",
-                "url": "/about/"
+                "name": "Home",
+                "url": "/"
             },
             {
                 "name": "Our Services",
                 "url": "/services/"
             },
             {
-                "name": "Residential",
-                "url": "/services/residential/"
+                "name": "Landscape Construction",
+                "url": "/services/landscape-construction/"
             },
             {
-                "name": "Commercial",
-                "url": "/services/commercial/"
+                "name": "Concrete",
+                "url": "/services/concrete/"
             },
             {
-                "name": "Roof Inspections",
-                "url": "/services/roof-inspections/"
+                "name": "Driveways",
+                "url": "/services/driveways/"
             },
             {
-                "name": "Roof Repairs",
-                "url": "/services/roof-repairs/"
+                "name": "Wood Structures & Patio Covers",
+                "url": "/services/wood-structures-and-patio-covers/"
             },
             {
-                "name": "Roof Replacements",
-                "url": "/services/roof-replacements/"
+                "name": "Walkways",
+                "url": "/services/walkways/"
             },
             {
-                "name": "Roof Types",
-                "url": "/roof-types/"
+                "name": "Irrigation & Drainage",
+                "url": "/services/irrigation-and-drainage/"
             },
             {
-                "name": "Recent Projects",
-                "url": "/gallery/recent-projects/"
-            },
-            {
-                "name": "Residential Gallery",
-                "url": "/gallery/residential/"
-            },
-            {
-                "name": "Commercial Gallery",
-                "url": "/gallery/commercial/"
-            },
-            {
-                "name": "Testimonials",
-                "url": "/testimonials"
+                "name": "Gallery",
+                "url": "/gallery/"
             }
         ],
         "cta": {
@@ -87,7 +74,7 @@
         }
     },
     "summary": {
-        "text": "Since 1989, Roseville Roofing has been providing a standard of customer service that has remained unmatched by any other roofing contractor in the Sacramento area.",
+        "text": "We are a family-owned home contracting business in Rio Linda, CA that aims to use our knowledge of construction, remodeling, and updates to make our customers happy at an affordable price.",
         "creditCards": [
             {
                 "src": "/images/icons/payment-logos/rounded-corners/visa.svg",
@@ -106,391 +93,16 @@
                 "alt": "Discover"
             }
         ],
-        "title": "916-791-7348",
-        "url": "tel:916-791-7348"
-    },
-    "brands": {
-        "brandImages": [
-            {
-                "url": "https://rosevillechamber.com/",
-                "src": "/images/logos/rch-logo.webp",
-                "alt": "Roseville Chamber of Commerce",
-                "width": "286px",
-                "height": "100px"
-            },
-            {
-                "url": "https://www.nrca.net/",
-                "src": "/images/logos/nrca-logo.webp",
-                "alt": "National Roofing Contractors Association",
-                "width": "272px",
-                "height": "100px"
-            },
-            {
-                "url": "https://arcnc.wordpress.com/",
-                "src": "/images/logos/arcnc-logo.webp",
-                "alt": "Associated Roofing Contractors of Northern California",
-                "width": "100px",
-                "height": "78px"
-            },
-            {
-                "url": "https://www.certainteed.com/select-shinglemaster",
-                "src": "/images/logos/certainteed-select-logo.webp",
-                "alt": "Certainteed Select Shingle Master",
-                "width": "104px",
-                "height": "100px"
-            },
-            {
-                "url": "https://www.owenscorning.com/en-us/roofing/rewards-program",
-                "src": "/images/logos/owens-corning-logo.webp",
-                "alt": "Owens Corning Preferred Contractor",
-                "width": "332px",
-                "height": "100px"
-            }
-        ]
+        "title": "916-533-4758",
+        "url": "tel:916-533-4758"
     },
     "marquee": [
         {
-            "name": "Proudly serving the Tri County area of Placer County, El Dorado County and Sacramento County since 1989, including the cities of Auburn, Carmichael, Citrus Heights, Davis, Fair Oaks, Folsom, Granite Bay, Loomis, Rocklin, Roseville, Sacramento and the surrounding area",
+            "name": "Proudly serving the Sacramento Valley including the cities of Antelope, Arden Arcade, Citrus Heights, Elverta, Fair Oaks, Foothill Farms, McClellan Park, North Highlands, Orangevale, Rio Linda, Rocklin, Roseville, Sacramento. ",
             "url": "#"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Auburn",
-            "url": "/service-area/residential-commercial-roofer-auburn/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Carmichael",
-            "url": "/service-area/residential-commercial-roofer-carmichael/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Citrus Heights",
-            "url": "/service-area/residential-commercial-roofer-citrus-heights/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Davis",
-            "url": "/service-area/residential-commercial-roofer-davis/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer El Dorado Hills",
-            "url": "/service-area/residential-commercial-roofer-el-dorado-hills/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Fair Oaks",
-            "url": "/service-area/residential-commercial-roofer-fair-oaks/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Folsom",
-            "url": "/service-area/residential-commercial-roofer-folsom/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Granite Bay",
-            "url": "/service-area/residential-commercial-roofer-granite-bay/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Loomis",
-            "url": "/service-area/residential-commercial-roofer-loomis/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Rocklin",
-            "url": "/service-area/residential-commercial-roofer-rocklin/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Roseville",
-            "url": "/service-area/residential-commercial-roofer-roseville/"
-        },
-        {
-            "name": "| Residential & Commercial Roofer Sacramento",
-            "url": "/service-area/residential-commercial-roofer-sacramento/"
-        },
-        {
-            "name": "| Roofing Company Auburn",
-            "url": "/service-area/roofing-company-roofer-auburn/"
-        },
-        {
-            "name": "| Roofing Company Carmichael",
-            "url": "/service-area/roofing-company-roofer-carmichael/"
-        },
-        {
-            "name": "| Roofing Company Citrus Heights",
-            "url": "/service-area/roofing-company-roofer-citrus-heights/"
-        },
-        {
-            "name": "| Roofing Company Davis",
-            "url": "/service-area/roofing-company-roofer-davis/"
-        },
-        {
-            "name": "| Roofing Company El Dorado Hills",
-            "url": "/service-area/roofing-company-roofer-el-dorado-hills/"
-        },
-        {
-            "name": "| Roofing Company Fair Oaks",
-            "url": "/service-area/roofing-company-roofer-fair-oaks/"
-        },
-        {
-            "name": "| Roofing Company Folsom",
-            "url": "/service-area/roofing-company-roofer-folsom/"
-        },
-        {
-            "name": "| Roofing Company Granite Bay",
-            "url": "/service-area/roofing-company-roofer-granite-bay/"
-        },
-        {
-            "name": "| Roofing Company Loomis",
-            "url": "/service-area/roofing-company-roofer-loomis/"
-        },
-        {
-            "name": "| Roofing Company Rocklin",
-            "url": "/service-area/roofing-company-roofer-rocklin/"
-        },
-        {
-            "name": "| Roofing Company Roseville",
-            "url": "/service-area/roofing-company-roofer-roseville/"
-        },
-        {
-            "name": "| Roofing Company Sacramento",
-            "url": "/service-area/roofing-company-roofer-sacramento/"
-        },
-        {
-            "name": "| Roofing Contractor Auburn",
-            "url": "/service-area/roofing-contractor-roofer-auburn/"
-        },
-        {
-            "name": "| Roofing Contractor Carmichael",
-            "url": "/service-area/roofing-contractor-roofer-carmichael/"
-        },
-        {
-            "name": "| Roofing Contractor Citrus Heights",
-            "url": "/service-area/roofing-contractor-roofer-citrus-heights/"
-        },
-        {
-            "name": "| Roofing Contractor Davis",
-            "url": "/service-area/roofing-contractor-roofer-davis/"
-        },
-        {
-            "name": "| Roofing Contractor El Dorado Hills",
-            "url": "/service-area/roofing-contractor-roofer-el-dorado-hills/"
-        },
-        {
-            "name": "| Roofing Contractor Fair Oaks",
-            "url": "/service-area/roofing-contractor-roofer-fair-oaks/"
-        },
-        {
-            "name": "| Roofing Contractor Folsom",
-            "url": "/service-area/roofing-contractor-roofer-folsom/"
-        },
-        {
-            "name": "| Roofing Contractor Granite Bay",
-            "url": "/service-area/roofing-contractor-roofer-granite-bay/"
-        },
-        {
-            "name": "| Roofing Contractor Loomis",
-            "url": "/service-area/roofing-contractor-roofer-loomis/"
-        },
-        {
-            "name": "| Roofing Contractor Rocklin",
-            "url": "/service-area/roofing-contractor-roofer-rocklin/"
-        },
-        {
-            "name": "| Roofing Contractor Roseville",
-            "url": "/service-area/roofing-contractor-roofer-roseville/"
-        },
-        {
-            "name": "| Roofing Contractor Sacramento",
-            "url": "/service-area/roofing-contractor-roofer-sacramento/"
-        },
-        {
-            "name": "| Roofing Contractor Auburn",
-            "url": "/service-area/roofing-contractor-auburn/"
-        },
-        {
-            "name": "| Roofing Contractor Carmichael",
-            "url": "/service-area/roofing-contractor-carmichael/"
-        },
-        {
-            "name": "| Roofing Contractor Citrus Heights",
-            "url": "/service-area/roofing-contractor-citrus-heights/"
-        },
-        {
-            "name": "| Roofing Contractor Davis",
-            "url": "/service-area/roofing-contractor-davis/"
-        },
-        {
-            "name": "| Roofing Contractor El Dorado Hills",
-            "url": "/service-area/roofing-contractor-el-dorado-hills/"
-        },
-        {
-            "name": "| Roofing Contractor Fair Oaks",
-            "url": "/service-area/roofing-contractor-fair-oaks/"
-        },
-        {
-            "name": "| Roofing Contractor Folsom",
-            "url": "/service-area/roofing-contractor-folsom/"
-        },
-        {
-            "name": "| Roofing Contractor Granite Bay",
-            "url": "/service-area/roofing-contractor-granite-bay/"
-        },
-        {
-            "name": "| Roofing Contractor Loomis",
-            "url": "/service-area/roofing-contractor-loomis/"
-        },
-        {
-            "name": "| Roofing Contractor Rocklin",
-            "url": "/service-area/roofing-contractor-rocklin/"
-        },
-        {
-            "name": "| Roofing Contractor Roseville",
-            "url": "/service-area/roofing-contractor-roseville/"
-        },
-        {
-            "name": "| Roofing Contractor Sacramento",
-            "url": "/service-area/roofing-contractor-sacramento/"
-        },
-        {
-            "name": "| Roof Installation & Repair Auburn",
-            "url": "/service-area/roof-installation-and-repair-auburn/"
-        },
-        {
-            "name": "| Roof Installation & Repair Carmichael",
-            "url": "/service-area/roof-installation-and-repair-carmichael/"
-        },
-        {
-            "name": "| Roof Installation & Repair Citrus Heights",
-            "url": "/service-area/roof-installation-and-repair-citrus-heights/"
-        },
-        {
-            "name": "| Roof Installation & Repair Davis",
-            "url": "/service-area/roof-installation-and-repair-davis/"
-        },
-        {
-            "name": "| Roof Installation & Repair El Dorado Hills",
-            "url": "/service-area/roof-installation-and-repair-el-dorado-hills/"
-        },
-        {
-            "name": "| Roof Installation & Repair Fair Oaks",
-            "url": "/service-area/roof-installation-and-repair-fair-oaks/"
-        },
-        {
-            "name": "| Roof Installation & Repair Folsom",
-            "url": "/service-area/roof-installation-and-repair-folsom/"
-        },
-        {
-            "name": "| Roof Installation & Repair Granite Bay",
-            "url": "/service-area/roof-installation-and-repair-granite-bay/"
-        },
-        {
-            "name": "| Roof Installation & Repair Loomis",
-            "url": "/service-area/roof-installation-and-repair-loomis/"
-        },
-        {
-            "name": "| Roof Installation & Repair Rocklin",
-            "url": "/service-area/roof-installation-and-repair-rocklin/"
-        },
-        {
-            "name": "| Roof Installation & Repair Roseville",
-            "url": "/service-area/roof-installation-and-repair-roseville/"
-        },
-        {
-            "name": "| Roof Installation & Repair Sacramento",
-            "url": "/service-area/roof-installation-and-repair-sacramento/"
-        },
-        {
-            "name": "| Auburn Roofer",
-            "url": "/service-area/roofer-auburn/"
-        },
-        {
-            "name": "| Carmichael Roofer",
-            "url": "/service-area/roofer-carmichael/"
-        },
-        {
-            "name": "| Citrus Heights Roofer",
-            "url": "/service-area/roofer-citrus-heights/"
-        },
-        {
-            "name": "| Davis Roofer",
-            "url": "/service-area/roofer-davis/"
-        },
-        {
-            "name": "| El Dorado Hills Roofer",
-            "url": "/service-area/roofer-el-dorado-hills/"
-        },
-        {
-            "name": "| Fair Oaks Roofer",
-            "url": "/service-area/roofer-fair-oaks/"
-        },
-        {
-            "name": "| Folsom Roofer",
-            "url": "/service-area/roofer-folsom/"
-        },
-        {
-            "name": "| Granite Bay Roofer",
-            "url": "/service-area/roofer-granite-bay/"
-        },
-        {
-            "name": "| Loomis Roofer",
-            "url": "/service-area/roofer-loomis/"
-        },
-        {
-            "name": "| Rocklin Roofer",
-            "url": "/service-area/roofer-rocklin/"
-        },
-        {
-            "name": "| Roseville Roofer",
-            "url": "/service-area/roofer-roseville/"
-        },
-        {
-            "name": "| Sacramento Roofer",
-            "url": "/service-area/roofer-sacramento/"
-        },
-        {
-            "name": "| Auburn Roof Repairs",
-            "url": "/service-area/roof-repairs-auburn/"
-        },
-        {
-            "name": "| Carmichael Roof Repairs",
-            "url": "/service-area/roof-repairs-carmichael/"
-        },
-        {
-            "name": "| Citrus Heights Roof Repairs",
-            "url": "/service-area/roof-repairs-citrus-heights/"
-        },
-        {
-            "name": "| Davis Roof Repairs",
-            "url": "/service-area/roof-repairs-davis/"
-        },
-        {
-            "name": "| El Dorado Hills Roof Repairs",
-            "url": "/service-area/roof-repairs-el-dorado-hills/"
-        },
-        {
-            "name": "| Fair Oaks Roof Repairs",
-            "url": "/service-area/roof-repairs-fair-oaks/"
-        },
-        {
-            "name": "| Folsom Roof Repairs",
-            "url": "/service-area/roof-repairs-folsom/"
-        },
-        {
-            "name": "| Granite Bay Roof Repairs",
-            "url": "/service-area/roof-repairs-granite-bay/"
-        },
-        {
-            "name": "| Loomis Roof Repairs",
-            "url": "/service-area/roof-repairs-loomis/"
-        },
-        {
-            "name": "| Rocklin Roof Repairs",
-            "url": "/service-area/roof-repairs-rocklin/"
-        },
-        {
-            "name": "| Roseville Roof Repairs",
-            "url": "/service-area/roof-repairs-roseville/"
-        },
-        {
-            "name": "| Sacramento Roof Repairs",
-            "url": "/service-area/roof-repairs-sacramento/"
         }
     ],
     "copyright": {
-        "company": "Roseville Roofing"
+        "company": "RMR Construction & Remodeling"
     }
 }

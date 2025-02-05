@@ -32,7 +32,7 @@ export default class MyApp extends App {
       offset: 0,
       duration: 500,
       easing: 'linear',
-      delay: 200,
+      delay:0,
     });
     addBackToTop({
       diameter: 50,

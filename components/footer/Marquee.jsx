@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 export default function FooterMarquee({ marquee }) {
     return (
-        <section className="marquee bg-otis">
+        <section className="marquee bg-concrete">
             <Marquee speed="20">
                 {marquee.map(({ name, url }, i) => (
                     <span key={i} className="marquee-link">

@@ -1,12 +1,12 @@
 {
     "head": {
-        "title": "Expert Roofing Solutions Since 1989 | Roseville Roofing",
-        "description": "Roseville Roofing provides durable residential and commercial roofing solutions in Granite Bay, CA, and beyond. Trust our team for installations, repairs, and inspections. Call today for quality craftsmanship and a free estimate!",
-        "keywords": "roofing services, residential roofing, commercial roofing, roof repairs, roof replacement, Granite Bay roofing, Owens Corning contractor, CertainTeed roofing, Roseville Roofing, California roofers",
+        "title": "Expert Roofing Solutions Since 1989 | RMR Construction & Remodeling",
+        "description": "RMR Construction & Remodeling provides durable residential and commercial roofing solutions in Rio Linda, CA, and beyond. Trust our team for installations, repairs, and inspections. Call today for quality craftsmanship and a free estimate!",
+        "keywords": "roofing services, residential roofing, commercial roofing, roof repairs, roof replacement, Rio Linda roofing, Owens Corning contractor, CertainTeed roofing, RMR Construction & Remodeling, California roofers",
         "href": "https://rsvlroofing.com",
-        "location": "Granite Bay, CA",
+        "location": "Rio Linda, CA",
         "region": "US-CA",
-        "image": "https://rsvlroofing.com/images/logos/logo.webp",
+        "image": "http://rmrconstructing.com/images/logos/logo.webp",
         "imageType": "image/webp",
         "robots": "INDEX, FOLLOW"
     },
@@ -27,149 +27,180 @@
                 "service": "Repairs"
             }
         ],
-        "text": "Specializing in durable roofing solutions, Roseville Roofing serves homeowners and businesses with expert repairs, installations, and maintenance. With decades of experience, we deliver quality craftsmanship tailored to your needs."
-    },
-    "cards": {
-        "col": "3",
-        "justify": "justify-content-center",
-        "card": [
-            {
-                "img": {
-                    "src": "/images/800x800/rr-101.webp",
-                    "alt": "Residential Roofing - Roseville Roofing - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Granite Bay Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-101.webp"
-                },
-                "title": "Residential",
-                "title2": "Roofing",
-                "text": "Protect your home with our expert residential roofing services. From repairs to replacements, we use premium materials and proven techniques to ensure your roof is both durable and visually appealing.",
-                "url": "/services/residential/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-32.webp",
-                    "alt": "Roof Repairs - Roseville Roofing - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Granite Bay Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-32.webp"
-                },
-                "title": "Roof",
-                "title2": "Repairs",
-                "text": "Fix leaks, storm damage, or wear with expert repairs that restore your roof's integrity. We use premium materials to ensure durable, lasting results, keeping your home or business protected from the elements.",
-                "url": "/services/roof-repairs/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-31.webp",
-                    "alt": "Roof Replacements - Roseville Roofing - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Granite Bay Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-31.webp"
-                },
-                "title": "Roof",
-                "title2": "Replacement",
-                "text": "Upgrade your roof with expert replacements. We assess your needs, recommend materials, and complete the project efficiently to enhance your property's value while minimizing disruptions.",
-                "url": "/services/roof-replacements/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-55.webp",
-                    "alt": "Roof Inspection - Roseville Roofing - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Granite Bay Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-55.webp"
-                },
-                "title": "Roof",
-                "title2": "Inspection",
-                "text": "Extend your roof's lifespan with preventative care. Our maintenance services include regular inspections, cleaning, and minor repairs to keep your roof in optimal condition and prevent costly issues down the line.",
-                "url": "/services/roof-inspections/"
-            },
-            {
-                "img": {
-                    "src": "/images/800x800/rr-72.webp",
-                    "alt": "Commercial Roofing - Roseville Roofing - Auburn Carmichael Citrus Heights Davis Fair Oaks Folsom, Granite Bay Loomis Rocklin Roseville Sacramento",
-                    "width": "600",
-                    "height": "600",
-                    "lowres": "/images/lowres/rr-72.webp"
-                },
-                "title": "Commercial",
-                "title2": "Roofing",
-                "text": "Specializing in low-slope, TPO (Thermoplastic Olefin) , metal, and modified bitumen roofs, we provide durable solutions tailored to your business needs, ensuring quality, longevity, and compliance.",
-                "url": "/services/commercial/"
-            }
-        ]
+        "text": "Specializing in durable roofing solutions, RMR Construction & Remodeling serves homeowners and businesses with expert repairs, installations, and maintenance. With decades of experience, we deliver quality craftsmanship tailored to your needs."
     },
     "reviews": {
-        "newReviewUrl": "https://www.yelp.com/writeareview/biz/PtUVlXo8OwPm7LdXS1ZJoA?return_url=%2Fbiz%2FPtUVlXo8OwPm7LdXS1ZJoA&review_origin=biz-details-war-button",
+        "newReviewUrl": "https://www.yelp.com/writeareview/biz/CSPasH88XO1OiSLoft89dA?return_url=%2Fbiz%2FCSPasH88XO1OiSLoft89dA&review_origin=biz-details-war-button",
         "reviewsList": [
             {
-                "name": "Charlie V.",
-                "location": "Roseville, CA",
-                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=GigkwcSiVJxDAj0lxemi9w&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "name": "Josh S.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=4YPdGXSHLcJzJkU4O1W-xA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
                 "message": [
                     {
-                        "p": "With all the recent heavy weather I became concerned when taking down my Christmas lights I noticed a visible sag in a short, specific area of my roof. I had no leaks and the sag was not visible from inside the attic. Jeff Vogt came by and did a thorough inspection of the area. After explaining to me (very clearly) how the roof is designed, he assured me there was no real cause for concern. Though it may not have been the best design or construction practices (28 year old roof), there was no reason to be worried, other than the minor aesthetics. He could have pursued a big payday but instead, satisfied my concerns and saved me $$$. I highly recommend Roseville Roofing for their expertise and professional manner."
+                        "p": "Jose and his team were great. They were very professional and did and excellent job completing my project. Highly recommended!"
                     }
                 ]
             },
             {
-                "name": "Denise R.",
-                "location": "Granite Bay, CA",
-                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=bx_lltvtA5NDbsm_CYQzRQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "name": "Kelsey W.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=YlC8jVgTxstMmIq8_IZmSw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
                 "message": [
                     {
-                        "p": "Wow! What an amazing company. I had a Leak appear in a bedroom ceiling on Christmas. Totally panicked and worried. I called Sunday and left a message for Roseville Roofing and was amazed that the owner, Jeff, called me back Monday morning and had his crew out before end of day. Not only did they fix the issue on the spot, Jeff went out of his way to explain everything and reassure me. I cannot applaud this company enough. They deserve 10 stars in an era where it is so rare to find companies with such integrity and customer oriented. Thank you Jeff and your crew!! I'll keep you on my speed dial for any future roofing issues!"
+                        "p": "We are so incredibly impressed with RMR Construction and the work they did on our backyard. Jose is professional, patient and him and his crew do one hell of a great job. We will absolutely be using them for more projects in the future!"
                     }
                 ]
             },
             {
-                "name": "William H.",
-                "location": "El Dorado Hills, CA",
-                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=rHszYkbOh6Z_Etsh12XKmg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "name": "Ter V.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=WRHPr7OXACZgA1zW1MxYsQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
                 "message": [
                     {
-                        "p": "We had a roof leak during a heavy storm and discovered we had a water intrusion into the house when we got up in the morning. I called Roseville Roofing and Jeff ( the owner) came out the same day. He took photos, did a temporary patch & seal initially and returned the following day with material to seal the roof enough to get us through the next series of storms. Once the weather cleared he replaced all the damage ( caused by squirrels) to the roof, installed an underlayment that was superior to the original one and made all the repairs necessary to get us a water proof roof structure again. They also installed wire mesh to prevent the squirrels from getting back to their spot under our Spanish tile roof. They were quick, clean and very respectful of our property. The repair work turned out great and we are ready for the next round of storms. Roseville Roofing is now my permanent go to roofing company."
+                        "p": "Very satisfied for the price. Had my backyard concrete done in October 2024. These guys did a great job with demo and pouring the new concrete. Overall it turned out great and I'm really satisfied. Lastly communication with Jose was great."
                     }
                 ]
             },
             {
-                "name": "Jeromy J.",
-                "location": "Folsom, CA",
-                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=YAiyXsphcawoPap1gQvzDw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "name": "Jason S.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=Ceic2uxonmyc3StuHG2NoA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
                 "message": [
                     {
-                        "p": "Jeff and his crew were professional, showed up every morning, worked hard in the Folsom summer, and created a beautiful roof while not cutting corners. We had some unexpected dry rot and Jeff offered solutions keeping in mind any future resale considerations at a fair price. It's hard to find a reliable and honest contractor it seems these days, but I would trust Jeff with any future work and cannot recommend him highly enough. As a bonus, he was very responsive with questions and took the time to explain the process or any decisions that needed to be made. If you need a roof done right, reach out to Jeff and Roseville Roofing--you won't be disappointed."
+                        "p": "RMR did an amazing job on our home. We had lots on dry rot on the siding and trim. They replaced the many rotted spots around the entire house in a timely and professional manner. Then their paint team painted the whole house. It looks amazing. I can't recommend them enough."
+                    }
+                ]
+            },
+            {
+                "name": "Jazz U.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=IYnDWlFNh2zNqMdvBGkK_A&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "We're soooo happy with the outcome of our backyard! I'm so glad that I found RMR. Jose gave us the best deal for what we wanted & provided quality work. Every time I had a question Jose would respond quickly. The RMR team did a wonderful job & we highly recommend them! 10/10!!!!!"
+                    }
+                ]
+            },
+            {
+                "name": "Bela D.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=noiJhmlnwLn7JGMtb0_Q_g&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "Jose Castaneda and his crew did an amazing job with our Front Porch Walkway Steps with lights and dual mow strips. Definitely enhanced the overall curb appeal of our home - Great Job! Kevin and Bela Daly."
+                    }
+                ]
+            },
+            {
+                "name": "Jose R.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=29HYMUv3Xibf9KotiV7Q_w&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "I reached out to RMR because I saw their contact information on one of my neighbors lawns that they had worked on. I wanted to extend my backyard concrete patio area, extend my front driveway and add a RV parking concrete driveway. I got quotes from many companies. However, I chose RMR because they had the best price while at the same time still offering the same quality build materials and build standards as all the other more expensive companies. RMR was very responsive throughout the construction process, I would receive responses to my questions in a timely fashion. RMR provided me with a timeline to the construction process which they stuck too and completed the project on time as promised. It was a great experience working with RMR."
+                    }
+                ]
+            },
+            {
+                "name": "Jacky S.",
+                "url": "https://www.yelp.com/biz/rmr-construction-and-remodeling-rio-linda?hrid=o_Xh3xL2CLQq993FOp-C5g&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "We just can't say enough about how pleased and impressed we are with our backyard concrete and turf. In RMR Construction and Remodeling is a shining example of excellence. Every team member was friendly, polite and accommodating. Especially the owner Jose he is an amazingly hard worker, kind and very helpful, selfless person. Their attention to every detail shows in the beautiful results. We have already had several people stop to ask what company did the work. Rest assured that we will be telling everyone about RMR Construction and Remodeling."
                     }
                 ]
             }
         ]
     },
     "gallery": {
+        "col": "4",
         "images": [
             {
-                "original": "/images/gallery/originals/rr-8.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-8.jpg",
-                "originalAlt": "Qurray Ridge Standing Seam",
-                "thumbnailAlt": "Qurray Ridge Standing Seam"
+                "original": "/images/gallery/originals/rmr-11.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-11.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-12.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-12.jpg",
-                "originalAlt": "Qurray Ridge Standing Seam",
-                "thumbnailAlt": "Qurray Ridge Standing Seam"
+                "original": "/images/gallery/originals/rmr-19.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-19.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-10.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-10.jpg",
-                "originalAlt": "Qurray Ridge Standing Seam",
-                "thumbnailAlt": "Qurray Ridge Standing Seam"
+                "original": "/images/gallery/originals/rmr-30.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-30.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
             },
             {
-                "original": "/images/gallery/originals/rr-78.jpg",
-                "thumbnail": "/images/gallery/thumbnails/rr-78.jpg",
-                "originalAlt": "Qurray Ridge Standing Seam",
-                "thumbnailAlt": "Qurray Ridge Standing Seam"
+                "original": "/images/gallery/originals/rmr-32.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-32.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-34.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-34.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-36.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-36.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-38.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-38.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-51.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-51.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            },
+            {
+                "original": "/images/gallery/originals/rmr-63.jpg",
+                "thumbnail": "/images/gallery/thumbnails/rmr-63.jpg",
+                "originalAlt": "RMR Construction & Remodeling",
+                "thumbnailAlt": "RMR Construction & Remodeling"
+            }
+        ]
+    },
+    "cardsWithIcon": {
+        "col": "4",
+        "justify": "justify-content-start",
+        "card": [
+            {
+                "img": {
+                    "src": "/images/icons/flat/wheelburrow.svg",
+                    "alt": "Clear Communication",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/grooming.jpg"
+                },
+                "title": "Clear Communication",
+                "text": "We keep you informed every step of the way for a smooth and stress-free experience."
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/retaining-wall.svg",
+                    "alt": "Trusted Craftsmanship",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/grooming.jpg"
+                },
+                "title": "Trusted Craftsmanship",
+                "text": "Our team delivers superior quality and attention to detail in every project."
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/cement.svg",
+                    "alt": "Family-Owned Integrity ",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/toys.jpg"
+                },
+                "title": "Family-Owned Integrity ",
+                "text": "We uphold a legacy of trust, ensuring every job meets the highest standards."
             }
         ]
     }

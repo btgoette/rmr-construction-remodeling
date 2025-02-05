@@ -1,20 +1,20 @@
 {
-  "variant": "light",
+  "variant": "dark",
   "type": "A",
   "brand": {
     "url": "/",
     "logo": {
       "img": {
-        "src": "/images/logos/logo.svg",
-        "alt": "Roseville Roofing",
-        "width": "200px",
-        "height": "96px"
+        "src": "/images/logos/logo.webp",
+        "alt": "RMR Construction & Remodeling",
+        "width": "250px",
+        "height": "125px"
       }
     }
   },
   "topBar": {
     "display": "d-flex d-xl-none",
-    "phone": "916-791-7348"
+    "phone": "916-533-4758"
   },
   "navDropdown": [
     {
@@ -25,86 +25,40 @@
           "url": "/services/"
         },
         {
-          "name": "Residential",
-          "url": "/services/residential/"
+          "name": "Landscape Construction",
+          "url": "/services/landscape-construction/"
         },
         {
-          "name": "Commercial",
-          "url": "/services/commercial/"
+          "name": "Concrete",
+          "url": "/services/concrete/"
         },
         {
-          "name": "Roof Inspections",
-          "url": "/services/roof-inspections/"
+          "name": "Driveways",
+          "url": "/services/driveways/"
         },
         {
-          "name": "Roof Repairs",
-          "url": "/services/roof-repairs/"
+          "name": "Wood Structures & Patio Covers",
+          "url": "/services/wood-structures-and-patio-covers/"
         },
         {
-          "name": "Roof Replacements",
-          "url": "/services/roof-replacements/"
-        }
-      ]
-    },
-    {
-      "title": "Roof Types",
-      "navLinks": [
-        {
-          "name": "Roof Types",
-          "url": "/roof-types/"
+          "name": "Walkways",
+          "url": "/services/walkways/"
         },
         {
-          "name": "Asphalt Composition",
-          "url": "/roof-types/asphalt-composition/"
-        },
-        {
-          "name": "Cedar Shakes",
-          "url": "/roof-types/cedar-shakes/"
-        },
-        {
-          "name": "Single Ply TPO",
-          "url": "/roof-types/single-ply-tpo/"
-        },
-        {
-          "name": "Standing Seam",
-          "url": "/roof-types/standing-seam/"
-        },
-        {
-          "name": "Stone Coated Steel",
-          "url": "/roof-types/stone-coated-steel/"
-        },
-        {
-          "name": "Synthetic Faux Slate",
-          "url": "/roof-types/synthetic-faux-slate/"
-        }
-      ]
-    },
-    {
-      "title": "Gallery",
-      "navLinks": [
-        {
-          "name": "Recent Projects",
-          "url": "/gallery/recent-projects/"
-        },
-        {
-          "name": "Residential Gallery",
-          "url": "/gallery/residential/"
-        },
-        {
-          "name": "Commercial Gallery",
-          "url": "/gallery/commercial/"
+          "name": "Irrigation & Drainage",
+          "url": "/services/irrigation-and-drainage/"
         }
       ]
     }
   ],
   "navLinks": [
     {
-      "name": "About Us",
-      "url": "/about/"
+      "name": "Home",
+      "url": "/"
     },
     {
-      "name": "Testimonials",
-      "url": "/testimonials"
+      "name": "Gallery",
+      "url": "/gallery/"
     },
     {
       "name": "Contact",
@@ -112,9 +66,9 @@
     }
   ],
   "cta": {
-    "name": "916-791-7348",
-    "url": "tel:916-791-7348",
-    "class":"nav-cta"
+    "name": "916-533-4758",
+    "url": "tel:916-533-4758",
+    "class": "nav-cta"
   },
   "bottomBar": {
     "display": "d-none",

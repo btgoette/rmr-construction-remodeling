@@ -1,6 +1,6 @@
 .menu {
     max-width: 450px;
-    margin: 0 auto;
+    margin: 1rem auto 0;
     .links {
         max-height: $footer-menu-max-height;
         display: flex;
@@ -8,6 +8,6 @@
         margin: 0 auto;
         padding-left: 0;
         flex-wrap: wrap;
-        gap: .5rem 1rem;
+        gap: .25rem;
     }
 }

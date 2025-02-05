@@ -6,7 +6,7 @@ import { Container, Button, Row, Col } from 'react-bootstrap';
 import Link from 'next/link'
 
 // Custom Components
-import { Head, CustomJumbotron, ContactForm, Figure, CardsSlider, ReviewsSlider, CustomGalleryGrid } from '@/components'
+import { Head, JumbotronWithContent, CardsWithIcon, FullWidthSection, DoubleFigure, Figure, ReviewsSlider, GalleryGrid } from '@/components'
 
 // Custom Content
 import content from 'public/content/en_US/pages/home.content'
@@ -18,106 +18,112 @@ export default function Home() {
     <>
 
       <Head {...content} />
-      <CustomJumbotron {...content} />
+      <JumbotronWithContent>
+        <h1>RMR Construction &amp; Remodeling</h1>
+        <h3 className="mt-0">Crafting Exceptional Outdoor Spaces<br />with Quality &amp; Expertise</h3>
+        <Button className="btn btn-outline" href="/contact">Get an Estimate</Button>
 
-      <section>
-        <Container>
-          <div className="d-block d-lg-none mb-5">
-            <h2>About <span>Us</span></h2>
-            <div className="border-line-center"></div>
-          </div>
-          <Row className="align-items-center">
+      </JumbotronWithContent>
+
+      <section className="pb-0">
+        <Container className="pb-0">
+          <h2 data-aos="fade-up">Custom Outdoor Living &amp; Landscape Solutions</h2>
+          <div className="border-line-center"></div>
+          <p>At RMR Construction & Remodeling, we specialize in transforming outdoor spaces across Placer and Sacramento County with exceptional craftsmanship and innovative design. With decades of experience, our team is dedicated to delivering high-quality concrete work, landscape construction, and outdoor renovations that enhance both beauty and functionality. Whether you're looking to boost your home's curb appeal, create a serene backyard retreat, or add custom outdoor features such as patios, fire pits, or pergolas, we bring your vision to life with precision, expertise, and a commitment to excellence.</p>
+        </Container>
+      </section>
+
+      <section className="pb-0">
+        <Container className="pb-0">
+          <Row className="justify-content-center align-items-center">
             <Col lg={{ order: 1, span: 6 }}>
-              <Figure className="right-shadow" {...image.figure[19]} />
+              <DoubleFigure image1={image.figure[3]} image2={image.figure[4]} />
             </Col>
             <Col lg={{ order: 0, span: 6 }}>
-              <div className="d-none d-lg-block">
-                <h2 className="text-start">About <span>Us</span></h2>
-                <div className="border-line-start"></div>
-              </div>
-              <p>For over three decades, Roseville Roofing has been the trusted roofing provider in Sacramento, CA, and surrounding areas. Established in 1989, we bring unparalleled expertise to every project, serving both residential and commercial clients across El Dorado, Placer, and Sacramento Counties. Our deep understanding of California&rsquo;s climate challenges, from intense summer heat to heavy storms, enables us to deliver roofing solutions designed for long-term performance. When you choose Roseville Roofing, you are partnering with a team dedicated to craftsmanship, reliability, and customer satisfaction.</p>
-              <p className="mt-5">
-                <Button as={Link} href="/about/" variant="primary">Learn More</Button>
-              </p>
+              <h2 data-aos="fade-up" className="text-start">Outdoor Living Spaces Designed for You</h2>
+              <div className="border-line-start"></div>
+              <p>Your outdoor space should reflect your lifestyle. Whether you seek a peaceful oasis or a dynamic space for entertaining, we design and build landscapes that suit your needs. From stunning patios and decorative concrete to custom pergolas, fire pits, and artificial turf installation, we ensure every detail is crafted to perfection. Enhance your home’s value and create lasting memories with our comprehensive outdoor solutions.</p>
+              <h3 className="text-start">Our Services</h3>
+              <Row className="justify-content-star">
+                <Col sm={6}>
+                  <ul className="hammer-list">
+                    <li data-aos="fade-up">Landscape Construction</li>
+                    <li data-aos="fade-up">Sod &amp; Artificial Turf Installation</li>
+                    <li data-aos="fade-up">Custom Flowerbeds &amp; Hardscaping</li>
+                    <li data-aos="fade-up">Stamped &amp; Stained Concrete</li>
+                    <li data-aos="fade-up">Driveways, Patios &amp; Walkways</li>
+                    <li data-aos="fade-up">Full Landscape Remodels</li>
+                  </ul>
+                </Col>
+                <Col sm={6}>
+                  <ul className="hammer-list">
+                    <li data-aos="fade-up">Custom Outdoor Kitchens, BBQs &amp; Fire Pits</li>
+                    <li data-aos="fade-up">Landscape Lighting Installation</li>
+                    <li data-aos="fade-up">Drainage &amp; Irrigation Solutions</li>
+                    <li data-aos="fade-up">Custom Fencing &amp; Decking</li>
+                    <li data-aos="fade-up">Pergolas, Arbors &amp; Retaining Walls</li>
+                  </ul>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
       </section>
 
-      <section className="bg-otis clip-right">
-        <Container>
-          <h2>Why choose <br /><span>Roseville Roofing?</span></h2>
+      <section className="pb-0">
+        <Container className="pb-0">
+          <h2 data-aos="fade-up">Our Commitment to Excellence</h2>
           <div className="border-line-center"></div>
+          <p className="mb-4">At RMR Construction &amp; Remodeling, our mission is to exceed expectations with every project. Have a question? Our owner, Jose Castaneda, is just a phone call away!</p>
           <Row className="align-items-center py-2">
-            <Col lg={5}><h3 className="text-start text-lg-end">Commitment to Excellence</h3></Col>
-            <Col lg={7}><p className="border-left" data-aos="fade-up">At Roseville Roofing, we are dedicated to exceeding customer expectations on every project. Our focus on delivering exceptional service ensures that your roofing needs are met with precision and care.</p></Col>
+            <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Clear Communication</h3></Col>
+            <Col lg={7}><p className="border-left" data-aos="fade-left">We keep you informed every step of the way for a smooth and stress-free experience.</p></Col>
           </Row>
           <Row className="align-items-center py-2">
-            <Col lg={5}><h3 className="text-start text-lg-end">Unmatched Quality</h3></Col>
-            <Col lg={7}><p className="border-left" data-aos="fade-up">We pride ourselves on using the best materials and techniques to provide durable, long-lasting roofs. Our meticulous attention to detail guarantees a finished product that stands the test of time.</p></Col>
+            <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Trusted Craftsmanship</h3></Col>
+            <Col lg={7}><p className="border-left" data-aos="fade-left">Our team delivers superior quality and attention to detail in every project.</p></Col>
           </Row>
           <Row className="align-items-center py-2">
-            <Col lg={5}><h3 className="text-start text-lg-end">Owens Corning Preferred Contractor</h3></Col>
-            <Col lg={7}><p className="border-left" data-aos="fade-up">As a trusted Owens Corning contractor, we bring industry-leading materials and advanced training to every job. This partnership ensures reliable roofing solutions you can depend on in Roseville and the surrounding area.</p></Col>
-          </Row>
-          <Row className="align-items-center py-2">
-            <Col lg={5}><h3 className="text-start text-lg-end">CertainTeed Select Shingle Master</h3></Col>
-            <Col lg={7}><p className="border-left" data-aos="fade-up">Our team has earned one of the industry&rsquo;s highest certifications, showcasing expertise in installing CertainTeed&rsquo;s premium roofing products. This ensures your roof delivers exceptional performance and protection for years to come.</p></Col>
+            <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Family-Owned Integrity</h3></Col>
+            <Col lg={7}><p className="border-left" data-aos="fade-left">We uphold a legacy of trust, ensuring every job meets the highest standards.</p></Col>
           </Row>
         </Container>
       </section>
 
+      <section className="pb-0">
+        <Container className="pb-0">
+          <Row className="justify-content-center align-items-center">
+            <Col lg={{ order: 0, span: 7 }}>
+              <Figure {...image.figure[0]} />
+            </Col>
+            <Col lg={{ order: 1, span: 5 }} className="px-xl-3">
+              <h2 data-aos="fade-up" className="text-start">Proudly Serving Placer & Sacramento County</h2>
+              <div className="border-line-start"></div>
+              <p>Based in Elverta, CA, we proudly serve homeowners throughout:
+                Antelope, Arden Arcade, Carmichael, Citrus Heights, Elverta, Foothill Farms, Fair Oaks, McClellan Park, North Highlands, Orangevale, Rio Linda, Rocklin, Roseville, and Sacramento.</p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="pb-0">
+        <Container className="pb-0 text-center">
+          <h2 data-aos="fade-up">Our Work Speaks for Itself</h2>
+          <div className="border-line-center"></div>
+          <GalleryGrid {...content} />
+          <Button className="btn btn-primary" href="/gallery/">See Full Gallery</Button>
+        </Container>
+      </section>
+
+      
       <section>
         <Container>
-          <h2>Our <span>Services</span></h2>
+          <h2 data-aos="fade-up" className="mb-4">What Homeowners Are Saying</h2>
           <div className="border-line-center"></div>
-          <p className="text-center mx-w-lg">Roseville Roofing offers a full range of roofing services designed to meet the specific needs of both residential and commercial properties. Whether it&rsquo;s minor repairs or a complete roof replacement, our team provides solutions that combine durability, style, and value to ensure your property is well-protected and visually appealing.</p>
-          <CardsSlider {...content} />
-        </Container>
-      </section>
-
-      <section className="bg-home">
-        <Container>
-          <Row className="align-items-center">
-            <Col lg={6}>
-              <h2 className="mt-0 text-start border-bottom">Get<br /> <span>Free Estimates!</span></h2>
-            </Col>
-            <Col lg={6}>
-              <p>Whether you need a roof inspection, roof repair, roof replacement, or new roof installation, we are here to help. Our team works with industry-leading materials to ensure superior results every time.</p>
-              <p className="my-4">
-                <Button as={Link} href="/contact/" variant="primary">Free Estimates</Button>
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section className="bg-otis">
-        <Container>
-          <h2>Our Recent <span>Projects</span></h2>
-          <div className="border-line-center"></div>
-          <p className="text-center mx-w-lg mb-4">Roseville Roofing delivers exceptional roofing solutions with outstanding craftsmanship and attention to detail, ensuring durability, style, and the highest standards for both residential and commercial properties.</p>
-          <CustomGalleryGrid {...content} />
-          <p className="text-center">
-            <Button as={Link} href="/gallery/recent-projects/" variant="primary">Explore More</Button></p>
-        </Container >
-      </section >
-
-      <section className="bg-tertiary">
-        <Container>
-          <h2 className="mb-0">What Our Clients Say</h2>
-          <h4 className="d-block d-sm-none mb-4">Real Stories. <br/> <span>Real Satisfaction.</span></h4>
-          <h4 className="d-none d-sm-block mb-4">Real Stories. <span>Real Satisfaction.</span></h4>
           <ReviewsSlider {...content} />
-          <div className="text-center">
-            <Button className="mt-3" href="/testimonials/">Read More Testimonials</Button>
-          </div>
+          <h4 className="text-center">Ready to transform your outdoor space? Let’s make your vision a reality. <Link href="tel:916-533-4758">Call us today!</Link></h4>
         </Container>
       </section>
-
-
-
-
     </>
   )
 }
