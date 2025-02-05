@@ -37,7 +37,11 @@
 
 .text-section {
     div {
-        padding: 4rem;
+        padding: 2rem;
+
+        @media screen and (min-width: $xl) {
+            padding: 4rem
+        }
     }
 }
 

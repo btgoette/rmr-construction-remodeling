@@ -1,9 +1,41 @@
+body {
+    background-color: $black !important;
+    background-image: url("/images/backgrounds/textures/otis-redding.png");
+    color: $white;
+
+    h2 {
+        color: $white;
+    }
+}
+
+
 .bg-primary {
-    background: $dark !important;
+    background-color: $primary !important;
     color: $white;
 
     h2,
-    h3{
+    h3 {
+        color: $white;
+        font-weight: $header-font-weight;
+    }
+
+    a {
+        color: $secondary;
+
+        &:hover {
+            color: $light-secondary
+        }
+    }
+}
+
+.bg-black {
+    background-color: $black !important;
+    background-image: url("/images/backgrounds/textures/otis-redding.png");
+    color: $white;
+
+    h2,
+    h3 {
+
         color: $white;
         font-weight: $header-font-weight;
     }

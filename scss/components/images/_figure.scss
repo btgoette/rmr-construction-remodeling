@@ -1,8 +1,7 @@
 .figure {
     img {
-        max-width: 550px;
         margin: 0 auto;
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -12,4 +11,34 @@
 
 .left-shadow {
     box-shadow: -1rem -1rem 0 $primary;
+}
+
+.double-figure {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+    .figure-1 {
+        grid-column-start: 1;
+        grid-column-end: 14;
+        grid-row-start: 1;
+        grid-row-end: 10;
+        z-index:1;
+    }
+
+    .border-box-outline{
+        grid-column-start: 3;
+        grid-column-end: 15;
+        grid-row-start: 4;
+        grid-row-end: 11;
+        border: 3px solid $primary;
+    }
+
+    .figure-2 {
+        grid-column-start: 4;
+        grid-column-end: 17;
+        grid-row-start: 6;
+        grid-row-end: 14;
+    }
 }

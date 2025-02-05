@@ -4,7 +4,7 @@
 $black: #080303;
 $dark-gray: #787373;
 $gray: #a8a3a3;
-$light-gray: #e8e3e3;
+$light-gray: #F7FAF8;
 $white: #FFF;
 
 //Transparent
@@ -69,14 +69,14 @@ $xxl: 1400px;
 
 // Fonts
 $body-font-color: $black;
-$body-font-family: "Roboto";
+$body-font-family: "Open Sans";
 $body-font-size: 1rem;
 $body-font-weight: 400;
-$body-font-line-height: 1.5;
+$body-font-line-height: 1.75;
 
 $header-font-color: $black;
 $header-font-family: "Montserrat";
-$header-font-weight: 600;
+$header-font-weight: 400;
 
 // Border
 $border-round: 50%;
@@ -101,15 +101,15 @@ $brand-image-max-width: 200px;
 $brand-image-max-height: 100px;
 
 // Cards
-$cards-body-background: $white;
+$cards-body-background: transparent;
 $cards-border: none;
 $cards-border-radius: 0;
-$cards-font-color: $black;
+$cards-font-color: $white;
 $cards-font-family: $body-font-family;
 $cards-font-size: $body-font-size;
 $cards-font-weight: $body-font-weight;
-$cards-header-font-color: $black;
-$cards-header-font-family: $body-font-family;
+$cards-header-font-color: $primary;
+$cards-header-font-family:  $header-font-family;
 $cards-header-font-size: 1.5rem;
 $cards-header-font-weight: 400;
 $cards-header-letter-spacing: 0px;
@@ -126,7 +126,7 @@ $cards-overlay-font-family: $body-font-family;
 $cards-overlay-font-size: 1rem;
 $cards-overlay-font-weight: $body-font-weight;
 $cards-overlay-header-font-color: $white;
-$cards-overlay-header-font-family: $body-font-family;
+$cards-overlay-header-font-family: $header-font-family;
 $cards-overlay-header-font-size: 1.5rem;
 $cards-overlay-header-font-weight: 600;
 $cards-overlay-header-letter-spacing: 0px;
@@ -150,14 +150,14 @@ $cards-title-only-text-transform: none;
 $cards-title-only-header-align: center;
 
 // Cards With Icon
-$cards-with-icon-font-color: $black;
+$cards-with-icon-font-color: $white;
 $cards-with-icon-font-family: $body-font-family;
 $cards-with-icon-font-size: $body-font-size;
 $cards-with-icon-font-weight: $body-font-weight;
-$cards-with-icon-header-font-color: $white;
-$cards-with-icon-header-font-family: $body-font-family;
-$cards-with-icon-header-font-size: 1.25rem;
-$cards-with-icon-header-font-weight: 600;
+$cards-with-icon-header-font-color: saturate($primary, 30%);
+$cards-with-icon-header-font-family:  $header-font-family;
+$cards-with-icon-header-font-size: 1.5rem;
+$cards-with-icon-header-font-weight: 400;
 $cards-with-icon-header-letter-spacing: 0px;
 $cards-with-icon-text-transform: none;
 $cards-with-icon-button-display: none;
@@ -232,7 +232,7 @@ $footer-newsletter-text-align: left;
 $footer-newsletter-text-transform: none;
 $footer-newsletter-block-background: $light-gray;
 
-$footer-thank-you-background: $primary;
+$footer-thank-you-background: url("/images/backgrounds/rmr-38.webp");
 $footer-thank-you-border: none;
 $footer-thank-you-font-color: $white;
 $footer-thank-you-font-color-hover: $tertiary;
@@ -349,13 +349,13 @@ $review-stars-font-size: $body-font-size;
 $review-slider-background: $white;
 $review-slider-border: 1px solid $gray;
 $review-slider-color: $white;
-$review-slider-font-size: 1.5rem;
+$review-slider-font-size: 1.25rem;
 $review-slider-name-color: $white;
 $review-slider-name-font-size: 1rem;
-$review-slider-name-font-weight: 800;
+$review-slider-name-font-weight: 400;
 $review-slider-location-font-size: $body-font-size;
 $review-slider-location-font-weight: 500;
-$review-slider-stars-font-size: $body-font-size;
+$review-slider-stars-font-size: 2rem;
 
 $review-multi-card-background: $light-gray;
 $review-multi-card-border: 1px dotted $gray;

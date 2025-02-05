@@ -33,6 +33,7 @@ export { default as ContactForm } from 'components/forms/ContactForm'
 
 export { default as Brands } from 'components/images/Brands'
 export { default as Figure } from 'components/images/Figure'
+export { default as DoubleFigure } from 'components/images/DoubleFigure'
 export { default as Gallery } from 'components/images/Gallery'
 export { default as CustomGalleryGrid } from 'components/images/CustomGalleryGrid'
 export { default as GalleryGrid } from 'components/images/GalleryGrid'

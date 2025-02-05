@@ -1,14 +1,11 @@
 .thank-you {
     background: $footer-thank-you-background;
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
 
     .thank-you-block {
         color: $footer-thank-you-font-color;
         font-weight: $footer-thank-you-font-weight;
-        text-align: center;
-        margin: 0 auto;
-        max-width: $footer-thank-you-max-width;
 
         .title {
             font-family: $footer-thank-you-title-font-family;
@@ -30,8 +27,15 @@
         }
 
         a {
-            color: $footer-thank-you-url-font-color;
-        }
+            text-decoration: none;
+            color: $white !important;
+            font-weight: 600;
+          
+            &:hover {
+              color: saturate($primary, 30%) !important;
+              text-shadow:1px 1px 2px #761D21;
+            }
+          }
 
         a.btn-primary {
             color: $white;

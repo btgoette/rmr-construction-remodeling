@@ -32,6 +32,10 @@
     "nav": {
         "navLinks": [
             {
+                "name": "Home",
+                "url": "/"
+            },
+            {
                 "name": "Our Services",
                 "url": "/services/"
             },
@@ -48,8 +52,8 @@
                 "url": "/services/driveways/"
             },
             {
-                "name": "Patios",
-                "url": "/services/patios/"
+                "name": "Wood Structures & Patio Covers",
+                "url": "/services/wood-structures-and-patio-covers/"
             },
             {
                 "name": "Walkways",
