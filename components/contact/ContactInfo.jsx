@@ -77,7 +77,7 @@ export default function ContactInfo({ contact }) {
 
 
   return (
-    <Col md={contact.col} className="mb-5">
+    <Col lg={contact.col} className="mb-5">
       <div className="contact-info">
         <h3 className="company-name">{contact.companyName}</h3>
         {renderOwner()}
