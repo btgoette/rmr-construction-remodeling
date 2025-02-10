@@ -23,7 +23,7 @@ export default function ThankYou({ thankYou }) {
                         <h2 className="mt-0 text-start border-bottom">Let's Bring Your<br/> Vision to Life</h2>
                     </Col>
                     <Col xl={8}>
-                        <p className="text-start">Our goal is to build your trust and earn your business for years to come. Ready to transform your outdoor space? <Link href="/contact">Contact RMR Construction & Remodeling</Link> today to discuss your project or schedule an estimate. <Link href="tel:916-533-4758">Call us at 916-533-4758</Link> to get started! Let us bring your vision to life with quality craftsmanship and exceptional service.
+                        <p className="text-start">Our goal is to build your trust and earn your business for years to come. Ready to transform your outdoor space? <Link href="/contact">Contact RMR Construction & Remodeling</Link> today to discuss your project or schedule an estimate. <Link href="tel:916-533-4758">Call us at 916-533-4758</Link> to get started! Let us bring your vision to life with quality craftsmanship and exceptional service.  We look forward to hearing from you.
                         </p>
                     </Col>
                 </Row>

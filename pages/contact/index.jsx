@@ -26,7 +26,7 @@ export default function Contact() {
                     <h2 data-aos="fade-up">Contact RMR Construction & Remodeling</h2>
                     <div className="border-line-center"></div>
 
-                    <p>At RMR Construction & Remodeling, we are dedicated to providing exceptional service and making it easy for you to connect with us. Whether you have questions, need expert advice, or would like to request an estimate, we're here to help. You can also use the contact form below to request a quote directly from our website. We look forward to bringing your vision to life!</p>
+                    <p>At RMR Construction & Remodeling, we are dedicated to providing exceptional service and making it easy for you to connect with us. Whether you have questions, need expert advice, or would like to request an estimate, we are here to help. You can also use the contact form below to request a quote directly from our website. We look forward to bringing your vision to life!</p>
                     <h4 className="mt-5">For immediate assistance, call us at <Link href="tel:916-533-4758">916-533-4758.</Link>
                     </h4>
                 </Container>
@@ -38,6 +38,7 @@ export default function Contact() {
                         <ContactInfo {...content} />
                         <Col lg={6}>
                             <div className="contact-form">
+                            <JotformEmbed src="https://form.jotform.com/242465382976065" />
                             </div>
                         </Col>
                     </Row>
