@@ -38,7 +38,7 @@ export default function Contact() {
                         <ContactInfo {...content} />
                         <Col lg={6}>
                             <div className="contact-form">
-                                <JotformEmbed src="https://form.jotform.com/242465382976065" />
+                                <JotformEmbed src="https://form.jotform.com/250407311238043" />
                             </div>
                         </Col>
                     </Row>
