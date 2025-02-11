@@ -27,9 +27,9 @@ export default function DrivewaysServices() {
                             <Figure {...image.figure[21]} />
                         </Col>
                         <Col lg={{ span: 6, order: 0 }}>
-                            <h2 data-aos="fade-up" className="text-start">High-Quality Concrete Driveways in Roseville, CA</h2>
+                            <h2 data-aos="fade-up" className="text-start">High&#45;Quality Concrete Driveways in Roseville, CA</h2>
                             <div className="border-line-start"></div>
-                            <p>Your driveway is more than just a place to park—it’s a key feature of your home’s curb appeal and functionality. At RMR Construction & Remodeling, we specialize in designing and installing durable, visually stunning concrete driveways that enhance the beauty and value of your property. Whether you're building a new driveway, need repairs, or want to upgrade your existing surface with a decorative overlay, our expert team is here to deliver superior craftsmanship.</p>
+                            <p>Your driveway is more than just a place to park &#45; it&apos;s a key feature of your home&apos;s curb appeal and functionality. At RMR Construction & Remodeling, we specialize in designing and installing durable, visually stunning concrete driveways that enhance the beauty and value of your property. Whether you&apos;re building a new driveway, need repairs, or want to upgrade your existing surface with a decorative overlay, our expert team is here to deliver superior craftsmanship.</p>
                         </Col>
                     </Row>
                 </Container>
@@ -44,7 +44,7 @@ export default function DrivewaysServices() {
                         <Col lg={{ span: 6, order: 1 }}>
                             <h2 data-aos="fade-up" className="text-start">Custom Driveway Designs to Suit Your Home</h2>
                             <div className="border-line-start"></div>
-                            <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. Whether you prefer the seamless, modern appeal of poured concrete, the elegance of stamped concrete that mimics the look of brick, stone, or pavers, or the ability to customize with unique patterns and colors, we create driveways that are both stylish and durable. Our slip-resistant surfaces enhance tire grip for added safety in wet conditions while providing long-lasting beauty and functionality.</p>
+                            <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. Whether you prefer the seamless, modern appeal of poured concrete, the elegance of stamped concrete that mimics the look of brick, stone, or pavers, or the ability to customize with unique patterns and colors, we create driveways that are both stylish and durable. Our slip&#45;resistant surfaces enhance tire grip for added safety in wet conditions while providing long-lasting beauty and functionality.</p>
                         </Col>
                     </Row>
                 </Container>
@@ -59,7 +59,7 @@ export default function DrivewaysServices() {
                         <Col lg={{ span: 6, order: 0 }}>
                             <h2 data-aos="fade-up" className="text-start">Custom Driveway Designs to Suit Your Home</h2>
                             <div className="border-line-start"></div>
-                            <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. Whether you prefer the seamless, modern appeal of poured concrete, the elegance of stamped concrete that mimics the look of brick, stone, or pavers, or the ability to customize with unique patterns and colors, we create driveways that are both stylish and durable. Our slip-resistant surfaces enhance tire grip for added safety in wet conditions while providing long-lasting beauty and functionality.</p>
+                            <p>We understand that every home is unique, which is why we offer a variety of concrete driveway solutions tailored to your preferences. Whether you prefer the seamless, modern appeal of poured concrete, the elegance of stamped concrete that mimics the look of brick, stone, or pavers, or the ability to customize with unique patterns and colors, we create driveways that are both stylish and durable. Our slip-resistant surfaces enhance tire grip for added safety in wet conditions while providing long&#45;lasting beauty and functionality.</p>
                         </Col>
                     </Row>
                 </Container>
@@ -71,7 +71,7 @@ export default function DrivewaysServices() {
                     <div className="border-line-center"></div>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Cost Effective</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">More budget-friendly than brick or natural stone while still providing a high-end look and long-term value.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">More budget&#45;friendly than brick or natural stone while still providing a high&#45;end look and long-term value.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Low Maintenance</h3></Col>

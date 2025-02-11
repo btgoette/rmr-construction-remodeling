@@ -27,9 +27,9 @@ export default function LandscapeConstructionServices() {
                             <Figure {...image.figure[34]} />
                         </Col>
                         <Col lg={{ span: 6, order: 0 }}>
-                            <h2 data-aos="fade-up" className="text-start">Landscape Construction in Placer & Sacramento County</h2>
+                            <h2 data-aos="fade-up" className="text-start">Landscape Construction in Roseville & the Surrounding Areas</h2>
                             <div className="border-line-start"></div>
-                            <p>Transform your outdoor space with expert craftsmanship and high-quality materials. At RMR Construction & Remodeling, we specialize in landscape construction that enhances both the beauty and functionality of your property. From durable hardscapes to custom-built outdoor features, we bring your vision to life with precision and care.</p>
+                            <p>Transform your outdoor space with expert craftsmanship and high&#45;quality materials. At RMR Construction & Remodeling, we specialize in landscape construction that enhances both the beauty and functionality of your property. From durable hardscapes to custom-built outdoor features, we bring your vision to life with precision and care.</p>
                         </Col>
                     </Row>
                 </Container>
@@ -41,11 +41,11 @@ export default function LandscapeConstructionServices() {
                     <div className="border-line-center"></div>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Driveways</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">Make a lasting first impression with a custom-designed driveway. We use premium materials such as concrete pavers, natural stone, and poured concrete to create driveways that are both stylish and durable.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Make a lasting first impression with a custom&#45;designed driveway. We use premium materials such as concrete pavers, natural stone, and poured concrete to create driveways that are both stylish and durable.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Patios</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">Create an inviting outdoor space with a custom patio. Choose from stone pavers, stamped concrete, or brushed concrete to match your style and enhance your backyard’s functionality.
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Create an inviting outdoor space with a custom patio. Choose from stone pavers, stamped concrete, or brushed concrete to match your style and enhance your backyard&apos;s functionality.
                         </p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
@@ -63,12 +63,12 @@ export default function LandscapeConstructionServices() {
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Fire Pits</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">Add warmth and ambiance to your backyard with a custom-built fire pit. Available in round or square designs, our fire pits are crafted from natural or paving stones and can be wood-burning or gas-powered.</p>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Add warmth and ambiance to your backyard with a custom&#45;built fire pit. Available in round or square designs, our fire pits are crafted from natural or paving stones and can be wood-burning or gas&#45;powered.</p>
                         </Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Outdoor Fireplaces</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">For a dramatic and cozy outdoor feature, choose a custom outdoor fireplace. Built with high-quality materials, these fireplaces provide warmth, elegance, and a focal point for your outdoor space.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">For a dramatic and cozy outdoor feature, choose a custom outdoor fireplace. Built with high&#45;quality materials, these fireplaces provide warmth, elegance, and a focal point for your outdoor space.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Outdoor Kitchens</h3></Col>
@@ -80,15 +80,15 @@ export default function LandscapeConstructionServices() {
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Seating Walls</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">Maximize seating options with a built-in seating wall. Made from durable stone or concrete blocks, these walls provide a stylish and long-lasting solution for outdoor gatherings.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Maximize seating options with a built&#45;in seating wall. Made from durable stone or concrete blocks, these walls provide a stylish and long-lasting solution for outdoor gatherings.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Artificial Turf</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">Enjoy lush, green grass year-round without the maintenance. Our artificial turf installations are ideal for landscaping accents, play areas, and putting greens.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Enjoy lush, green grass year&#45;round without the maintenance. Our artificial turf installations are ideal for landscaping accents, play areas, and putting greens.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Landscape Lighting</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">Illuminate your outdoor space with low-voltage LED lighting. Our energy-efficient lighting solutions highlight your landscape’s best features and enhance nighttime safety.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">Illuminate your outdoor space with low-voltage LED lighting. Our energy&#45;efficient lighting solutions highlight your landscape&apos;s best features and enhance nighttime safety.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Pergolas</h3></Col>

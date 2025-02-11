@@ -24,7 +24,7 @@ export default function RecentProjectsPage() {
                     <h2 data-aos="fade-up" className="mb-0">Our Project Gallery</h2>
                     <h3 className="mt-0 text-white">RMR Construction & Remodeling</h3>
                     <div className="border-line-center"></div>
-                    <p>Welcome to our gallery! At RMR Construction & Remodeling, we take pride in delivering exceptional landscape construction services that turn your vision into reality. Whether you need concrete walkways, driveways, patios, custom wood structures, outdoor kitchens, drainage and irrigation, landscape design and consulting, artificial turf installation, retaining walls, pavers, or more—we’re your all-in-one solution! Our experienced team is dedicated to transforming outdoor spaces into beautiful, functional environments tailored to your unique needs.</p>
+                    <p>Welcome to our gallery! At RMR Construction & Remodeling, we take pride in delivering exceptional landscape construction services that turn your vision into reality. Whether you need concrete walkways, driveways, patios, custom wood structures, outdoor kitchens, drainage and irrigation, landscape design and consulting, artificial turf installation, retaining walls, pavers, or more, we are your all-in-one solution. Our experienced team is dedicated to transforming outdoor spaces into beautiful, functional environments tailored to your unique needs.</p>
                     <h4 className="mt-5">Explore our projects below to see the quality and craftsmanship that set us apart.<br /> You might even find inspiration for your own outdoor project!</h4>
                     <GalleryGrid {...content} />
                 </Container>
@@ -40,11 +40,11 @@ export default function RecentProjectsPage() {
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Customized Solutions</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left"> Every project is uniquely designed to meet your specific needs and vision—ensuring no two projects are alike.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left"> Every project is uniquely designed to meet your specific needs and vision &#45; ensuring no two projects are alike.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Quality Materials</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">We use only the highest-quality materials for long-lasting results and stunning finishes.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">We use only the highest&#45;quality materials for long-lasting results and stunning finishes.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Attention to Detail</h3></Col>

@@ -27,10 +27,10 @@ export default function WalkwaysServices() {
                             <DoubleFigure image1={image.figure[49]} image2={image.figure[61]} />
                         </Col>
                         <Col lg={{ span: 6, order: 0 }}>
-                            <h2 data-aos="fade-up" className="text-start">Concrete Walkways That Elevate Your Home’s Curb Appeal</h2>
+                            <h2 data-aos="fade-up" className="text-start">Concrete Walkways That Elevate Your Home&apos;s Curb Appeal</h2>
                             <div className="border-line-start"></div>
-                            <p>At RMR Construction & Remodeling, we specialize in expertly crafted concrete walkways that combine durability, functionality, and aesthetic appeal. More than just a path, a well-designed concrete walkway enhances the beauty and value of your property while providing a smooth, long-lasting surface for everyday use.</p>
-                            <p>Whether you need a new installation or walkway repairs, our team brings expertise and quality craftsmanship to every project. Using high-grade materials and advanced techniques, we create walkways that stand the test of time.</p>
+                            <p>At RMR Construction & Remodeling, we specialize in expertly crafted concrete walkways that combine durability, functionality, and aesthetic appeal. More than just a path, a well&#45;designed concrete walkway enhances the beauty and value of your property while providing a smooth, long-lasting surface for everyday use.</p>
+                            <p>Whether you need a new installation or walkway repairs, our team brings expertise and quality craftsmanship to every project. Using high&#45;grade materials and advanced techniques, we create walkways that stand the test of time.</p>
                         </Col>
                     </Row>
                 </Container>
@@ -45,7 +45,7 @@ export default function WalkwaysServices() {
                         <div className="block-1">
                             <div className="px-lg-2" data-aos="fade-in" data-aos-delay="100">
                                 <h3 className="text-start">1. Consultation & Planning</h3>
-                                <p>We start with an on-site consultation to discuss your ideas, assess your space, and develop a custom design that fits your needs. You’ll receive a detailed project quote so you know exactly what to expect.</p>
+                                <p>We start with an on&#45;site consultation to discuss your ideas, assess your space, and develop a custom design that fits your needs. You&apos;ll receive a detailed project quote so you know exactly what to expect.</p>
                             </div>
                         </div>
 
@@ -68,7 +68,7 @@ export default function WalkwaysServices() {
                         <div className="block-5">
                             <div className="px-lg-2" data-aos="fade-in" data-aos-delay="400">
                                 <h3 className="text-start">3. Precision Installation</h3>
-                                <p>Using top-quality concrete and expert techniques, we install your walkway with a flawless, even finish. Choose from textured, stamped, or smooth surfaces to achieve the perfect aesthetic for your home.</p>
+                                <p>Using top&#45;quality concrete and expert techniques, we install your walkway with a flawless, even finish. Choose from textured, stamped, or smooth surfaces to achieve the perfect aesthetic for your home.</p>
                             </div>
                         </div>
 
@@ -89,7 +89,7 @@ export default function WalkwaysServices() {
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Premium Materials & Techniques</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">We use only the highest-quality concrete and industry-leading methods to provide long-lasting results with resistance to cracks and wear.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">We use only the highest-quality concrete and industry&#45;leading methods to provide long-lasting results with resistance to cracks and wear.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Custom Designs for Every Home</h3></Col>
@@ -101,7 +101,7 @@ export default function WalkwaysServices() {
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Hassle-Free Process</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">From permit approvals to final installation, we handle everything so you can enjoy a stress-free experience.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">From permit approvals to final installation, we handle everything so you can enjoy a stress&#45;free experience.</p></Col>
                     </Row>
                 </Container>
             </section>
@@ -110,7 +110,7 @@ export default function WalkwaysServices() {
                 <Container>
                     <h2 data-aos="fade-up">Recent Projects</h2>
                     <div className="border-line-center"></div>
-                    <p>Don’t just take our word for it—explore our previous projects and see the transformation for yourself. From patios and pool decks to driveways, walkways, and porches, we bring your vision to life with expert craftsmanship and high-quality materials.</p>
+                    <p>Don’t just take our word for it—explore our previous projects and see the transformation for yourself. From patios and pool decks to driveways, walkways, and porches, we bring your vision to life with expert craftsmanship and high&#45;quality materials.</p>
                     <p>At RMR Construction & Remodeling, we do more than just pour concrete. Our mission is to inspire homeowners to step outside, embrace their outdoor living spaces, and enjoy them for years to come.</p>
                     <p>Browse our gallery and get inspired for your next project!</p>
                     <GalleryGrid {...content} />
