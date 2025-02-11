@@ -40,11 +40,11 @@ export default function RecentProjectsPage() {
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Customized Solutions</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left"> Every project is uniquely designed to meet your specific needs and vision—ensuring no two projects are alike.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left"> Every project is uniquely designed to meet your specific needs and vision &#45; ensuring no two projects are alike.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Quality Materials</h3></Col>
-                        <Col lg={7}><p className="border-left" data-aos="fade-left">We use only the highest-quality materials for long-lasting results and stunning finishes.</p></Col>
+                        <Col lg={7}><p className="border-left" data-aos="fade-left">We use only the highest&#45;quality materials for long-lasting results and stunning finishes.</p></Col>
                     </Row>
                     <Row className="align-items-center py-2">
                         <Col lg={5}><h3 className="text-start text-white text-lg-end" data-aos="fade-right">Attention to Detail</h3></Col>
