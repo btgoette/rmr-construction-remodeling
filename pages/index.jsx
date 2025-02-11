@@ -29,7 +29,7 @@ export default function Home() {
         <Container className="pb-0">
           <h2 data-aos="fade-up">Custom Outdoor Living &amp; Landscape Solutions</h2>
           <div className="border-line-center"></div>
-          <p>At RMR Construction & Remodeling, we specialize in transforming outdoor spaces across Placer and Sacramento County with exceptional craftsmanship and innovative design. With decades of experience, our team is dedicated to delivering high-quality concrete work, landscape construction, and outdoor renovations that enhance both beauty and functionality. Whether you're looking to boost your home's curb appeal, create a serene backyard retreat, or add custom outdoor features such as patios, fire pits, or pergolas, we bring your vision to life with precision, expertise, and a commitment to excellence.</p>
+          <p>At RMR Construction & Remodeling, we specialize in transforming outdoor spaces across Placer and Sacramento County with exceptional craftsmanship and innovative design. With decades of experience, our team is dedicated to delivering high-quality concrete work, landscape construction, and outdoor renovations that enhance both beauty and functionality. Whether you are looking to boost your home's curb appeal, create a serene backyard retreat, or add custom outdoor features such as patios, fire pits, or pergolas, we bring your vision to life with precision, expertise, and a commitment to excellence.</p>
         </Container>
       </section>
 
@@ -42,7 +42,7 @@ export default function Home() {
             <Col lg={{ order: 0, span: 6 }}>
               <h2 data-aos="fade-up" className="text-start">Outdoor Living Spaces Designed for You</h2>
               <div className="border-line-start"></div>
-              <p>Your outdoor space should reflect your lifestyle. Whether you seek a peaceful oasis or a dynamic space for entertaining, we design and build landscapes that suit your needs. From stunning patios and decorative concrete to custom pergolas, fire pits, and artificial turf installation, we ensure every detail is crafted to perfection. Enhance your home’s value and create lasting memories with our comprehensive outdoor solutions.</p>
+              <p>Your outdoor space should reflect your lifestyle. Whether you seek a peaceful oasis or a dynamic space for entertaining, we design and build landscapes that suit your needs. From stunning patios and decorative concrete to custom pergolas, fire pits, and artificial turf installation, we ensure every detail is crafted to perfection. Enhance your home&apos;s value and create lasting memories with our comprehensive outdoor solutions.</p>
               <h3 className="text-start">Our Services</h3>
               <Row className="justify-content-star">
                 <Col sm={6}>
@@ -97,9 +97,9 @@ export default function Home() {
               <Figure {...image.figure[0]} />
             </Col>
             <Col lg={{ order: 1, span: 5 }} className="px-xl-3">
-              <h2 data-aos="fade-up" className="text-start">Proudly Serving Placer & Sacramento County</h2>
+              <h2 data-aos="fade-up" className="text-start">Proudly Serving Placer County & Sacramento County</h2>
               <div className="border-line-start"></div>
-              <p>Based in Elverta, CA, we proudly serve homeowners throughout:
+              <p>Based in Rio Linda, CA, we proudly serve homeowners throughout:
                 Antelope, Arden Arcade, Carmichael, Citrus Heights, Elverta, Foothill Farms, Fair Oaks, McClellan Park, North Highlands, Orangevale, Rio Linda, Rocklin, Roseville, and Sacramento.</p>
             </Col>
           </Row>
