@@ -18,7 +18,7 @@
             background: $angi;
             color: $white;
 
-            embed {
+            img {
                 width: 13px;
                 max-width: unset;
             }
@@ -34,9 +34,9 @@
             color: $white;
             border:1px solid $light-gray;
 
-            embed {
-                width: 20px;
-                max-width: unset;
+            img {
+                width: 14px;
+                max-width: 14px;
             }
         }
        
@@ -54,7 +54,7 @@
             background: $nextdoor;
             color: $white;
 
-            embed {
+            img {
                 width: 16px;
                 max-width: unset;
             }
@@ -69,7 +69,7 @@
             background: $yellow-pages;
             color: $white;
 
-            embed {
+            img {
                 width: 22px;
                 max-width: unset;
             }
