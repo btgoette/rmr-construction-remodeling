@@ -29,7 +29,7 @@ export default function IrrigationAndDrainage() {
                         <Col lg={{ span: 6, order: 1 }}>
                             <h2 data-aos="fade-up" className="text-start">Drainage & Irrigation Services in Roseville, CA</h2>
                             <div className="border-line-center"></div>
-                            <p>A well-designed irrigation and drainage system is essential for maintaining a beautiful, functional outdoor space in Northern California. At RMR Construction & Remodeling, we specialize in custom water management solutions that prevent pooling, runoff, and inefficient water distribution—ensuring your landscape remains healthy, sustainable, and visually appealing.</p>
+                            <p>A well&#45;designed irrigation and drainage system is essential for maintaining a beautiful, functional outdoor space in Northern California. At RMR Construction & Remodeling, we specialize in custom water management solutions that prevent pooling, runoff, and inefficient water distribution—ensuring your landscape remains healthy, sustainable, and visually appealing.</p>
                             <p>With decades of experience, our team designs and installs precision irrigation systems to optimize water usage and drainage solutions that protect your property from water damage. Our goal is to enhance functionality and aesthetics, providing long-term benefits that make outdoor living effortless.</p>
                         </Col>
                     </Row>
