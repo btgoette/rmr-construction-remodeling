@@ -16,7 +16,7 @@ export default function Media(footer) {
     function renderLicense() {
         if (footer.license !== undefined) {
             return (
-                <p className="mt-0 mb-1">
+                <p className="mt-0 mb-3">
                     <Link href={"https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=" + footer.license} target="_blank">
                         <strong>
                             CA LIC.#{footer.license}
