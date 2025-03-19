@@ -24,7 +24,7 @@ export default function StampedStainedConcrete() {
                 <Container className="pb-0">
                     <Row className="align-items-center">
                         <Col lg={{ span: 6, order: 1 }}>
-                            <DoubleFigure image1={image.figure[49]} image2={image.figure[61]} />
+                            <DoubleFigure image1={image.figure[77]} image2={image.figure[76]} />
                         </Col>
                         <Col lg={{ span: 6, order: 0 }}>
                             <h2 data-aos="fade-up" className="text-start">Transforming Concrete</h2>
