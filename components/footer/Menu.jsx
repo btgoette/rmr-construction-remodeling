@@ -31,7 +31,7 @@ export default function Menu({ nav }) {
 
         <Col xl={3} className="menu text-center text-xl-start">
             {renderTitle()}
-            <div className="links mb-3">
+            <div className="links mb-2">
                 {nav.navLinks.map(({ name, url }, i) => (
                     <span key={i} >
                         <Link href={url} title={name}>
