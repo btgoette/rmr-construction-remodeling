@@ -47,7 +47,7 @@ export default function Socials({ socials }) {
         if (socials.nextdoor) {
             return (
                 <Link className="btn btn-nextdoor btn-floating m-1" href={socials.nextdoor} target="_blank">
-                    <Image className="light" src="/images/icons/social-media/nextdoor-white.svg" height="20" width="20" type="image/svg+xml" />
+                    <Image className="light" src="/images/icons/social-media/nextdoor-white.svg" alt="nextdoor" height="20" width="20" type="image/svg+xml" />
                 </Link>
             )
         }
