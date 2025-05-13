@@ -45,6 +45,33 @@ export default function Contact() {
                 </Container>
             </section>
 
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg={12}>
+                            <p>Service Area:<br />
+                                <Link href="/service-area/concrete-roseville/"
+                                    title="Concrete Contractor in Roseville CA - Concrete Installation Roseville CA">
+                                        Concrete in Roseville, CA
+                                </Link><br />
+                                <Link href="/service-area/concrete-contractor-lincoln/"
+                                    title="Concrete Contractor in Lincoln CA - Concrete Installation Lincoln CA">
+                                        Concrete Contractor in Lincoln, CA
+                                </Link><br />
+                                <Link href="/service-area/concrete-contractor-granitebay/"
+                                    title="Concrete Contractor in Granite Bay CA - Concrete Installation Granite Bay CA">
+                                        Concrete Contractor in Granite Bay, CA
+                                </Link><br />
+                                <Link href="/service-area/concrete-contractor-rocklin"
+                                    title="Concrete Contractor in Rocklin CA - Concrete Installation Rocklin CA">
+                                        Concrete Contractor in Rocklin, CA
+                                </Link><br />
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+
         </>
     )
 }
