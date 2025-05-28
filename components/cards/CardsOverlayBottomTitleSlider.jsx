@@ -41,7 +41,7 @@ export default function CardsOverlayBottomTitleSlider({ cardsOverlay }) {
                     <div key={i} className="p-4">
                         <Link href={url}>
                             <Card>
-                                <Card.Img src={img.src} height={img.height} width={img.width} alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
+                                <Card.Img loading="lazy" src={img.src} height={img.height} width={img.width} alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
                                 <Card.ImgOverlay>
                                     <Card.Title><strong>{title}</strong></Card.Title>
                                 </Card.ImgOverlay>

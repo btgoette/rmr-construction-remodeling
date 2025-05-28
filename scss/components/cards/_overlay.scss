@@ -5,14 +5,14 @@
         border: none;
         overflow: hidden;
 
-        .card-img {
+        .Card.Img loading="lazy" {
             opacity: .5;
             transition: .5s;
             border-radius: $cards-overlay-border-radius;
         }
 
         &:hover {
-            .card-img {
+            .Card.Img loading="lazy" {
                 transform: scale(1.1);
             }
 
