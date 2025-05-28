@@ -35,9 +35,9 @@ function ControlledCarousel({ carousel }) {
         <Carousel id="headers" activeIndex={index} onSelect={handleSelect} controls={false} indicators={false} interval={3000} fade>
             {carousel.slide.map(({ img, title, subTitle }, i) => (
                 <Carousel.Item key={i}>
-                    <Image className="d-none d-lg-block w-100" src={img.srcLg} alt={img.alt} height={img.height} width={img.width} style={{ backgroundImage: `url(${img.lowres})` }} />
-                    <Image className="d-none d-sm-block d-lg-none w-100" src={img.srcMd} alt={img.alt} height={img.height} width={img.width} style={{ backgroundImage: `url(${img.lowres})` }} />
-                    <Image className="d-block d-sm-none w-100" src={img.src} alt={img.alt} height={img.height} width={img.width} style={{ backgroundImage: `url(${img.lowres})` }} />
+                    <Image loading="lazy" className="d-none d-lg-block w-100" src={img.srcLg} alt={img.alt} height={img.height} width={img.width} style={{ backgroundImage: `url(${img.lowres})` }} />
+                    <Image loading="lazy" className="d-none d-sm-block d-lg-none w-100" src={img.srcMd} alt={img.alt} height={img.height} width={img.width} style={{ backgroundImage: `url(${img.lowres})` }} />
+                    <Image loading="lazy" className="d-block d-sm-none w-100" src={img.src} alt={img.alt} height={img.height} width={img.width} style={{ backgroundImage: `url(${img.lowres})` }} />
                     <Carousel.Caption className="text-center">
                         {renderTitle(title)}
                         {renderSubTitle(subTitle)}

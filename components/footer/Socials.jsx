@@ -47,7 +47,7 @@ export default function Socials({ socials }) {
         if (socials.nextdoor) {
             return (
                 <Link className="btn btn-nextdoor btn-floating m-1" href={socials.nextdoor} target="_blank">
-                    <Image className="light" src="/images/icons/social-media/nextdoor-white.svg" alt="nextdoor" height="20" width="20" type="image/svg+xml" />
+                    <Image loading="lazy" className="light" src="/images/icons/social-media/nextdoor-white.svg" alt="nextdoor" height="20" width="20" type="image/svg+xml" />
                 </Link>
             )
         }
@@ -58,7 +58,7 @@ export default function Socials({ socials }) {
         if (socials.angi) {
             return (
                 <Link className="btn btn-angi btn-floating m-1" href={socials.angi} target="_blank" title="Angi">
-                    <Image className="light" src="/images/icons/social-media/angi-white.svg" alt="angi" height="20" width="20" type="image/svg+xml" />
+                    <Image loading="lazy" className="light" src="/images/icons/social-media/angi-white.svg" alt="angi" height="20" width="20" type="image/svg+xml" />
                 </Link>
             )
         }
@@ -69,7 +69,7 @@ export default function Socials({ socials }) {
         if (socials.google !== undefined) {
             return (
                 <Link className="btn btn-google btn-floating m-1" href={socials.google} target="_blank">
-                     <Image className="light" src="/images/icons/social-media/google.svg" alt="angi" height="20" width="20" type="image/svg+xml" />
+                     <Image loading="lazy" className="light" src="/images/icons/social-media/google.svg" alt="angi" height="20" width="20" type="image/svg+xml" />
                 </Link>
             )
         }
@@ -92,7 +92,7 @@ export default function Socials({ socials }) {
         if (socials.yellowPages !== undefined) {
             return (
                 <Link className="btn btn-yellow-pages btn-floating m-1" href={socials.yellowPages} target="_blank">
-                    <Image className="light" src="/images/icons/social-media/yp-white.svg" alt="yellow pages" height="20" width="20" type="image/svg+xml" />
+                    <Image loading="lazy" className="light" src="/images/icons/social-media/yp-white.svg" alt="yellow pages" height="20" width="20" type="image/svg+xml" />
                 </Link>
             )
         }
@@ -115,7 +115,7 @@ export default function Socials({ socials }) {
             return (
                 <p>
                     <Link href={socials.bbb} target="_blank">
-                        <Image className="bbb" src="/images/icons/social-media/bbb-accredited-business.svg" alt="BBB Accredited Business" height="62.28" width="165" type="image/svg+xml" />
+                        <Image loading="lazy" className="bbb" src="/images/icons/social-media/bbb-accredited-business.svg" alt="BBB Accredited Business" height="62.28" width="165" type="image/svg+xml" />
                     </Link>
                 </p>
             )

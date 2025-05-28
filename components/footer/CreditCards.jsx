@@ -10,7 +10,7 @@ export default function CreditCards({ creditCards }) {
         <>
             <figure className="d-flex justify-content-center justify-content-xl-start text-center text-md-start">
                 {creditCards.map(({ src, alt }, i) => (
-                    <Image key={i} src={src} alt={alt} height="36" width="63" type="image/svg+xml" />
+                    <Image loading="lazy" key={i} src={src} alt={alt} height="36" width="63" type="image/svg+xml" />
                 ))}
             </figure>
         </>

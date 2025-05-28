@@ -59,7 +59,7 @@ export default function GalleryGridSlider({ gallery }) {
         <Slider {...settings}>
         {gallery.images.map((image, i) => (
           <div key={i} className="thumbnail-container">
-            <Image
+            <Image loading="lazy"
               className="thumbnail"
               src={image.thumbnail}
               alt={image.thumbnailAlt || `Image ${i}`}
@@ -84,7 +84,7 @@ export default function GalleryGridSlider({ gallery }) {
           <Carousel activeIndex={selectedIndex} onSelect={(selectedIndex) => setSelectedIndex(selectedIndex)}>
             {gallery.images.map((image, i) => (
               <Carousel.Item key={i}>
-                <Image
+                <Image loading="lazy"
                   className="full-size-image"
                   src={image.original}
                   alt={image.originalAlt || 'Full-Size'}

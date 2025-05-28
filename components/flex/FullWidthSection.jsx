@@ -10,7 +10,7 @@ const FullWidthSection = ({ background, imageSrc, imageAlt, lowres, children, te
                 {imageFirst ? (
                     <>
                         <div className={"image-section " + imageFlex} style={{ backgroundImage:`url(${lowres})`}}>
-                            <Image loading="lazy" src={imageSrc} alt={imageAlt} className="image" />
+                            <Image loading="lazy" loading="lazy" src={imageSrc} alt={imageAlt} className="image" />
                         </div>
                         <div className={"text-section " + textFlex}>
                             <div>
@@ -26,7 +26,7 @@ const FullWidthSection = ({ background, imageSrc, imageAlt, lowres, children, te
                             </div>
                         </div>
                         <div className={"image-section " + imageFlex} style={{ backgroundImage:`url(${lowres})`}}>
-                            <Image loading="lazy" src={imageSrc} alt={imageAlt} className="image" />
+                            <Image loading="lazy" loading="lazy" src={imageSrc} alt={imageAlt} className="image" />
                         </div>
                     </>
                 )}
@@ -34,7 +34,7 @@ const FullWidthSection = ({ background, imageSrc, imageAlt, lowres, children, te
             <Row className={background + " d-lg-none"}>
                 <Col lg={6}>
                     <figure className="mt-0">
-                        <Image loading="lazy" src={imageSrc} className="w-100" alt={imageAlt} style={{ backgroundImage:`url(${lowres})`}}/>
+                        <Image loading="lazy" loading="lazy" src={imageSrc} className="w-100" alt={imageAlt} style={{ backgroundImage:`url(${lowres})`}}/>
                     </figure>
                 </Col>
                 <Col lg={6}>

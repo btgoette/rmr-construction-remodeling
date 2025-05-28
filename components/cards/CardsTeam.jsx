@@ -16,7 +16,7 @@ export default function Team({team}) {
                    >
                         <div className="text-center">
                             <figure className="hvr-grow team-photo">
-                                <LazyLoadImage src={img.src} height={img.height} width={img.width}  alt={img.alt} style={{backgroundImage: `url(${img.lowres})`}} />
+                                <Image loading="lazy"  src={img.src} height={img.height} width={img.width}  alt={img.alt} style={{backgroundImage: `url(${img.lowres})`}} />
                             </figure>
                             <div className="team-title">
                                 <p itemProp="name" className="team-name">
