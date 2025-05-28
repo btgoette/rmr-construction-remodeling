@@ -1,13 +1,28 @@
 .jumbotron {
     min-height: 80vh;
     background-color: $primary;
-    background: $jumbotron-background;
+    background: $jumbotron-mobile-background;
     background-position: center center;
     background-size: cover;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (min-width: $md) {
+        background-color: $primary;
+        background: $jumbotron-tablet-background;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    @media screen and (min-width: $xl) {
+        background-color: $primary;
+        background: $jumbotron-background;
+        background-position: center center;
+        background-size: cover;
+        
+    }
 
     .jumbotron-content {
         text-align: center;

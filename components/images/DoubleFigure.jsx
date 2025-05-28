@@ -1,7 +1,7 @@
 /* Double Figure Component */
 
 // React Components
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Image } from "react-bootstrap";
 
 export default function DoubleFigure({ image1, image2, className }) {
     return (

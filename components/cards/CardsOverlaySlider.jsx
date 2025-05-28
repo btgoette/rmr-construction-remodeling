@@ -41,7 +41,7 @@ export default function CardsOverlaySlider({ cardsOverlay }) {
                     <div key={i} className="py-4 px-2 px-md-4">
                         <Link href={url}>
                             <Card>
-                                <Card.Img loading="lazy" src={img.src} height={img.height} width={img.width}  alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
+                                <Card.Img loading="lazy" src={img.src} height={img.height} width={img.width} alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
                                 <Card.ImgOverlay>
                                     <Card.Title><strong>{title}</strong></Card.Title>
                                     <Card.Text>
