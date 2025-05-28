@@ -52,7 +52,7 @@ export default function CardsWithIconSlider({cardsWithIcon}) {
             {cardsWithIcon.card.map(({ title, img, text, url }, i) => (
                 <div key={i} className="p-4">
                     <Card>
-                        <Card.Img variant="top" src={img.src} height={img.height} width={img.width}  alt={img.alt} />
+                        <Card.Img loading="lazy" variant="top" src={img.src} height={img.height} width={img.width}  alt={img.alt} />
                         <Card.Body>
                             <Card.Title><strong>{title}</strong></Card.Title>
                             <Card.Text>

@@ -1,9 +1,8 @@
 /* Footer Summary Component */
 
 // React Components
-import { Col } from 'react-bootstrap'
+import { Col, Image } from 'react-bootstrap'
 import Link from 'next/link'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 import CreditCards from './CreditCards'
 
 export default function Summary({ summary }) {
@@ -36,7 +35,7 @@ export default function Summary({ summary }) {
                 <>
                     {summary.images.map(({ src, alt, width, height }, i) => (
                         <figure key={i} className="summary-image w-100 d-flex justify-content-center justify-content-md-start">
-                            <LazyLoadImage src={src} alt={alt} width={width} height={height} />
+                            <Image loading="lazy"  src={src} alt={alt} width={width} height={height} />
                         </figure>
                     ))}
                 </>

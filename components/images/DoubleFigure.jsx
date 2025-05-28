@@ -1,14 +1,14 @@
 /* Double Figure Component */
 
 // React Components
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Image } from "react-bootstrap";
 
 export default function DoubleFigure({ image1, image2, className }) {
     return (
         <div className="double-figure">
             <div className="border-box-outline" data-aos="fade-in" data-aos-duration="500"></div>
             <figure className="figure figure-1" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
-                <LazyLoadImage
+                <Image loading="lazy" 
                     className={className}
                     src={image1.src}
                     alt={image1.alt}
@@ -18,7 +18,7 @@ export default function DoubleFigure({ image1, image2, className }) {
                 />
             </figure>
             <figure className="figure figure-2" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
-                <LazyLoadImage
+                <Image loading="lazy" 
                     className={className}
                     src={image2.src}
                     alt={image2.alt}

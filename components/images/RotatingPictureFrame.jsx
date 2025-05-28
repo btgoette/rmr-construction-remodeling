@@ -16,15 +16,16 @@ export default function RotatingPictureFrame({ images }) {
 
     return (
         <div className="rotating-picture-frame">
-            {images.map(({src, alt, height, width, lowres}, index) => (
+            {images.map(({ src, alt, height, width, lowres }, index) => (
                 <Image
+                    loading="lazy"
                     key={index}
                     src={src}
                     alt={alt}
                     height={height}
                     width={width}
                     className={index === currentIndex ? 'active' : ''}
-                    style={{ backgroundImage:`url(${lowres})`}}
+                    style={{ backgroundImage: `url(${lowres})` }}
                 />
             ))}
         </div>

@@ -232,7 +232,9 @@ $footer-newsletter-text-align: left;
 $footer-newsletter-text-transform: none;
 $footer-newsletter-block-background: $light-gray;
 
-$footer-thank-you-background: url("/images/backgrounds/rmr-38.webp");
+$footer-thank-you-background: url("/images/backgrounds/thank-you.webp");
+$footer-thank-you-tablet-background: url("/images/backgrounds/thank-you-tablet.webp");
+$footer-thank-you-mobile-background: url("/images/backgrounds/thank-you-mobile.webp");
 $footer-thank-you-border: none;
 $footer-thank-you-font-color: $white;
 $footer-thank-you-font-color-hover: $tertiary;
@@ -278,6 +280,8 @@ $gallery-caption-font-color: $primary;
 
 // Hero
 $hero-background: url("/images/backgrounds/hero/hero.webp");
+$hero-tablet-background: url("/images/backgrounds/hero/hero-tablet.webp");
+$hero-mobile-background: url("/images/backgrounds/hero/hero-mobile.webp");
 $hero-border: none;
 $hero-header-font-color: $white;
 $hero-header-font-family: $header-font-family;
@@ -285,6 +289,8 @@ $hero-text-transform: none;
 
 // Jumbotron
 $jumbotron-background: url("/images/backgrounds/jumbotron/jumbotron.webp");
+$jumbotron-tablet-background: url("/images/backgrounds/jumbotron/jumbotron-tablet.webp");
+$jumbotron-mobile-background: url("/images/backgrounds/jumbotron/jumbotron-mobile.webp");
 $jumbotron-border: none;
 $jumbotron-font-color: $white;
 $jumbotron-font-family: $header-font-family;

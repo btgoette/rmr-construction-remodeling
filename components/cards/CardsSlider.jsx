@@ -52,7 +52,7 @@ export default function CardsSlider({ cards }) {
                 {cards.card.map(({ title, title2, img, text, url }, i) => (
                     <div key={i} className="p-4">
                         <Card>
-                            <Card.Img variant="top" src={img.src} height={img.height} width={img.width} alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
+                            <Card.Img loading="lazy" variant="top" src={img.src} height={img.height} width={img.width} alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
                             <Card.Body>
                                 <Card.Title>{title} <span>{title2}</span></Card.Title>
                                 <Card.Text>

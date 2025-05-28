@@ -23,7 +23,7 @@ export default function CardsWithIcon({cardsWithIcon}) {
             {cardsWithIcon.card.map(({ title, img, text, url }, i) => (
                 <Col key={i} md={6} lg={cardsWithIcon.col} className="p-4">
                     <Card data-aos="fade-up">
-                        <Card.Img variant="top" src={img.src} height={img.height} width={img.width}  alt={img.alt} />
+                        <Card.Img loading="lazy" variant="top" src={img.src} height={img.height} width={img.width}  alt={img.alt} />
                         <Card.Body>
                             <Card.Title><strong>{title}</strong></Card.Title>
                             <Card.Text>
