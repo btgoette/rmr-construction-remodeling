@@ -1,8 +1,7 @@
 /* Team Component */
 
 //  React Components
-import { Row, Col } from "react-bootstrap";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Row, Col, Image} from "react-bootstrap";
 export default function Team({team}) {
 
     return (
