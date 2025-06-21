@@ -26,7 +26,7 @@ export default function GalleryGrid({ gallery }) {
       <Row className="gallery-grid my-5">
         {gallery.images.map((image, i) => (
           <Col key={i} md={6} lg={gallery.col} className="thumbnail-container" data-aos="fade-in" data-aos-duration="1000" data-aos-delay={i * 50}>
-            <Image
+            <Image loading="lazy"
               className="thumbnail"
               src={image.thumbnail}
               alt={image.thumbnailAlt || `Image ${i}`}
@@ -51,7 +51,7 @@ export default function GalleryGrid({ gallery }) {
           <Carousel activeIndex={selectedIndex} onSelect={(selectedIndex) => setSelectedIndex(selectedIndex)}>
             {gallery.images.map((image, i) => (
               <Carousel.Item key={i}>
-                <Image
+                <Image loading="lazy"
                   className="full-size-image"
                   src={image.original}
                   alt={image.originalAlt || 'Full-Size'}

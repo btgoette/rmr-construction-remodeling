@@ -50,7 +50,7 @@ export default function Brands({ brands }) {
                 {brands.brandImages.map(({ url, src, alt, width, height }, i) => (
                     <div key={i} className="text-center">
                         <Link href={url} target="_blank">
-                            <Image className="brand-image" src={src} alt={alt} height={height} width={width} />
+                            <Image loading="lazy" className="brand-image" src={src} alt={alt} height={height} width={width} />
                         </Link>
                     </div>
                 ))}
@@ -58,7 +58,7 @@ export default function Brands({ brands }) {
             <Slider {...settings} className="d-lg-none">
                 {brands.brandImages.map(({ url, src, alt, width, height }, i) => (
                     <Link key={i} href={url} target="_blank">
-                        <Image className="brand-image" src={src} alt={alt} height={height} width={width} />
+                        <Image loading="lazy" className="brand-image" src={src} alt={alt} height={height} width={width} />
                     </Link>
                 ))}
             </Slider>

@@ -31,7 +31,7 @@ export default function GalleryGridHex({ gallery, children }) {
       <div className="gallery-grid-hex my-5">
         {gallery.images.map((image, i) => (
           <div data-aos="zoom-in" key={1} className={"thumbnail-container hover image-" + i}>
-            <Image
+            <Image loading="lazy"
               className="thumbnail"
               src={image.thumbnail}
               alt={image.thumbnailAlt || `Image ${i}`}
@@ -59,7 +59,7 @@ export default function GalleryGridHex({ gallery, children }) {
           <Carousel activeIndex={selectedIndex} onSelect={(selectedIndex) => setSelectedIndex(selectedIndex)}>
             {gallery.images.map((image, i) => (
               <Carousel.Item key={i}>
-                <Image
+                <Image loading="lazy"
                   className="full-size-image"
                   src={image.original}
                   alt={image.originalAlt || 'Full-Size'}

@@ -21,7 +21,7 @@ export default function Copyright({copyright}) {
                         Privacy Policy
                     </Link>&nbsp;|&nbsp;
                     <Link
-                        href="https://websitedesign-roseville.net"
+                        href="https://brymels.com"
                         target="top"
                         title="Website design by Brymels LLC Website Designer Roseville CA"
                     >

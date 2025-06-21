@@ -1,7 +1,19 @@
 .thank-you {
-    background: $footer-thank-you-background;
+    background: $footer-thank-you-mobile-background;
     background-size: cover;
     background-position: center center;
+
+    @media screen and (min-width: $md) {
+        background: $footer-thank-you-tablet-background;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    @media screen and (min-width: $xl) {
+        background: $footer-thank-you-background;
+        background-size: cover;
+        background-position: center center;
+    }
 
     .thank-you-block {
         color: $footer-thank-you-font-color;

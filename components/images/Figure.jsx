@@ -1,15 +1,19 @@
 /* Figure Component */
 
 // React Components
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import { useState } from 'react'
+import { Image } from 'react-bootstrap'
 
-export default function Figure({ src, alt, width, height, lowres, className }) {
+export default function Figure({ src, alt, title, width, height, lowres, src300 }) {
     return (
-        <figure className="figure" data-aos="fade-in" data-aos-duration="1000">
-            <LazyLoadImage
-                className={className}
+        <figure className="figure">
+            <Image
                 src={src}
+                srcSet={`${src300} 300w, ${src} 600w`}
+                sizes="(max-width: 600px) 300px, 600px"
                 alt={alt}
+                title={title}
+                loading="lazy"
                 width={width}
                 height={height}
                 style={{ backgroundImage: `url(${lowres})` }}

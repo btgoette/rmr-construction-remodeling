@@ -1,8 +1,7 @@
 /* Team Component */
 
 //  React Components
-import { Row, Col } from "react-bootstrap";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Row, Col, Image} from "react-bootstrap";
 export default function Team({team}) {
 
     return (
@@ -16,7 +15,7 @@ export default function Team({team}) {
                    >
                         <div className="text-center">
                             <figure className="hvr-grow team-photo">
-                                <LazyLoadImage src={img.src} height={img.height} width={img.width}  alt={img.alt} style={{backgroundImage: `url(${img.lowres})`}} />
+                                <Image loading="lazy"  src={img.src} height={img.height} width={img.width}  alt={img.alt} style={{backgroundImage: `url(${img.lowres})`}} />
                             </figure>
                             <div className="team-title">
                                 <p itemProp="name" className="team-name">

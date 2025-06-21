@@ -40,7 +40,7 @@ export default function Cards({ cards }) {
                 {cards.card.map(({ title, img, url }, i) => (
                     <div key={i} className="p-4">
                         <Card>
-                            <Card.Img variant="top" src={img.src} height={img.height} width={img.width}  alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
+                            <Card.Img loading="lazy" variant="top" src={img.src} height={img.height} width={img.width}  alt={img.alt} style={{ backgroundImage: `url(${img.lowres})` }} />
                             <Link href={url}>
                                 <Card.Body>
                                     <Card.Title><strong>{title}</strong></Card.Title>
