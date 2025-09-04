@@ -21,12 +21,17 @@ export default function Copyright({copyright}) {
                         Privacy Policy
                     </Link>&nbsp;|&nbsp;
                     <Link
+                        href="/service-area/"
+                        target="top"
+                        title="RMR Concrete Construction Service Area Roseville CA"
+                    >
+                        Service Area </Link>&nbsp;|&nbsp;
+                    <Link
                         href="https://brymels.com"
                         target="top"
                         title="Website design by Brymels LLC Website Designer Roseville CA"
                     >
-                        Website Design
-                    </Link>&nbsp;
+                        Website Design </Link>&nbsp;
                     by Brymels LLC.<br />
                     All files, images, and information
                     contained in this Website copyright by {copyright.company} and may not

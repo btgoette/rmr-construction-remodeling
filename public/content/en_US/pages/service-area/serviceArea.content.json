@@ -1,0 +1,187 @@
+{
+    "head": {
+        "title": "RMR Construction Service Area, Roseville & the surrounding areas",
+        "description": "RMR Construction & Remodeling specializes in outdoor living solutions, including landscape construction, patios, stamped concrete, artificial turf, custom wood structures, fire pits, and drainage systems. Serving Placer & Sacramento County with expert craftsmanship and quality.",
+        "keywords": "rmr construction and remodeling, rmr concrete construction, whole yard landscaping roseville, whole yard landscaping, landscape construction, concrete services, stamped concrete, artificial turf, patios, pergolas, outdoor kitchens, fire pits, driveways, walkways, irrigation, drainage solutions, hardscaping, Sacramento, Placer County, concrete construction, concrete, patio covers, patios, walkways, backyard remodeling, artificial turf, irrigation, fencing, retaining walls, driveways, turf, drainage and irrigation, drainage, irrigation, putting greens, pavers, fencing, whole yard landscaping, landscape design, landscape construction, stained concrete, custom concrete, stamped concrete, pool decking, driveway extension, bbq concrete, dry rock beds, stronger than concrete placer concrete construction, edgars concrete, best concrete contractor in Roseville, concrete and masonry contractor, concrete walkways, custom wood structures, outdoor kitchens, landscape design and consulting, artificial turf installation, Roseville masonry, western sates concrete, district concrete construction, best concrete contractors in Roseville, Roseville concrete, concrete contractor, concrete contractors in Roseville, small residential concrete, affordable concrete services, concrete construction in Roseville ca, pf concrete construction, rmr construction and remodeling, Antelope, Arden Arcade, Carmichael, Citrus Heights, Elverta, Foothill Farms, Fair Oaks, McClellan Park, North Highlands, Orangevale, Rio Linda, Rocklin, Roseville, Sacramento",
+        "href": "https://rmrconcreteconstruction.com/service-area/service-area/",
+        "location": "Roseville, CA",
+        "region": "US-CA",
+        "image": "https://rmrconcreteconstruction.com/images/logos/logo.webp",
+        "imageType": "image/webp",
+        "robots": "INDEX, FOLLOW"
+    },
+    "hero": {
+        "title": "Service Area"
+    },
+    "cardsWithIcon": {
+        "col": "4",
+        "justify": "justify-content-start",
+        "card": [
+            {
+                "img": {
+                    "src": "/images/icons/flat/wheelburrow.svg",
+                    "alt": "Landscape Construction Whole Yard Landscaping Services Roseville Roclin Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/grooming.webp"
+                },
+                "title": "Landscape Construction",
+                "text": "From concept to completion, we offer full-scale landscape design and construction services tailored to homeowners in Placer and Sacramento County. Whether you envision a serene garden, a modern patio, or a fully equipped outdoor kitchen, we’ll make it a reality.",
+                "url": "/services/landscape-construction/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/retaining-wall.svg",
+                    "alt": "Concrete Services Custom Concrete landscape Construction Roseville Rocklin Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/grooming.webp"
+                },
+                "title": "Concrete Services",
+                "text": "RMR Construction & Remodeling delivers top-notch concrete solutions and expert craftsmanship. From driveways and walkways to patios and pool decks, we provide a wide range of concrete services.",
+                "url": "/services/concrete/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/cement.svg",
+                    "alt": "Stamped & Stained Concrete Custom Concrete landscape Construction Roseville Rocklin Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/lowres/toys.webp"
+                },
+                "title": "Stamped & Stained Concrete",
+                "text": "Upgrade your outdoor surfaces with decorative concrete solutions that combine style, strength, and affordability. Stamped or stained concrete mimics high-end materials like stone and brick while providing long-lasting durability.",
+                "url": "/services/concrete/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/grass.svg",
+                    "alt": "Artificial Turf Installation putting green whole yard landscaping Roseville Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/icons/flat/barrier.svg"
+                },
+                "title": "Artificial Turf Installation",
+                "text": "Say goodbye to mowing and watering with our low-maintenance, eco-friendly artificial turf solutions. Our high-quality turf looks and feels like real grass, providing a lush, green lawn year-round.",
+                "url": "/services/landscape-construction/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/pergola.svg",
+                    "alt": "Custom Wood Structures Pergola Installation Arbor Deck and Fence Roseville Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/icons/flat/barrier.svg"
+                },
+                "title": "Custom Wood Structures",
+                "text": "Enhance the privacy and aesthetics of your outdoor space with custom-designed wood structures. Whether it is a fence, pergola, arbor, or deck, we'll create the perfect addition to your yard.",
+                "url": "/services/wood-structures-and-patio-covers/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/brick.svg",
+                    "alt": "Outdoor Fireplaces & Kitchens Fire Pit Outdoor Kitchen Roseville Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/icons/flat/barrier.svg"
+                },
+                "title": "Outdoor Fireplaces & Kitchens",
+                "text": "Create the perfect setting for entertaining with a custom outdoor kitchen, fire pit, or fireplace. Whether you're hosting a barbecue or enjoying a cozy evening outdoors, we’ll design a space that fits your lifestyle.",
+                "url": "/services/wood-structures-and-patio-covers/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/car.svg",
+                    "alt": "Driveways concrete or stamped Roseville Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/icons/flat/barrier.svg"
+                },
+                "title": "Driveways",
+                "text": "Your driveway is more than just a parking spot, it's the first impression of your home. Let us create a stunning, durable driveway that makes a WOW statement to visitors and neighbors alike.",
+                "url": "/services/wood-structures-and-patio-covers/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/irrigation.svg",
+                    "alt": "Drainage & Irrigation Solutions Whole Yard Landscaping Roseville Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/icons/flat/barrier.svg"
+                },
+                "title": "Drainage & Irrigation Solutions",
+                "text": "Proper water management is essential for a healthy and beautiful yard. Our drainage and irrigation services protect your landscape from erosion and overwatering while ensuring your plants thrive.",
+                "url": "/services/wood-structures-and-patio-covers/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/shovel.svg",
+                    "alt": "Walkways walkway sideways Roseville Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/icons/flat/barrier.svg"
+                },
+                "title": "Walkways",
+                "text": "Professional walkway installation adds both charm and accessibility to your outdoor space. Whether you need a new walkway or an upgrade, we’re here to help.",
+                "url": "/services/wood-structures-and-patio-covers/"
+            },
+            {
+                "img": {
+                    "src": "/images/icons/flat/paving.svg",
+                    "alt": "Patio Installation Pergola Installation Arbor Deck and Fence Roseville Sacramento CA",
+                    "width": "600",
+                    "height": "600",
+                    "lowres": "/images/icons/flat/barrier.svg"
+                },
+                "title": "Patio Installation",
+                "text": "Looking for the ideal space for relaxation and entertainment? Our expert patio installation services create a perfect outdoor area for all your social gatherings.",
+                "url": "/services/wood-structures-and-patio-covers/"
+            }
+        ]
+    },
+    "reviews": {
+        "newReviewUrl": "https://www.yelp.com/writeareview/biz/PtUVlXo8OwPm7LdXS1ZJoA?return_url=%2Fbiz%2FPtUVlXo8OwPm7LdXS1ZJoA&review_origin=biz-details-war-button",
+        "reviewsList": [
+            {
+                "name": "Charlie V.",
+                "location": "Roseville, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=GigkwcSiVJxDAj0lxemi9w&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "With all the recent heavy weather I became concerned when taking down my Christmas lights I noticed a visible sag in a short, specific area of my roof. I had no leaks and the sag was not visible from inside the attic. Jeff Vogt came by and did a thorough inspection of the area. After explaining to me (very clearly) how the roof is designed, he assured me there was no real cause for concern. Though it may not have been the best design or construction practices (28 year old roof), there was no reason to be worried, other than the minor aesthetics. He could have pursued a big payday but instead, satisfied my concerns and saved me $$$. I highly recommend RMR Construction & Remodeling for their expertise and professional manner."
+                    }
+                ]
+            },
+            {
+                "name": "Denise R.",
+                "location": "Roseville, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=bx_lltvtA5NDbsm_CYQzRQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "Wow! What an amazing company. I had a Leak appear in a bedroom ceiling on Christmas. Totally panicked and worried. I called Sunday and left a message for RMR Construction & Remodeling and was amazed that the owner, Jeff, called me back Monday morning and had his crew out before end of day. Not only did they fix the issue on the spot, Jeff went out of his way to explain everything and reassure me. I cannot applaud this company enough. They deserve 10 stars in an era where it is so rare to find companies with such integrity and customer oriented. Thank you Jeff and your crew!! I'll keep you on my speed dial for any future roofing issues!"
+                    }
+                ]
+            },
+            {
+                "name": "William H.",
+                "location": "El Dorado Hills, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=rHszYkbOh6Z_Etsh12XKmg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "We had a roof leak during a heavy storm and discovered we had a water intrusion into the house when we got up in the morning. I called RMR Construction & Remodeling and Jeff ( the owner) came out the same day. He took photos, did a temporary patch & seal initially and returned the following day with material to seal the roof enough to get us through the next series of storms. Once the weather cleared he replaced all the damage ( caused by squirrels) to the roof, installed an underlayment that was superior to the original one and made all the repairs necessary to get us a water proof roof structure again. They also installed wire mesh to prevent the squirrels from getting back to their spot under our Spanish tile roof. They were quick, clean and very respectful of our property. The repair work turned out great and we are ready for the next round of storms. RMR Construction & Remodeling is now my permanent go to roofing company."
+                    }
+                ]
+            },
+            {
+                "name": "Jeromy J.",
+                "location": "Folsom, CA",
+                "url": "https://www.yelp.com/biz/roseville-roofing-roseville-4?hrid=YAiyXsphcawoPap1gQvzDw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)",
+                "message": [
+                    {
+                        "p": "Jeff and his crew were professional, showed up every morning, worked hard in the Folsom summer, and created a beautiful roof while not cutting corners. We had some unexpected dry rot and Jeff offered solutions keeping in mind any future resale considerations at a fair price. It's hard to find a reliable and honest contractor it seems these days, but I would trust Jeff with any future work and cannot recommend him highly enough. As a bonus, he was very responsive with questions and took the time to explain the process or any decisions that needed to be made. If you need a roof done right, reach out to Jeff and RMR Construction & Remodeling--you won't be disappointed."
+                    }
+                ]
+            }
+        ]
+    }
+}
