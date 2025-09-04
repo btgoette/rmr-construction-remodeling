@@ -61,7 +61,7 @@ export default function ServiceArea() {
                                     title="RMR Construction & Remodeling Concrete Lincoln CA">
                                     Concrete Lincoln, CA</Link><br />
                                 <Link
-                                    href="/service-area/concrete-Rocklin/"
+                                    href="/service-area/concrete-rocklin/"
                                     target="top"
                                     title="RMR Construction & Remodeling Concrete Rocklin CA">
                                     Concrete Rocklin, CA</Link><br />
